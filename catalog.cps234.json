@@ -1,0 +1,753 @@
+{
+  "catalog": {
+    "uuid": "f9b1d703-e209-43cd-884f-50c4748a917c",
+    "metadata": {
+      "title": "",
+      "last-modified": "2022-11-25T12:32:36+11:00",
+      "version": "0.1",
+      "oscal-version": "1.0.4"
+    },
+    "groups": [
+      {
+        "id": "rr",
+        "title": "Roles and responsibilities",
+        "groups": [
+          {
+            "id": "rr-1",
+            "title": "Board ultimate responsibility",
+            "controls": [
+              {
+                "id": "",
+                "title": "",
+                "parts": [
+                  {
+                    "id": "cps234-para13",
+                    "name": "statement",
+                    "prose": "The Board of an APRA-regulated entity (Board) is ultimately responsible for the information security of the entity. The Board must ensure that the entity maintains information security in a manner commensurate with the size and extent of threats to its information assets, and which enables the continued sound operation of the entity."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "rr-2",
+            "title": "Board delegations",
+            "controls": [
+              {
+                "id": "",
+                "title": "",
+                "parts": [
+                  {
+                    "id": "cps234-para",
+                    "name": "statement",
+                    "prose": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "rr-3",
+            "title": "Clearly defined roles and responsibilities",
+            "controls": [
+              {
+                "id": "",
+                "title": "",
+                "parts": [
+                  {
+                    "id": "cps234-para14",
+                    "name": "statement",
+                    "prose": "An APRA-regulated entity must clearly define the information security-related roles and responsibilities of the Board, senior management, governing bodies and individuals with responsibility for decision-making, approval, oversight, operations and other information security functions."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "rr-4",
+            "title": "Sufficient and timely information",
+            "controls": [
+              {
+                "id": "",
+                "title": "",
+                "parts": [
+                  {
+                    "id": "cps234-para",
+                    "name": "statement",
+                    "prose": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "isc",
+        "title": "Information security capability",
+        "groups": [
+          {
+            "id": "isc-1",
+            "title": "Assessing sufficiency of capability",
+            "controls": [
+              {
+                "id": "",
+                "title": "",
+                "parts": [
+                  {
+                    "id": "cps234-para15",
+                    "name": "statement",
+                    "prose": "An APRA-regulated entity must maintain an information security capability commensurate with the size and extent of threats to its information assets, and which enables the continued sound operation of the entity."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "isc-2",
+            "title": "Capability of third parties and related parties",
+            "controls": [
+              {
+                "id": "",
+                "title": "",
+                "parts": [
+                  {
+                    "id": "cps234-para16",
+                    "name": "statement",
+                    "prose": "Where information assets are managed by a related party or third party, the APRA-regulated entity must assess the information security capability of that party, commensurate with the potential consequences of an information security incident affecting those assets."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "isc-3",
+            "title": "Adaptive and forward-looking investment",
+            "controls": [
+              {
+                "id": "",
+                "title": "",
+                "parts": [
+                  {
+                    "id": "cps234-para17",
+                    "name": "statement",
+                    "prose": "An APRA-regulated entity must actively maintain its information security capability with respect to changes in vulnerabilities and threats, including those resulting from changes to information assets or its business environment."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pf",
+        "title": "Policy framework",
+        "groups": [
+          {
+            "id": "pf-1",
+            "title": "A policy hierarchy informed by a set of key principles",
+            "controls": [
+              {
+                "id": "",
+                "title": "",
+                "parts": [
+                  {
+                    "id": "cps234-para18",
+                    "name": "statement",
+                    "prose": "An APRA-regulated entity must maintain an information security policy framework commensurate with its exposures to vulnerabilities and threats."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "pf-2",
+            "title": "Exemption handling",
+            "controls": [
+              {
+                "id": "",
+                "title": "",
+                "parts": [
+                  {
+                    "id": "cps234-para19",
+                    "name": "statement",
+                    "prose": "An APRA-regulated entity’s information security policy framework must provide direction on the responsibilities of all parties who have an obligation to maintain information security."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "pf-3",
+            "title": "Ongoing effectiveness and completeness",
+            "controls": [
+              {
+                "id": "",
+                "title": "",
+                "parts": [
+                  {
+                    "id": "cps234-para",
+                    "name": "statement",
+                    "prose": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "iac",
+        "title": "Information asset identification and classification",
+        "groups": [
+          {
+            "id": "iac-1",
+            "title": "Classification of all information assets by criticality and sensitivity",
+            "controls": [
+              {
+                "id": "",
+                "title": "",
+                "parts": [
+                  {
+                    "id": "cps234-para20",
+                    "name": "statement",
+                    "prose": "An APRA-regulated entity must classify its information assets, including those managed by related parties and third parties, by criticality and sensitivity. This classification must reflect the degree to which an information security incident affecting an information asset has the potential to affect, financially or non- financially, the entity or the interests of depositors, policyholders, beneficiaries or other customers."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "iac-2",
+            "title": "Classification methodology",
+            "controls": [
+              {
+                "id": "",
+                "title": "",
+                "parts": [
+                  {
+                    "id": "cps234-para",
+                    "name": "statement",
+                    "prose": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ic",
+        "title": "Implementation of controls",
+        "groups": [
+          {
+            "id": "ic-1",
+            "title": "Information security controls implemented at all stages",
+            "controls": [
+              {
+                "id": "",
+                "title": "",
+                "parts": [
+                  {
+                    "id": "cps234-para21",
+                    "name": "statement",
+                    "prose": "An APRA-regulated entity must have information security controls to protect its information assets, including those managed by related parties and third parties, that are implemented in a timely manner and that are commensurate with: (a) vulnerabilities and threats to the information assets; (b) the criticality and sensitivity of the information assets; (c) the stage at which the information assets are within their life-cycle;9 and (d) the potential consequences of an information security incident."
+                  },
+                  {
+                    "id": "cps234-para22",
+                    "name": "statement",
+                    "prose": "Where an APRA-regulated entity’s information assets are managed by a related party or third party, the APRA-regulated entity must evaluate the design of that party’s information security controls that protects the information assets of the APRA-regulated entity."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ic-2",
+            "title": "Vulnerabilities and threats are identified, assessed and remediated",
+            "controls": [
+              {
+                "id": "",
+                "title": "",
+                "parts": [
+                  {
+                    "id": "cps234-para",
+                    "name": "statement",
+                    "prose": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ic-3",
+            "title": "End-of-life and out-of-support issues",
+            "controls": [
+              {
+                "id": "",
+                "title": "",
+                "parts": [
+                  {
+                    "id": "cps234-para",
+                    "name": "statement",
+                    "prose": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ic-4",
+            "title": "Minimise exposure to plausible worst case scenarios",
+            "controls": [
+              {
+                "id": "",
+                "title": "",
+                "parts": [
+                  {
+                    "id": "cps234-para",
+                    "name": "statement",
+                    "prose": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ic-5",
+            "title": "Physical and environmental controls",
+            "controls": [
+              {
+                "id": "",
+                "title": "",
+                "parts": [
+                  {
+                    "id": "cps234-para",
+                    "name": "statement",
+                    "prose": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ic-6",
+            "title": "Security in change management",
+            "controls": [
+              {
+                "id": "",
+                "title": "",
+                "parts": [
+                  {
+                    "id": "cps234-para",
+                    "name": "statement",
+                    "prose": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ic-7",
+            "title": "Software security",
+            "controls": [
+              {
+                "id": "",
+                "title": "",
+                "parts": [
+                  {
+                    "id": "cps234-para",
+                    "name": "statement",
+                    "prose": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ic-8",
+            "title": "Data leakage",
+            "controls": [
+              {
+                "id": "",
+                "title": "",
+                "parts": [
+                  {
+                    "id": "cps234-para",
+                    "name": "statement",
+                    "prose": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ic-9",
+            "title": "Cryptographic techniques to restrict access",
+            "controls": [
+              {
+                "id": "",
+                "title": "",
+                "parts": [
+                  {
+                    "id": "cps234-para",
+                    "name": "statement",
+                    "prose": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ic-10",
+            "title": "Information security technology solutions",
+            "controls": [
+              {
+                "id": "",
+                "title": "",
+                "parts": [
+                  {
+                    "id": "cps234-para",
+                    "name": "statement",
+                    "prose": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ic-11",
+            "title": "End-user developed/configured software",
+            "controls": [
+              {
+                "id": "",
+                "title": "",
+                "parts": [
+                  {
+                    "id": "cps234-para",
+                    "name": "statement",
+                    "prose": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ic-12",
+            "title": "Emerging technologies",
+            "controls": [
+              {
+                "id": "",
+                "title": "",
+                "parts": [
+                  {
+                    "id": "cps234-para",
+                    "name": "statement",
+                    "prose": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ic-13",
+            "title": "Information assets managed by third parties and related parties",
+            "controls": [
+              {
+                "id": "",
+                "title": "",
+                "parts": [
+                  {
+                    "id": "cps234-para",
+                    "name": "statement",
+                    "prose": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "im",
+        "title": "Incident management",
+        "groups": [
+          {
+            "id": "im-1",
+            "title": "Detection of security compromises",
+            "controls": [
+              {
+                "id": "",
+                "title": "",
+                "parts": [
+                  {
+                    "id": "cps234-para23",
+                    "name": "statement",
+                    "prose": "An APRA-regulated entity must have robust mechanisms in place to detect and respond to information security incidents in a timely manner."
+                  },
+                  {
+                    "id": "cps234-para24",
+                    "name": "statement",
+                    "prose": "An APRA-regulated entity must maintain plans to respond to information security incidents that the entity considers could plausibly occur (information security response plans)."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "im-2",
+            "title": "Response to a security compromise",
+            "controls": [
+              {
+                "id": "",
+                "title": "",
+                "parts": [
+                  {
+                    "id": "cps234-para25",
+                    "name": "statement",
+                    "prose": "An APRA-regulated entity’s information security response plans must include the mechanisms in place for: (a) managing all relevant stages of an incident, from detection to post-incident review; and (b) escalation and reporting of information security incidents to the Board, other governing bodies and individuals responsible for information security incident management and oversight, as appropriate."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "im-3",
+            "title": "Information security incident stages",
+            "controls": [
+              {
+                "id": "",
+                "title": "",
+                "parts": [
+                  {
+                    "id": "cps234-para",
+                    "name": "statement",
+                    "prose": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "im-4",
+            "title": "Incident response testing",
+            "controls": [
+              {
+                "id": "",
+                "title": "",
+                "parts": [
+                  {
+                    "id": "cps234-para26",
+                    "name": "statement",
+                    "prose": "An APRA-regulated entity must annually review and test its information security response plans to ensure they remain effective and fit-for-purpose."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "im-5",
+            "title": "Third parties and related parties",
+            "controls": [
+              {
+                "id": "",
+                "title": "",
+                "parts": [
+                  {
+                    "id": "cps234-para",
+                    "name": "statement",
+                    "prose": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "im-6",
+            "title": "Integration with business continuity and crisis management",
+            "controls": [
+              {
+                "id": "",
+                "title": "",
+                "parts": [
+                  {
+                    "id": "cps234-para",
+                    "name": "statement",
+                    "prose": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tce",
+        "title": "Testing control effectiveness",
+        "groups": [
+          {
+            "id": "tce-1",
+            "title": "Systematic testing program",
+            "controls": [
+              {
+                "id": "",
+                "title": "",
+                "parts": [
+                  {
+                    "id": "cps234-para27",
+                    "name": "statement",
+                    "prose": "An APRA-regulated entity must test the effectiveness of its information security controls through a systematic testing program. The nature and frequency of the systematic testing must be commensurate with: (a) the rate at which the vulnerabilities and threats change; (b) the criticality and sensitivity of the information asset; (c) the consequences of an information security incident; (d) the risks associated with exposure to environments where the APRA-regulated entity is unable to enforce its information security policies;11 and (e) the materiality and frequency of change to information assets."
+                  },
+                  {
+                    "id": "cps234-para28",
+                    "name": "statement",
+                    "prose": "Where an APRA-regulated entity’s information assets are managed by a related party or a third party, and the APRA-regulated entity is reliant on that party’s information security control testing, the APRA-regulated entity must assess whether the nature and frequency of testing of controls in respect of those information assets is commensurate with paragraphs 27(a) to 27(e) of this Prudential Standard."
+                  },
+                  {
+                    "id": "cps234-para29",
+                    "name": "statement",
+                    "prose": "An APRA-regulated entity must escalate and report to the Board or senior management any testing results that identify information security control deficiencies that cannot be remediated in a timely manner."
+                  },
+                  {
+                    "id": "cps234-para30",
+                    "name": "statement",
+                    "prose": "An APRA-regulated entity must review the sufficiency of the testing program at least annually or when there is a material change to information assets or the business environment."
+                  },
+                  {
+                    "id": "cps234-para31",
+                    "name": "statement",
+                    "prose": "Where an APRA-regulated entity’s information assets are managed by a related party or a third party, and the APRA-regulated entity is reliant on that party’s information security control testing, the APRA-regulated entity must assess whether the nature and frequency of testing of controls in respect of those information assets is commensurate with paragraphs 27(a) to 27(e) of this Prudential Standard."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "tce-2",
+            "title": "Independence of testers",
+            "controls": [
+              {
+                "id": "",
+                "title": "",
+                "parts": [
+                  {
+                    "id": "cps234-para",
+                    "name": "statement",
+                    "prose": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "tce-3",
+            "title": "",
+            "controls": [
+              {
+                "id": "",
+                "title": "",
+                "parts": [
+                  {
+                    "id": "cps234-para",
+                    "name": "statement",
+                    "prose": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ia",
+        "title": "Internal Audit",
+        "groups": [
+          {
+            "id": "ia-1",
+            "title": "Assurance to the Board",
+            "controls": [
+              {
+                "id": "",
+                "title": "",
+                "parts": [
+                  {
+                    "id": "cps234-para32",
+                    "name": "statement",
+                    "prose": "An APRA-regulated entity’s internal audit activities must include a review of the design and operating effectiveness of information security controls, including those maintained by related parties and third parties (information security control assurance)."
+                  },
+                  {
+                    "id": "cps234-para33",
+                    "name": "statement",
+                    "prose": "An APRA-regulated entity must ensure that the information security control assurance is provided by personnel appropriately skilled in providing such assurance."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ia-2",
+            "title": "Use of assurance reports from third parties",
+            "controls": [
+              {
+                "id": "",
+                "title": "",
+                "parts": [
+                  {
+                    "id": "cps234-para",
+                    "name": "statement",
+                    "prose": "An APRA-regulated entity’s internal audit function must assess the information security control assurance provided by a related party or third party where: (a) an information security incident affecting the information assets has the potential to materially affect, financially or non-financially, the entity or the interests of depositors, policyholders, beneficiaries or other customers; and (b) internal audit intends to rely on the information security control assurance provided by the related party or third party."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "an",
+        "title": "APRA notification",
+        "groups": [
+          {
+            "id": "an-1",
+            "title": "Interaction between CPS 232 and CPS 234 notifications",
+            "controls": [
+              {
+                "id": "",
+                "title": "",
+                "parts": [
+                  {
+                    "id": "cps234-para",
+                    "name": "statement",
+                    "prose": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "an-2",
+            "title": "CPS 234 notifications",
+            "controls": [
+              {
+                "id": "",
+                "title": "",
+                "parts": [
+                  {
+                    "id": "cps234-para35",
+                    "name": "statement",
+                    "prose": "An APRA-regulated entity must notify APRA as soon as possible and, in any case, no later than 72 hours, after becoming aware of an information security incident that: (a) materially affected, or had the potential to materially affect, financially or non-financially, the entity or the interests of depositors, policyholders, beneficiaries or other customers; or (b) has been notified to other regulators, either in Australia or other jurisdictions."
+                  },
+                  {
+                    "id": "cps234-para36",
+                    "name": "statement",
+                    "prose": "An APRA-regulated entity must notify APRA as soon as possible and, in any case, no later than 10 business days, after it becomes aware of a material information security control weakness which the entity expects it will not be able to remediate in a timely manner."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
