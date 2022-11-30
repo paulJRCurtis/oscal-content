@@ -1,0 +1,39 @@
+{
+  "profile": {
+    "uuid": "d931bd45-49bb-440e-8107-75bc9b7a89cc",
+    "metadata": {
+      "title": "",
+      "last-modified": "2022-11-29T14:56:26+11:00",
+      "version": "0.0.1",
+      "oscal-version": "1.0.4"
+    },
+    "imports": [
+      {
+        "href": "#ed3bb199-5a93-4a42-9746-92837a4b9c80",
+        "include-controls": [
+          {
+            "with-ids": [
+              "ic-pec-1",
+              "ic-cry-1"
+            ]
+          }
+        ]
+      }
+
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "ed3bb199-5a93-4a42-9746-92837a4b9c80",
+          "title": "",
+          "rlinks": [
+            {
+              "href": "/Users/paucurt/projects/oscal-content/cps234/catalog.cps234.json",
+              "media-type": "application/oscal.catalog+json"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

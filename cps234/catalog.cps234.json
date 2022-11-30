@@ -4,7 +4,7 @@
     "metadata": {
       "title": "APRA CPS234 Information Security July 2019",
       "last-modified": "2022-11-25T12:32:36+11:00",
-      "version": "0.1",
+      "version": "0.0.1",
       "oscal-version": "1.0.4"
     },
     "groups": [
@@ -13,11 +13,11 @@
         "title": "Roles and responsibilities",
         "groups": [
           {
-            "id": "rr-1",
+            "id": "rr-bur",
             "title": "Board ultimate responsibility",
             "controls": [
               {
-                "id": "",
+                "id": "rr-bur-1",
                 "title": "Ultimately responsible of the Board",
                 "parts": [
                   {
@@ -28,7 +28,13 @@
                       {
                         "id": "cps234-fn5",
                         "name": "footnote",
-                        "prose": "A reference to the Board in the case of a foreign ADI, is a reference to the senior officer outside Australia."
+                        "prose": "A reference to the Board in the case of a foreign ADI, is a reference to the senior officer outside Australia.",
+                        "links": [
+                          {
+                            "href": "#a405ec0d-0b81-4d19-9903-bae2d1c2e400",
+                            "text": "Refer to Attachment H for common examples of the types of information that the Board might find useful in this regard."
+                          }
+                        ]
                       }
                     ]
                   }
@@ -37,28 +43,34 @@
             ]
           },
           {
-            "id": "rr-2",
+            "id": "rr-bd",
             "title": "Board delegations",
             "controls": [
               {
-                "id": "",
+                "id": "rr-bd-1",
                 "title": "Clearly defined Board engagement",
                 "parts": [
                   {
                     "id": "cpg234-para10",
                     "name": "guidance",
-                    "prose": "APRA does not seek to impose restrictions on a Board’s ability to delegate information security roles and responsibilities to Board sub-committees, management committees or individuals. However, APRA expects that a Board would clearly outline how it expects to be engaged with respect to information security, including escalation of risks, issues and reporting. Refer to Attachment H for common examples of the types of information that the Board might find useful in this regard."
+                    "prose": "APRA does not seek to impose restrictions on a Board’s ability to delegate information security roles and responsibilities to Board sub-committees, management committees or individuals. However, APRA expects that a Board would clearly outline how it expects to be engaged with respect to information security, including escalation of risks, issues and reporting.",
+                    "links": [
+                      {
+                        "href": "#a405ec0d-0b81-4d19-9903-bae2d1c2e400",
+                        "text": "Refer to Attachment H for common examples of the types of information that the Board might find useful in this regard."
+                      }
+                    ]
                   }
                 ]
               }
             ]
           },
           {
-            "id": "rr-3",
+            "id": "rr-drr",
             "title": "Clearly defined roles and responsibilities",
             "controls": [
               {
-                "id": "",
+                "id": "rr-drr-1",
                 "title": "Clearly defined roles and responsibilities",
                 "parts": [
                   {
@@ -88,11 +100,11 @@
             ]
           },
           {
-            "id": "rr-4",
+            "id": "rr-sti",
             "title": "Sufficient and timely information",
             "controls": [
               {
-                "id": "",
+                "id": "rr-sti-1",
                 "title": "Defined information requirements and escalation paths",
                 "parts": [
                   {
@@ -103,7 +115,13 @@
                   {
                     "id": "cpg234-para14",
                     "name": "guidance",
-                    "prose": "In APRA’s view, effective information security reporting normally incorporates both quantitative and qualitative content. For non-technical audiences, technical information and metrics would be supplemented with appropriate thematic analysis and commentary on business implications. Attachment H illustrates various information security reporting and metrics that governing bodies and individuals could find useful regarding information security."
+                    "prose": "In APRA’s view, effective information security reporting normally incorporates both quantitative and qualitative content. For non-technical audiences, technical information and metrics would be supplemented with appropriate thematic analysis and commentary on business implications.",
+                    "links": [
+                      {
+                        "href": "#a405ec0d-0b81-4d19-9903-bae2d1c2e400",
+                        "text": "Attachment H illustrates various information security reporting and metrics that governing bodies and individuals could find useful regarding information security."
+                      }
+                    ]
                   }
                 ]
               }
@@ -116,11 +134,11 @@
         "title": "Information security capability",
         "groups": [
           {
-            "id": "isc-1",
+            "id": "isc-asc",
             "title": "Assessing sufficiency of capability",
             "controls": [
               {
-                "id": "",
+                "id": "isc-asc-1",
                 "title": "Maintain an information security capability",
                 "parts": [
                   {
@@ -143,11 +161,11 @@
             ]
           },
           {
-            "id": "isc-2",
+            "id": "isc-ctp",
             "title": "Capability of third parties and related parties",
             "controls": [
               {
-                "id": "",
+                "id": "isc-ctp-1",
                 "title": "Assess third party information security capability",
                 "parts": [
                   {
@@ -182,11 +200,11 @@
             ]
           },
           {
-            "id": "isc-3",
+            "id": "isc-afi",
             "title": "Adaptive and forward-looking investment",
             "controls": [
               {
-                "id": "",
+                "id": "isc-afi-1",
                 "title": "Maintaining a forward-looking information security capability",
                 "parts": [
                   {
@@ -210,11 +228,11 @@
         "title": "Policy framework",
         "groups": [
           {
-            "id": "pf-1",
+            "id": "pf-php",
             "title": "A policy hierarchy informed by a set of key principles",
             "controls": [
               {
-                "id": "",
+                "id": "pf-php-1",
                 "title": "Information security policy framework",
                 "parts": [
                   {
@@ -225,7 +243,26 @@
                   {
                     "id": "cpg234-para21",
                     "name": "guidance",
-                    "prose": "An APRA-regulated entity’s information security policy framework is commonly structured as a hierarchy, with higher level policies supported by underlying standards, guidelines and procedures. A policy framework would normally be informed by a set of information security principles that guide decision-making with regard to information security (refer to Attachment A for common information security principles). Common areas addressed by a policy framework include: a) identification, authorisation and granting of access to information assets (refer to Attachment C for further guidance); b) life-cycle1 management that addresses the various stages of an information asset’s life to ensure that information security requirements are considered at each stage, from planning and acquisition through to decommissioning and destruction; c) management of information security technology solutions that include firewall, anti- malicious software, intrusion detection/prevention, cryptographic systems and monitoring/log analysis tools; d) definition of an overarching information security architecture that outlines the approach for designing the IT environment (encompassing all information assets) from a security perspective (e.g. network zones/segments, end point controls, gateway design, authentication, identity management, interface controls, software engineering and location of information security technology solutions and controls); e) monitoring and incident management to address the identification and classification of incidents, reporting and escalation guidelines, preservation of evidence and the investigation process; f) expectations with respect to the maintenance of information security when using third parties and related parties; g) acceptable usage of information assets that define the information security responsibilities of end-users including staff, third parties, related parties and customers (refer to Attachment B and Attachment F for further guidance); h) recruitment and vetting of staff and contractors; i) information security roles and responsibilities; j) physical and environmental controls; and k) mechanisms to assess compliance with, and the ongoing effectiveness of, the information security policy framework."
+                    "prose": "An APRA-regulated entity’s information security policy framework is commonly structured as a hierarchy, with higher level policies supported by underlying standards, guidelines and procedures. A policy framework would normally be informed by a set of information security principles that guide decision-making with regard to information security (refer to Attachment A for common information security principles). Common areas addressed by a policy framework include: a) identification, authorisation and granting of access to information assets (refer to Attachment C for further guidance); b) life-cycle1 management that addresses the various stages of an information asset’s life to ensure that information security requirements are considered at each stage, from planning and acquisition through to decommissioning and destruction; c) management of information security technology solutions that include firewall, anti- malicious software, intrusion detection/prevention, cryptographic systems and monitoring/log analysis tools; d) definition of an overarching information security architecture that outlines the approach for designing the IT environment (encompassing all information assets) from a security perspective (e.g. network zones/segments, end point controls, gateway design, authentication, identity management, interface controls, software engineering and location of information security technology solutions and controls); e) monitoring and incident management to address the identification and classification of incidents, reporting and escalation guidelines, preservation of evidence and the investigation process; f) expectations with respect to the maintenance of information security when using third parties and related parties; g) acceptable usage of information assets that define the information security responsibilities of end-users including staff, third parties, related parties and customers (refer to Attachment B and Attachment F for further guidance); h) recruitment and vetting of staff and contractors; i) information security roles and responsibilities; j) physical and environmental controls; and k) mechanisms to assess compliance with, and the ongoing effectiveness of, the information security policy framework.",
+                    "links": [
+                      {
+                        "href": "#0268e1ec-46cb-4d64-9609-4b7d8e162f5a",
+                        "text": "refer to Attachment A for common information security principles."
+                      },
+                      {
+                        "href": "#a3a46824-6d07-4354-acd3-1262166d3dda",
+                        "text": "refer to Attachment C for further guidance."
+                      },
+                      {
+                        "href": "#16deec76-a574-48eb-9d04-e895d1a2de41",
+                        "text": "refer to Attachment B for further guidance."
+                      },
+                      {
+                        "href": "#0174b59c-36bb-48b0-a7e4-fdca1954023e",
+                        "text": "refer to Attachment F for further guidance."
+                      }
+                    ]
+                    
                   },
                   {
                     "id": "cpg234-para22",
@@ -237,11 +274,11 @@
             ]
           },
           {
-            "id": "pf-2",
+            "id": "pf-rr",
             "title": "Roles and responsibilities",
             "controls": [
               {
-                "id": "",
+                "id": "pf-rr-1",
                 "title": "Information security roles and responsibilities",
                 "parts": [
                   {
@@ -261,11 +298,11 @@
             ]
           },
           {
-            "id": "pf-3",
+            "id": "pf-eh",
             "title": "Exemption handling",
             "controls": [
               {
-                "id": "",
+                "id": "pf-eh-1",
                 "title": "information security policy exemptions process",
                 "parts": [
                   {
@@ -283,11 +320,11 @@
             ]
           },
           {
-            "id": "pf-4",
+            "id": "pf-oec",
             "title": "Ongoing effectiveness and completeness",
             "controls": [
               {
-                "id": "",
+                "id": "pf-oec-1",
                 "title": "information security policy review",
                 "parts": [
                   {
@@ -306,11 +343,11 @@
         "title": "Information asset identification and classification",
         "groups": [
           {
-            "id": "iac-1",
+            "id": "iac-ccs",
             "title": "Classification of all information assets by criticality and sensitivity",
             "controls": [
               {
-                "id": "",
+                "id": "iac-ccs-1",
                 "title": "information assets classification",
                 "parts": [
                   {
@@ -338,11 +375,11 @@
             ]
           },
           {
-            "id": "iac-2",
+            "id": "iac-cm",
             "title": "Classification methodology",
             "controls": [
               {
-                "id": "",
+                "id": "iac-cm-1",
                 "title": "information assets classification methodology",
                 "parts": [
                   {
@@ -381,7 +418,7 @@
         "title": "Implementation of controls",
         "controls": [
           {
-            "id": "",
+            "id": "ic-1",
             "title": "comensurate information security controls",
             "parts": [
               {
@@ -401,11 +438,11 @@
         ],
         "groups": [
           {
-            "id": "ic-1",
+            "id": "ic-ias",
             "title": "Information security controls implemented at all stages",
             "controls": [
               {
-                "id": "",
+                "id": "ic-ias-1",
                 "title": "Information security controls through life-cycle",
                 "parts": [
                   {
@@ -421,7 +458,13 @@
                   {
                     "id": "cpg234-para36",
                     "name": "guidance",
-                    "prose": "Acquisition and implementation controls would typically be in place to ensure that information security is not compromised by the introduction of new information assets. Ongoing support and maintenance controls would typically be in place to ensure that information assets continue to meet the information security requirements of the APRA- regulated entity. Typical examples of categories of control include: a) change management —information security is addressed as part of the change management process and the information asset inventory is updated; b) configuration management —the configuration of information assets minimises vulnerabilities and is defined, assessed, registered, maintained, including when new vulnerabilities and threats are discovered, and applied consistently; c) deployment and environment management —development, test and production environments are appropriately segregated and enforce segregation of duties; d) access management controls —only authorised users, software and hardware are able to access information assets (refer to Attachment B for further guidance); e) hardware and software asset controls —appropriate authorisation to prevent security compromises from unauthorised hardware and software assets; f) network design — to ensure authorised network traffic flows and to reduce the impact of security compromises; g) vulnerability management controls — which identify and address information security vulnerabilities in a timely manner;h) patch management controls — to manage the assessment and application of patches and other updates that address known vulnerabilities in a timely manner; i) service level management mechanisms — to monitor, manage and align information security with business objectives; j) monitoring controls — for timely detection of compromises to information security; k) response controls — to manage information security incidents and feedback mechanisms to address control deficiencies; l) capacity and performance management controls — to ensure that availability is not compromised by current or projected business volumes; and m) service provider management controls — to ensure that a regulated entity’s information security requirements are met."
+                    "prose": "Acquisition and implementation controls would typically be in place to ensure that information security is not compromised by the introduction of new information assets. Ongoing support and maintenance controls would typically be in place to ensure that information assets continue to meet the information security requirements of the APRA- regulated entity. Typical examples of categories of control include: a) change management —information security is addressed as part of the change management process and the information asset inventory is updated; b) configuration management —the configuration of information assets minimises vulnerabilities and is defined, assessed, registered, maintained, including when new vulnerabilities and threats are discovered, and applied consistently; c) deployment and environment management —development, test and production environments are appropriately segregated and enforce segregation of duties; d) access management controls —only authorised users, software and hardware are able to access information assets (refer to Attachment B for further guidance); e) hardware and software asset controls —appropriate authorisation to prevent security compromises from unauthorised hardware and software assets; f) network design — to ensure authorised network traffic flows and to reduce the impact of security compromises; g) vulnerability management controls — which identify and address information security vulnerabilities in a timely manner;h) patch management controls — to manage the assessment and application of patches and other updates that address known vulnerabilities in a timely manner; i) service level management mechanisms — to monitor, manage and align information security with business objectives; j) monitoring controls — for timely detection of compromises to information security; k) response controls — to manage information security incidents and feedback mechanisms to address control deficiencies; l) capacity and performance management controls — to ensure that availability is not compromised by current or projected business volumes; and m) service provider management controls — to ensure that a regulated entity’s information security requirements are met.",
+                    "links": [
+                      {
+                        "href": "#16deec76-a574-48eb-9d04-e895d1a2de41",
+                        "text": "refer to Attachment B for further guidance."
+                      }
+                    ]
                   },
                   {
                     "id": "cpg234-para37",
@@ -438,11 +481,11 @@
             ]
           },
           {
-            "id": "ic-2",
+            "id": "ic-vm",
             "title": "Vulnerabilities and threats are identified, assessed and remediated",
             "controls": [
               {
-                "id": "",
+                "id": "ic-vm-1",
                 "title": "Vulnerability management",
                 "parts": [
                   {
@@ -455,11 +498,11 @@
             ]
           },
           {
-            "id": "ic-3",
+            "id": "ic-eol",
             "title": "End-of-life and out-of-support issues",
             "controls": [
               {
-                "id": "",
+                "id": "ic-eol-1",
                 "title": "End-of-life and out-of-support management",
                 "parts": [
                   {
@@ -487,11 +530,11 @@
             ]
           },
           {
-            "id": "ic-4",
+            "id": "ic-sa",
             "title": "Minimise exposure to plausible worst case scenarios",
             "controls": [
               {
-                "id": "",
+                "id": "ic-sa-1",
                 "title": "scenario analysis",
                 "parts": [
                   {
@@ -510,11 +553,11 @@
           },
           
           {
-            "id": "ic-5",
+            "id": "ic-pec",
             "title": "Physical and environmental controls",
             "controls": [
               {
-                "id": "",
+                "id": "ic-pec-1",
                 "title": "Physical and environmental controls",
                 "parts": [
                   {
@@ -527,34 +570,46 @@
             ]
           },
           {
-            "id": "ic-6",
+            "id": "ic-scm",
             "title": "Security in change management",
             "controls": [
               {
-                "id": "",
+                "id": "ic-scm-1",
                 "title": "",
                 "parts": [
                   {
                     "id": "cpg234-para47",
                     "name": "guidance",
-                    "prose": "APRA envisages that a regulated entity would implement controls to manage changes to information assets, including changes to hardware, software, data, and configuration (both where the change is planned and in response to an emergency) with the aim of maintaining information security. This would typically include: a) security testing (including reviews) to identify vulnerabilities and confirm information security requirements have been met. The nature of testing would be commensurate with the scope of the change and the sensitivity and criticality of the impacted information asset (refer to Attachment H for examples of common testing techniques); b) approval of changes prior to deployment into the production environment; c) segregation of duty controls which prevent personnel from deploying their own software changes to production; d) changes are developed and verified in another environment, sufficiently segregated from production so as to avoid any compromise of information security; e) information security requirements are validated prior to deployment; f) desensitising sensitive production data when used for development or testing purposes; and g) intentionally introduced information security vulnerabilities are authorised. In APRA’s view, changes that knowingly introduce security vulnerabilities would be minimised and, where possible, compensating controls implemented. This situation normally arises when dealing with system outages."
+                    "prose": "APRA envisages that a regulated entity would implement controls to manage changes to information assets, including changes to hardware, software, data, and configuration (both where the change is planned and in response to an emergency) with the aim of maintaining information security. This would typically include: a) security testing (including reviews) to identify vulnerabilities and confirm information security requirements have been met. The nature of testing would be commensurate with the scope of the change and the sensitivity and criticality of the impacted information asset (refer to Attachment H for examples of common testing techniques); b) approval of changes prior to deployment into the production environment; c) segregation of duty controls which prevent personnel from deploying their own software changes to production; d) changes are developed and verified in another environment, sufficiently segregated from production so as to avoid any compromise of information security; e) information security requirements are validated prior to deployment; f) desensitising sensitive production data when used for development or testing purposes; and g) intentionally introduced information security vulnerabilities are authorised. In APRA’s view, changes that knowingly introduce security vulnerabilities would be minimised and, where possible, compensating controls implemented. This situation normally arises when dealing with system outages.",
+                    "links": [
+                      {
+                        "href": "#a405ec0d-0b81-4d19-9903-bae2d1c2e400",
+                        "text": "refer to Attachment H for examples of common testing techniques"
+                      }
+                    ]
                   }
                 ]
               }
             ]
           },
           {
-            "id": "ic-7",
+            "id": "ic-ss",
             "title": "Software security",
             "controls": [
               {
-                "id": "",
+                "id": "ic-ss-1",
                 "title": "",
                 "parts": [
                   {
                     "id": "cpg234-para48",
                     "name": "guidance",
-                    "prose": "An APRA-regulated entity would typically implement secure software development and acquisition techniques to assist in maintaining confidentiality, integrity and availability by improving the general quality and vulnerability profile of the software (refer to Attachment D for further guidance)."
+                    "prose": "An APRA-regulated entity would typically implement secure software development and acquisition techniques to assist in maintaining confidentiality, integrity and availability by improving the general quality and vulnerability profile of the software.",
+                    "links": [
+                      {
+                        "href": "#d51d18c9-aa94-4e75-a4a2-b4e5f9ca73be",
+                        "text": "refer to Attachment D for further guidance"
+                      }
+                    ]
                   },
                   {
                     "id": "cpg234-para49",
@@ -566,11 +621,11 @@
             ]
           },
           {
-            "id": "ic-8",
+            "id": "ic-dl",
             "title": "Data leakage",
             "controls": [
               {
-                "id": "",
+                "id": "ic-dl-1",
                 "title": "",
                 "parts": [
                   {
@@ -598,17 +653,23 @@
             ]
           },
           {
-            "id": "ic-9",
+            "id": "ic-cry",
             "title": "Cryptographic techniques to restrict access",
             "controls": [
               {
-                "id": "",
+                "id": "ic-cry-1",
                 "title": "",
                 "parts": [
                   {
                     "id": "cpg234-para54",
                     "name": "guidance",
-                    "prose": "Cryptographic techniques can be used to control access to sensitive data, both in storage and in transit. The strength of the cryptographic techniques deployed would be commensurate with the sensitivity and criticality of the data as well as other supplementary or compensating controls (refer to Attachment E for further guidance)."
+                    "prose": "Cryptographic techniques can be used to control access to sensitive data, both in storage and in transit. The strength of the cryptographic techniques deployed would be commensurate with the sensitivity and criticality of the data as well as other supplementary or compensating controls.",
+                    "links": [
+                      {
+                        "href": "#912156d0-ee32-475d-906a-197fb80192ed",
+                        "text": "refer to Attachment E for further guidance"
+                      }
+                    ]
                   },
                   {
                     "id": "cpg234-para55",
@@ -620,11 +681,11 @@
             ]
           },
           {
-            "id": "ic-10",
+            "id": "ic-sts",
             "title": "Information security technology solutions",
             "controls": [
               {
-                "id": "",
+                "id": "ic-sts-1",
                 "title": "",
                 "parts": [
                   {
@@ -637,11 +698,11 @@
             ]
           },
           {
-            "id": "ic-11",
+            "id": "ic-edt",
             "title": "End-user developed/configured software",
             "controls": [
               {
-                "id": "",
+                "id": "ic-edt-1",
                 "title": "",
                 "parts": [
                   {
@@ -664,11 +725,11 @@
             ]
           },
           {
-            "id": "ic-12",
+            "id": "ic-et",
             "title": "Emerging technologies",
             "controls": [
               {
-                "id": "",
+                "id": "ic-et-1",
                 "title": "",
                 "parts": [
                   {
@@ -691,11 +752,11 @@
             ]
           },
           {
-            "id": "ic-13",
+            "id": "ic-tp",
             "title": "Information assets managed by third parties and related parties",
             "controls": [
               {
-                "id": "",
+                "id": "ic-tp-1",
                 "title": "",
                 "parts": [
                   {
@@ -736,11 +797,11 @@
         "title": "Incident management",
         "groups": [
           {
-            "id": "im-1",
+            "id": "im-dsc",
             "title": "Detection of security compromises",
             "controls": [
               {
-                "id": "",
+                "id": "im-dsc-1",
                 "title": "",
                 "parts": [
                   {
@@ -773,11 +834,11 @@
             ]
           },
           {
-            "id": "im-2",
+            "id": "im-rsc",
             "title": "Response to a security compromise",
             "controls": [
               {
-                "id": "",
+                "id": "im-rsc-1",
                 "title": "",
                 "parts": [
                   {
@@ -805,11 +866,11 @@
             ]
           },
           {
-            "id": "im-3",
+            "id": "im-sis",
             "title": "Information security incident stages",
             "controls": [
               {
-                "id": "",
+                "id": "im-sis-1",
                 "title": "",
                 "parts": [
                   {
@@ -827,11 +888,11 @@
             ]
           },
           {
-            "id": "im-4",
+            "id": "im-irt",
             "title": "Incident response testing",
             "controls": [
               {
-                "id": "",
+                "id": "im-irt-1",
                 "title": "",
                 "parts": [
                   {
@@ -849,11 +910,11 @@
             ]
           },
           {
-            "id": "im-5",
+            "id": "im-tp",
             "title": "Third parties and related parties",
             "controls": [
               {
-                "id": "",
+                "id": "im-to-1",
                 "title": "",
                 "parts": [
                   {
@@ -871,11 +932,11 @@
             ]
           },
           {
-            "id": "im-6",
+            "id": "im-bcm",
             "title": "Integration with business continuity and crisis management",
             "controls": [
               {
-                "id": "",
+                "id": "im-bcm-1",
                 "title": "",
                 "parts": [
                   {
@@ -894,11 +955,11 @@
         "title": "Testing control effectiveness",
         "groups": [
           {
-            "id": "tce-1",
+            "id": "tce-stp",
             "title": "Systematic testing program",
             "controls": [
               {
-                "id": "",
+                "id": "tce-stp-1",
                 "title": "",
                 "parts": [
                   {
@@ -931,7 +992,13 @@
                   {
                     "id": "cpg234-para80",
                     "name": "guidance",
-                    "prose": "The nature of testing would be a function of the type of control, and would typically consider a variety of testing approaches informed by contemporary industry practices (refer to Attachment G for further guidance)."
+                    "prose": "The nature of testing would be a function of the type of control, and would typically consider a variety of testing approaches informed by contemporary industry practices.",
+                    "links": [
+                      {
+                        "href": "#dbc14d36-d463-420e-9709-1bc4df014c89",
+                        "text": "refer to Attachment G for further guidance"
+                      }
+                    ]
                   },
                   {
                     "id": "cpg234-para81",
@@ -943,11 +1010,11 @@
             ]
           },
           {
-            "id": "tce-2",
+            "id": "tce-iot",
             "title": "Independence of testers",
             "controls": [
               {
-                "id": "",
+                "id": "ce-iot-1",
                 "title": "",
                 "parts": [
                   {
@@ -965,11 +1032,11 @@
             ]
           },
           {
-            "id": "tce-3",
+            "id": "tce-tpt",
             "title": "Third party testing",
             "controls": [
               {
-                "id": "",
+                "id": "tce-tpt-1",
                 "title": "",
                 "parts": [
                   {
@@ -989,11 +1056,11 @@
             ]
           },
           {
-            "id": "tce-4",
+            "id": "tce-tpr",
             "title": "Testing program review",
             "controls": [
               {
-                "id": "",
+                "id": "tce-tpr-1",
                 "title": "",
                 "parts": [
                   {
@@ -1012,11 +1079,11 @@
         "title": "Internal Audit",
         "groups": [
           {
-            "id": "ia-1",
+            "id": "ia-atb",
             "title": "Assurance to the Board",
             "controls": [
               {
-                "id": "",
+                "id": "ia-atb",
                 "title": "",
                 "parts": [
                   {
@@ -1044,11 +1111,11 @@
             ]
           },
           {
-            "id": "ia-2",
+            "id": "ia-tp",
             "title": "Use of assurance reports from third parties",
             "controls": [
               {
-                "id": "",
+                "id": "ia-tp-1",
                 "title": "",
                 "parts": [
                   {
@@ -1073,11 +1140,11 @@
             ]
           },
           {
-            "id": "ia-3",
+            "id": "ia-asp",
             "title": "appropriately skilled personnel",
             "controls": [
               {
-                "id": "",
+                "id": "ia-asp-1",
                 "title": "",
                 "parts": [
                   {
@@ -1096,11 +1163,11 @@
         "title": "APRA notification",
         "groups": [
           {
-            "id": "an-1",
+            "id": "an-232",
             "title": "Interaction between CPS 232 and CPS 234 notifications",
             "controls": [
               {
-                "id": "",
+                "id": "an-232-1",
                 "title": "",
                 "parts": [
                   {
@@ -1113,11 +1180,11 @@
             ]
           },
           {
-            "id": "an-2",
+            "id": "an-not",
             "title": "CPS 234 notifications",
             "controls": [
               {
-                "id": "",
+                "id": "an-not-1",
                 "title": "",
                 "parts": [
                   {
@@ -1158,6 +1225,110 @@
           }
         ]
       }
-    ]
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "373725f0-a8ac-48ec-b617-eada353569de",
+          "title": "APRA CPS234 - Information Security",
+          "rlinks": [
+            {
+              "href": "https://www.apra.gov.au/sites/default/files/cps_234_july_2019_for_public_release.pdf",
+              "media-type": "application/pdf"
+            }
+          ]
+        },
+        {
+          "uuid": "7767ba71-dc3a-4409-90a5-886e6bf7a06d",
+          "title": "APRA CPG234 - Information Security",
+          "rlinks": [
+            {
+              "href": "https://www.apra.gov.au/sites/default/files/cpg_234_information_security_june_2019_0.pdf",
+              "media-type": "application/pdf"
+            }
+          ]
+        },
+        {
+          "uuid": "0268e1ec-46cb-4d64-9609-4b7d8e162f5a",
+          "title": "APRA CPG234 - Attachment A: Security principles",
+          "rlinks": [
+            {
+              "href": "cpg234.attachment-a.html",
+              "media-type": "text/html"
+            }
+          ]
+        },
+        {
+          "uuid": "16deec76-a574-48eb-9d04-e895d1a2de41",
+          "title": "APRA CPG234 - Attachment B: Training and awaremess",
+          "rlinks": [
+            {
+              "href": "cpg234.attachment-b.html",
+              "media-type": "text/html"
+            }
+          ]
+        },
+        {
+          "uuid": "a3a46824-6d07-4354-acd3-1262166d3dda",
+          "title": "APRA CPG234 - Attachment C: Identity and access",
+          "rlinks": [
+            {
+              "href": "cpg234.attachment-c.html",
+              "media-type": "text/html"
+            }
+          ]
+        },
+        {
+          "uuid": "d51d18c9-aa94-4e75-a4a2-b4e5f9ca73be",
+          "title": "APRA CPG234 - Attachment D: Software security",
+          "rlinks": [
+            {
+              "href": "cpg234.attachment-d.html",
+              "media-type": "text/html"
+            }
+          ]
+        },
+        {
+          "uuid": "912156d0-ee32-475d-906a-197fb80192ed",
+          "title": "APRA CPG234 - Attachment E: Cryptographic techniques",
+          "rlinks": [
+            {
+              "href": "cpg234.attachment-e.html",
+              "media-type": "text/html"
+            }
+          ]
+        },
+        {
+          "uuid": "0174b59c-36bb-48b0-a7e4-fdca1954023e",
+          "title": "APRA CPG234 - Attachment F: Customer security",
+          "rlinks": [
+            {
+              "href": "cpg234.attachment-f.html",
+              "media-type": "text/html"
+            }
+          ]
+        },
+        {
+          "uuid": "dbc14d36-d463-420e-9709-1bc4df014c89",
+          "title": "APRA CPG234 - Attachment G: Testing techniques",
+          "rlinks": [
+            {
+              "href": "cpg234.attachment-g.html",
+              "media-type": "text/html"
+            }
+          ]
+        },
+        {
+          "uuid": "a405ec0d-0b81-4d19-9903-bae2d1c2e400",
+          "title": "APRA CPG234 - Attachment H: Reporting",
+          "rlinks": [
+            {
+              "href": "cpg234.attachment-h.html",
+              "media-type": "text/html"
+            }
+          ]
+        }
+      ]
+    }
   }
 }
