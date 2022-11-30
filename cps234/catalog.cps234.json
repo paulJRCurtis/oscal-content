@@ -28,13 +28,7 @@
                       {
                         "id": "cps234-fn5",
                         "name": "footnote",
-                        "prose": "A reference to the Board in the case of a foreign ADI, is a reference to the senior officer outside Australia.",
-                        "links": [
-                          {
-                            "href": "#a405ec0d-0b81-4d19-9903-bae2d1c2e400",
-                            "text": "Refer to Attachment H for common examples of the types of information that the Board might find useful in this regard."
-                          }
-                        ]
+                        "prose": "A reference to the Board in the case of a foreign ADI, is a reference to the senior officer outside Australia."
                       }
                     ]
                   }
@@ -1253,7 +1247,7 @@
           "title": "APRA CPG234 - Attachment A: Security principles",
           "rlinks": [
             {
-              "href": "cpg234.attachment-a.html",
+              "href": "https://raw.githubusercontent.com/paulJRCurtis/oscal-content/main/cps234/cpg234.attachment-a.html",
               "media-type": "text/html"
             }
           ]
@@ -1323,7 +1317,7 @@
           "title": "APRA CPG234 - Attachment H: Reporting",
           "rlinks": [
             {
-              "href": "cpg234.attachment-h.html",
+              "href": "/resources/cpg234.attachment-h.html",
               "media-type": "text/html"
             }
           ]
