@@ -21,6 +21,11 @@
                 "title": "Ultimately responsible of the Board",
                 "parts": [
                   {
+                    "id": "rr-bur-1_obj",
+                    "name": "objective",
+                    "prose": "Ensure Board is ultimately responsible for the information security of the entity."
+                  },
+                  {
                     "id": "cps234-para13",
                     "name": "statement",
                     "prose": "The Board of an APRA-regulated entity (Board) is ultimately responsible for the information security of the entity. The Board must ensure that the entity maintains information security in a manner commensurate with the size and extent of threats to its information assets, and which enables the continued sound operation of the entity.",
@@ -555,9 +560,60 @@
                 "title": "Physical and environmental controls",
                 "parts": [
                   {
+                    "id": "ic-pec-1_obj",
+                    "name": "objective",
+                    "prose": "Ensure the secure and on-going operation of facilities"
+                  },
+                  {
                     "id": "cpg234-para46",
                     "name": "guidance",
-                    "prose": "The absence of physical and environmental controls can compromise the effectiveness of other information security controls. An APRA-regulated entity would typically have in place the following physical and environmental controls (commonly through professionally managed data centres as part of third party or related party arrangements): a) location and building facilities that provide a level of protection from natural and man-made threats. This includes diversity of access to key utility services such as power and telecommunications, as well as fall-back mechanisms where access to the key utility service has failed (e.g. generators, Uninterrupted Power Supply (UPS) devices and alternate telecommunication connections); b) physical access controls that protect the site perimeter, building, data room and computing racks. Common controls include gates, locks and procedures for granting and reviewing access by staff, third party providers and visitors; c) environmental controls which maintain environmental conditions within acceptable parameters. Common controls include ventilation, air conditioning and fire suppressant systems; and d) monitoring and alert mechanisms that detect information security incidents where physical and environmental controls have failed. Common controls include sensors/alarms for temperature, humidity, water, smoke, unauthorised access; and service availability alerts (e.g. power supply, telecommunication, servers)."
+                    "parts": [
+                      {
+                        "id": "cpg234-para46-a",
+                        "name": "item",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "a."
+                          }
+                        ],
+                        "prose": "location and building facilities that provide a level of protection from natural and man-made threats. This includes diversity of access to key utility services such as power and telecommunications, as well as fall-back mechanisms where access to the key utility service has failed (e.g. generators, Uninterrupted Power Supply (UPS) devices and alternate telecommunication connections);"
+                      },
+                      {
+                        "id": "cpg234-para46-b",
+                        "name": "item",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "a."
+                          }
+                        ],
+                        "prose": "physical access controls that protect the site perimeter, building, data room and computing racks. Common controls include gates, locks and procedures for granting and reviewing access by staff, third party providers and visitors;"
+                      },
+                      {
+                        "id": "cpg234-para46-c",
+                        "name": "item",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "a."
+                          }
+                        ],
+                        "prose": "environmental controls which maintain environmental conditions within acceptable parameters. Common controls include ventilation, air conditioning and fire suppressant systems; and"
+                      },
+                      {
+                        "id": "cpg234-para46-d",
+                        "name": "item",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "a."
+                          }
+                        ],
+                        "prose": "monitoring and alert mechanisms that detect information security incidents where physical and environmental controls have failed. Common controls include sensors/alarms for temperature, humidity, water, smoke, unauthorised access; and service availability alerts (e.g. power supply, telecommunication, servers)."
+                      }
+                    ],
+                    "prose": "The absence of physical and environmental controls can compromise the effectiveness of other information security controls. An APRA-regulated entity would typically have in place the following physical and environmental controls (commonly through professionally managed data centres as part of third party or related party arrangements):"
                   }
                 ]
               }
@@ -652,8 +708,13 @@
             "controls": [
               {
                 "id": "ic-cry-1",
-                "title": "",
+                "title": "Encryption in storage and in transit",
                 "parts": [
+                  {
+                    "id": "ic-cry-1_obj",
+                    "name": "objective",
+                    "prose": "Minimise the risk of information asset compromise"
+                  },
                   {
                     "id": "cpg234-para54",
                     "name": "guidance",
@@ -664,6 +725,17 @@
                         "text": "refer to Attachment E for further guidance"
                       }
                     ]
+                  }
+                ]
+              },
+              {
+                "id": "ic-cry-2",
+                "title": "End-to-end encryption",
+                "parts": [
+                  {
+                    "id": "ic-cry-2_obj",
+                    "name": "objective",
+                    "prose": "Minimise the risk of information asset compromise"
                   },
                   {
                     "id": "cpg234-para55",
@@ -671,7 +743,8 @@
                     "prose": "In order to minimise the risk of compromise, an end-to-end approach would typically be adopted, where encryption is applied from the point-of-entry to final destination."
                   }
                 ]
-              }
+              }  
+
             ]
           },
           {
@@ -700,17 +773,17 @@
                 "title": "",
                 "parts": [
                   {
-                    "id": "cpg234-para",
+                    "id": "cpg234-para57",
                     "name": "guidance",
                     "prose": "Current technologies allow end-users to develop/configure software for the purpose of automating day-to-day business processes or facilitating decision-making (e.g. spreadsheets, local databases, user administered software). This creates the risk that life-cycle controls could be inadequate for critical information assets and possibly lead to a proliferation of sensitive data being accessible outside controlled environments."
                   },
                   {
-                    "id": "cpg234-para",
+                    "id": "cpg234-para58",
                     "name": "guidance",
                     "prose": "An APRA-regulated entity would typically introduce processes to identify and classify end-user developed/configured software and assess risk exposures. In APRA’s view, any information software asset that is critical to achieving the objectives of the business or that processes sensitive data would comply with the relevant life-cycle management controls of the regulated entity."
                   },
                   {
-                    "id": "cpg234-para",
+                    "id": "cpg234-para59",
                     "name": "guidance",
                     "prose": "Sound practice is to establish a formal policy to govern end-user developed/configured software. The policy would clearly articulate under what circumstances end-user developed/configured software is appropriate, as well as expectations regarding life- cycle management controls including information security, development, change management and backup."
                   }

@@ -11,10 +11,13 @@
       {
         "href": "#ed3bb199-5a93-4a42-9746-92837a4b9c80",
         "include-controls": [
-          {
+          { 
+            "with-child-controls": "yes",
             "with-ids": [
+              "rr-bur-1",
               "ic-pec-1",
-              "ic-cry-1"
+              "ic-cry-1",
+              "ic-cry-2"
             ]
           }
         ]
@@ -25,7 +28,7 @@
       "resources": [
         {
           "uuid": "ed3bb199-5a93-4a42-9746-92837a4b9c80",
-          "title": "",
+          "title": "APRA CPS234 Catalog",
           "rlinks": [
             {
               "href": "/Users/paucurt/projects/oscal-content/cps234/catalog.cps234.json",
