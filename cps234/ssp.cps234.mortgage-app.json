@@ -5,7 +5,22 @@
       "title": "System Security Plan - Mortgage Application - Web App",
       "last-modified": "2022-12-01T06:40:58+11:00",
       "version": "0.0.1",
-      "oscal-version": "1.0.4"
+      "oscal-version": "1.0.4",
+      "roles": [
+        {
+          "id": "policy-owner",
+          "title": "Policy Owner"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "08454de4-17df-4fc1-aa7b-07bf282dd241",
+          "type": "person",
+          "name": "Mary Smith",
+          "email-addresses": ["mary.smith@organisation.com"],
+          "remarks": "Policy owner of the Data encryption policy. Policy Owner must be Line 2 Risk/Info Sec."
+        }
+      ]
     },
     "import-profile": {
       "href": "#c2772ec1-6cb2-4e8e-9460-b989ff8e7d97"
@@ -25,6 +40,11 @@
           {
             "title": "Customer Mortgage Application",
             "description": "Customer data captured for mortgage application, this incudes PII and financial analysis information.",
+            "categorizations": [
+              {
+                "system": "https://github.com/paulJRCurtis/oscal-content/blob/main/references/Data_Classification_Standard_v001.pdf"
+              }
+            ],
             "confidentiality-impact": {
               "base": "high"
             },
@@ -38,6 +58,11 @@
           {
             "title": "Mortgage Product Information",
             "description": "Product rates, terms and disclosure statements",
+            "categorizations": [
+              {
+                "system": "https://github.com/paulJRCurtis/oscal-content/blob/main/references/Data_Classification_Standard_v001.pdf"
+              }
+            ],
             "confidentiality-impact": {
               "base": "none"
             },
@@ -81,20 +106,76 @@
         {
           "uuid": "d042a45e-cf4f-4d92-ac89-c39579f73dd6",
           "title": "customers",
-          "description": ""
+          "description": "",
+          "props": [
+            {
+              "name": "type",
+              "value": "external"
+            }
+          ]
         },
         {
           "uuid": "c5633776-44c4-416b-8292-4fc1ef1df27d",
           "title": "mortgage product owner",
-          "description": ""
+          "description": "",
+          "role-ids": [
+            "product-admin"
+          ],
+          "props": [
+            {
+              "name": "type",
+              "value": "internal"
+            }
+          ]
         },
         {
           "uuid": "fa161a88-77be-4041-93e5-acf94011e353",
           "title": "system owner",
-          "description": ""
+          "description": "",
+          "role-ids": [
+            "sys-admin"
+          ],
+          "props": [
+            {
+              "name": "type",
+              "value": "internal"
+            }
+          ]
         }
       ],
       "components": [
+        {
+          "uuid": "94c24e09-ead3-4b63-b428-b31ab9a02a78",
+          "type": "policy",
+          "title": "Data encryption policy",
+          "description": "Specifies the encryption standards required by information asset classification. Identifies who is responsible/accountable for performing these functions",
+          "links": [
+            {
+              "href": "#7cba7205-82b5-4e08-b74e-ab091a23f863"
+            }
+          ],
+          "status": {
+            "state": "operational"
+          },
+          "props": [
+            {
+              "name": "version",
+              "value": "2.1"
+            },
+            {
+              "name": "last-reviewed-date",
+              "value": "20221201"
+            }
+          ],
+          "responsible-roles": [
+            {
+              "role-id": "policy-owner",
+              "party-uuids": [
+                "08454de4-17df-4fc1-aa7b-07bf282dd241"
+              ]
+            }
+          ]
+        },
         {
           "uuid": "d7ba11ef-4d30-4a00-b56c-cde48ec4d175",
           "type": "service",
@@ -121,6 +202,17 @@
           "status": {
             "state": "operational"
           }
+        }
+      ],
+      "inventory-items": [
+        {
+          "uuid": "34a9a329-e7f4-4fae-893e-a05ac2d59d63",
+          "description": "Inventory Item - S3 Application asset storage",
+          "implemented-components": [
+            {
+              "component-uuid": "677642fc-b6d5-4c7d-bfef-6179610bb7db"
+            }
+          ]
         }
       ]
     },
@@ -188,6 +280,16 @@
             {
               "href": "/Users/paucurt/projects/oscal-content/cps234/profile.cps234.3p-system.json",
               "media-type": "image/png"
+            }
+          ]
+        },
+        {
+          "uuid": "7cba7205-82b5-4e08-b74e-ab091a23f863",
+          "description": "Data Encryption Policy",
+          "rlinks": [
+            {
+              "href": "",
+              "media-type": "application/pdf"
             }
           ]
         }
