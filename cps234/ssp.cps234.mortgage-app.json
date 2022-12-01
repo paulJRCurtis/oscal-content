@@ -19,41 +19,41 @@
       ],
       "system-name": "Customer Mortgage Application - web app hosted on AWS",
       "description": "The solution is comprised of the following components: <ul><li>A VPC across two Availability Zones</li> <li>Two public subnets, two private app subnets, and two private DB subnets</li> <li>An Internet Gateway attached to the VPC</li> <ul><li>A public route table routing internet traffic to the Internet Gateway</li> <li>Two private route tables routing traffic internally within the VPC</li></ul> <li>A frontend web server application Elastic Load Balancing that routes traffic to the Apache Web Servers</li> <li>An Auto Scaling group that launches additional Apache Web Servers based on defined scaling policies. Each instance of the web server is based on a launch template, which defines the same configuration for each new web server.</li> <li>A hosted zone in Amazon Route 53 with a domain name that routes to the frontend web server Elastic Load Balancing</li> <li>An application Elastic Load Balancing that routes traffic to the Tomcat application servers</li> <li>An Auto Scaling group that launches additional Tomcat Application Servers based on defined scaling policies. Each instance of the Tomcat application server is based on a launch template, which defines the same configuration and software components for each new application server</li> <li>A Redis cache cluster with a primary and replica node to store session data after the user has authenticated, making your application servers stateless</li> <li>A Redis open-source Java client, with a Tomcat Session Manager implementation to store authenticated user session data in Redis cache</li> <li>A MySQL Amazon Relational Database Service (Amazon RDS) Multi-AZ deployment for MySQL RDS to store the contact management and role access tables</li> <li>An Amazon Simple Storage Service (Amazon S3) bucket to store the application and framework artifacts, images, scripts and configuration files that are referenced by any new Tomcat application server instances provisioned by automatic scaling</li> <li>Amazon Cognito with a sign-up Lambda function to register users and insert a corresponding entry in the user account tables. Cognito acts as an identity provider and performs the user authentication using an OpenID Connect Authenticator Java component.</li></ul> ",
-      "security-sensitivity-level": "Very High",
+      "security-sensitivity-level": "high",
       "system-information": {
         "information-types": [
           {
             "title": "Customer Mortgage Application",
             "description": "Customer data captured for mortgage application, this incudes PII and financial analysis information.",
             "confidentiality-impact": {
-              "base": "Very High"
+              "base": "high"
             },
             "integrity-impact": {
-              "base": "High"
+              "base": "high"
             },
             "availability-impact": {
-              "base": "Medium"
+              "base": "moderate"
             }
           },
           {
             "title": "Mortgage Product Information",
             "description": "Product rates, terms and disclosure statements",
             "confidentiality-impact": {
-              "base": "None"
+              "base": "none"
             },
             "integrity-impact": {
-              "base": "Very High"
+              "base": "high"
             },
             "availability-impact": {
-              "base": "Medium"
+              "base": "moderate"
             }
           }
         ]
       },
       "security-impact-level": {
-        "security-objective-confidentiality": "Very High",
-        "security-objective-integrity": "Very High",
-        "security-objective-availability": "Medium"
+        "security-objective-confidentiality": "high",
+        "security-objective-integrity": "high",
+        "security-objective-availability": "moderate"
       },
       "status": {
         "state": "operational"
