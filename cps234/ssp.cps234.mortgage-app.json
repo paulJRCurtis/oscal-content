@@ -1,0 +1,197 @@
+{
+  "system-security-plan": {
+    "uuid": "050f9d1a-f4f2-4226-9c6b-730cb87242fb",
+    "metadata": {
+      "title": "System Security Plan - Mortgage Application - Web App",
+      "last-modified": "2022-12-01T06:40:58+11:00",
+      "version": "0.0.1",
+      "oscal-version": "1.0.4"
+    },
+    "import-profile": {
+      "href": "#c2772ec1-6cb2-4e8e-9460-b989ff8e7d97"
+    },
+    "system-characteristics": {
+      "system-ids": [
+        {
+          "identifier-type": "http://ietf.org/rfc/rfc4122",
+          "id": "43197519-ebd5-47de-8da1-0f78de2013a2"
+        }
+      ],
+      "system-name": "Customer Mortgage Application - web app hosted on AWS",
+      "description": "The solution is comprised of the following components: <ul><li>A VPC across two Availability Zones</li> <li>Two public subnets, two private app subnets, and two private DB subnets</li> <li>An Internet Gateway attached to the VPC</li> <ul><li>A public route table routing internet traffic to the Internet Gateway</li> <li>Two private route tables routing traffic internally within the VPC</li></ul> <li>A frontend web server application Elastic Load Balancing that routes traffic to the Apache Web Servers</li> <li>An Auto Scaling group that launches additional Apache Web Servers based on defined scaling policies. Each instance of the web server is based on a launch template, which defines the same configuration for each new web server.</li> <li>A hosted zone in Amazon Route 53 with a domain name that routes to the frontend web server Elastic Load Balancing</li> <li>An application Elastic Load Balancing that routes traffic to the Tomcat application servers</li> <li>An Auto Scaling group that launches additional Tomcat Application Servers based on defined scaling policies. Each instance of the Tomcat application server is based on a launch template, which defines the same configuration and software components for each new application server</li> <li>A Redis cache cluster with a primary and replica node to store session data after the user has authenticated, making your application servers stateless</li> <li>A Redis open-source Java client, with a Tomcat Session Manager implementation to store authenticated user session data in Redis cache</li> <li>A MySQL Amazon Relational Database Service (Amazon RDS) Multi-AZ deployment for MySQL RDS to store the contact management and role access tables</li> <li>An Amazon Simple Storage Service (Amazon S3) bucket to store the application and framework artifacts, images, scripts and configuration files that are referenced by any new Tomcat application server instances provisioned by automatic scaling</li> <li>Amazon Cognito with a sign-up Lambda function to register users and insert a corresponding entry in the user account tables. Cognito acts as an identity provider and performs the user authentication using an OpenID Connect Authenticator Java component.</li></ul> ",
+      "security-sensitivity-level": "Very High",
+      "system-information": {
+        "information-types": [
+          {
+            "title": "Customer Mortgage Application",
+            "description": "Customer data captured for mortgage application, this incudes PII and financial analysis information.",
+            "confidentiality-impact": {
+              "base": "Very High"
+            },
+            "integrity-impact": {
+              "base": "High"
+            },
+            "availability-impact": {
+              "base": "Medium"
+            }
+          },
+          {
+            "title": "Mortgage Product Information",
+            "description": "Product rates, terms and disclosure statements",
+            "confidentiality-impact": {
+              "base": "None"
+            },
+            "integrity-impact": {
+              "base": "Very High"
+            },
+            "availability-impact": {
+              "base": "Medium"
+            }
+          }
+        ]
+      },
+      "security-impact-level": {
+        "security-objective-confidentiality": "Very High",
+        "security-objective-integrity": "Very High",
+        "security-objective-availability": "Medium"
+      },
+      "status": {
+        "state": "operational"
+      },
+      "authorization-boundary": {
+        "description": "The authorization boundary incudes the system components as shown on the system architecture for the production environment. The authorization boundary does not include non-production environments as synthetic data is used in these environments. The authorization boundary does not include; external identity providers, backend customer stores, external product data stores, or other external systems."
+      },
+      "network-architecture": {
+        "description": "Architecture diagram for AWS hosted three tier web app",
+        "diagrams": [
+          {
+            "uuid": "c802d950-ccb9-442e-b5c1-d31782b906ef",
+            "links": [
+              {
+                "href": "#cd5e3d6c-6179-4358-89d5-2d7df210ee8a"
+              }
+            ],
+            "caption": "System Architecture"
+          }
+        ]
+      }
+    },
+    "system-implementation": {
+      "users": [
+        {
+          "uuid": "d042a45e-cf4f-4d92-ac89-c39579f73dd6",
+          "title": "customers",
+          "description": ""
+        },
+        {
+          "uuid": "c5633776-44c4-416b-8292-4fc1ef1df27d",
+          "title": "mortgage product owner",
+          "description": ""
+        },
+        {
+          "uuid": "fa161a88-77be-4041-93e5-acf94011e353",
+          "title": "system owner",
+          "description": ""
+        }
+      ],
+      "components": [
+        {
+          "uuid": "d7ba11ef-4d30-4a00-b56c-cde48ec4d175",
+          "type": "service",
+          "title": "Internet Gateway",
+          "description": "An Internet Gateway attached to the VPC; A public route table routing internet traffic to the Internet Gateway, and two private route tables routing traffic internally within the VPC.",
+          "status": {
+            "state": "operational"
+          }
+        },
+        {
+          "uuid": "677642fc-b6d5-4c7d-bfef-6179610bb7db",
+          "type": "service",
+          "title": "S3 - Application Storage",
+          "description": "An Amazon Simple Storage Service (Amazon S3) bucket to store the application and framework artifacts, images, scripts and configuration files that are referenced by any new Tomcat application server instances provisioned by automatic scaling",
+          "status": {
+            "state": "operational"
+          }
+        },
+        {
+          "uuid": "e02680ad-e319-46f8-933d-731dfe4be902",
+          "type": "service",
+          "title": "MySQL RDS - Transactional and Customer Datastores",
+          "description": "A MySQL Amazon Relational Database Service (Amazon RDS) Multi-AZ deployment for MySQL RDS to store the; mortgage applications, customer data, mortgage product tables, contact management and role access tables",
+          "status": {
+            "state": "operational"
+          }
+        }
+      ]
+    },
+    "control-implementation": {
+      "description": "",
+      "implemented-requirements": [
+        {
+          "uuid": "22715bb3-f37c-471c-8e3d-50893f365768",
+          "control-id": "ic-pec-1",
+          "statements": [
+            {
+              "statement-id": "cpg234-para46-a",
+              "uuid": "f3d11ee8-9ce7-41ea-81e3-183827987e88"
+            },
+            {
+              "statement-id": "cpg234-para46-b",
+              "uuid": "b39f055e-e1f3-41f7-bab2-8a9790fd37ff"
+            },
+            {
+              "statement-id": "cpg234-para46-c",
+              "uuid": "c99c3697-827d-4812-811e-7759c14d441d"
+            },
+            {
+              "statement-id": "cpg234-para46-d",
+              "uuid": "c5f6cc34-7b10-4f54-9d98-e5defdd412b0"
+            }
+          ],
+          "by-components": [
+            {
+              "component-uuid": "d7ba11ef-4d30-4a00-b56c-cde48ec4d175",
+              "uuid": "77600289-9316-46bb-820e-b055cf5ce587",
+              "description": "Internet Gateway implementation of data centre physical and environmental controls",
+              "implementation-status": {
+                "state": "implemented"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "c2772ec1-6cb2-4e8e-9460-b989ff8e7d97",
+          "description": "APRA CPS234 Profile - Third party hosted system",
+          "rlinks": [
+            {
+              "href": "/Users/paucurt/projects/oscal-content/cps234/profile.cps234.3p-system.json",
+              "media-type": "application/oscal.profile+json"
+            }
+          ]
+        },
+        {
+          "uuid": "cd5e3d6c-6179-4358-89d5-2d7df210ee8a",
+          "description": "Three Tier Java Web Applications on AWS",
+          "citation": {
+            "text": "Armstrong, Rick (2022) How to re-platform and modernize Java web applications on AWS",
+            "links": [
+              {
+                "href": "https://aws.amazon.com/blogs/compute/re-platform-java-web-applications-on-aws/"
+              }
+            ]
+          },
+          "rlinks": [
+            {
+              "href": "/Users/paucurt/projects/oscal-content/cps234/profile.cps234.3p-system.json",
+              "media-type": "image/png"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
