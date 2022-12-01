@@ -1,0 +1,39 @@
+{
+  "profile": {
+    "uuid": "2b4030a7-58e1-48e4-abe0-ebe796badaae",
+    "metadata": {
+      "title": "APRA CPS234 controls that apply to AWS at the vendor level",
+      "last-modified": "2022-12-02T05:47:04+11:00",
+      "version": "0.0.1",
+      "oscal-version": "1.0.4"
+    },
+    "imports": [
+      {
+        "href": "#c1dd2c58-76cc-4846-b013-44e869e2ec72",
+        "include-controls": [
+          { 
+            "with-child-controls": "yes",
+            "with-ids": [
+              "ic-pec-1"
+            ]
+          }
+        ]
+      }
+
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "c1dd2c58-76cc-4846-b013-44e869e2ec72",
+          "title": "APRA CPS234 Catalog",
+          "rlinks": [
+            {
+              "href": "/Users/paucurt/projects/oscal-content/cps234/catalog.cps234.json",
+              "media-type": "application/oscal.catalog+json"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

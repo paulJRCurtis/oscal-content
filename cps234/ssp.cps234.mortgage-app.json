@@ -211,6 +211,9 @@
           "implemented-components": [
             {
               "component-uuid": "677642fc-b6d5-4c7d-bfef-6179610bb7db"
+            },
+            {
+              "component-uuid": "94c24e09-ead3-4b63-b428-b31ab9a02a78"
             }
           ]
         }
@@ -288,7 +291,7 @@
           "description": "Data Encryption Policy",
           "rlinks": [
             {
-              "href": "",
+              "href": "https://github.com/paulJRCurtis/oscal-content/blob/main/references/Data_Encryption_Policy_V2.1.pdf",
               "media-type": "application/pdf"
             }
           ]

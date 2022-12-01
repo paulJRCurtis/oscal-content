@@ -1,0 +1,34 @@
+{
+  "component-definition": {
+    "uuid": "9a9c9ef2-89d7-4b6b-b7c3-1e5af4ccc04d",
+    "metadata": {
+      "title": "AWS APRA CPS234 compliance",
+      "last-modified": "2022-12-02T05:33:30+11:00",
+      "version": "0.0.1",
+      "oscal-version": "1.0.4"
+    },
+  "components": [
+    {
+      "uuid": "c7c42263-bc9b-4fe3-808a-7da73ed8fa97",
+      "type": "",
+      "title": "",
+      "description": "",
+      "control-implementations": [
+        {
+          "uuid": "ff8c4bd1-d073-4f4f-a6a3-304bb7f5061f",
+          "source": "",
+          "description": "",
+          "implemented-requirements": [
+            {
+              "uuid": "2dbec7a1-840d-4d69-8dfc-ec18be228bb4",
+              "control-id": "",
+              "description": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+
+  }
+}
