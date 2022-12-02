@@ -5,30 +5,166 @@
       "title": "AWS APRA CPS234 compliance",
       "last-modified": "2022-12-02T05:33:30+11:00",
       "version": "0.0.1",
-      "oscal-version": "1.0.4"
-    },
-  "components": [
-    {
-      "uuid": "c7c42263-bc9b-4fe3-808a-7da73ed8fa97",
-      "type": "",
-      "title": "",
-      "description": "",
-      "control-implementations": [
+      "oscal-version": "1.0.4",
+      "roles": [
         {
-          "uuid": "ff8c4bd1-d073-4f4f-a6a3-304bb7f5061f",
-          "source": "",
-          "description": "",
-          "implemented-requirements": [
+          "id": "provider",
+          "title": "Provider"
+        },
+        {
+          "id": "auditor",
+          "title": "Auditor"
+        }
+      ],
+      "locations": [
+        {
+          "uuid": "71ea904a-9ba8-425b-8dfa-790f0a69faad",
+          "title": "ap-southeast-2",
+          "address": {
+            "city": "Sydney",
+            "country": "Australia"
+          },
+          "props": [
             {
-              "uuid": "2dbec7a1-840d-4d69-8dfc-ec18be228bb4",
-              "control-id": "",
-              "description": ""
+              "name": "type",
+              "value": "region"
             }
           ]
         }
+      ],
+      "parties": [
+        {
+          "uuid": "549c00b7-b8d0-4a9b-b63b-989fe79019dd",
+          "type": "organization",
+          "name": "AWS",
+          "location-uuids": ["71ea904a-9ba8-425b-8dfa-790f0a69faad"]
+        },
+        {
+          "uuid": "69171c15-b03a-4291-86d1-4afb3e21835c",
+          "type": "organization",
+          "name": "Ernst & Young"
+        }
+      ]
+    },
+    "components": [
+      {
+        "uuid": "c7c42263-bc9b-4fe3-808a-7da73ed8fa97",
+        "type": "standard",
+        "title": "APRA CPS234 Compliance",
+        "description": "",
+        "links": [
+          {
+            
+            "href": "#e44f005d-4b37-45d8-805c-c2cd307e504c",
+            "rel": "validation"
+          }
+        ],
+        "responsible-roles": [
+          {
+            "role-id": "provider",
+            "party-uuids": ["549c00b7-b8d0-4a9b-b63b-989fe79019dd"]
+          }
+        ],
+        "control-implementations": [
+          {
+            "uuid": "ff8c4bd1-d073-4f4f-a6a3-304bb7f5061f",
+            "source": "#9403e20b-690b-4ecb-b5d0-81522f7756b1",
+            "description": "CPS234 Control Implementations - The CPS234 controls specified in the profile are those that have been identified as applying to AWS at a vendor or 'OF the cloud' level. The controls listed are the AWSCA controls as listed in the SOC2 Report.",
+            "implemented-requirements": [
+              {
+                "uuid": "2dbec7a1-840d-4d69-8dfc-ec18be228bb4",
+                "control-id": "ic-pec-1",
+                "description": "AWSCA-1.10: AWS has a process in place to review environmental and geo-political risks before launching a new region.",
+                "statements": [
+                  {
+                    "statement-id": "cpg234-para46-a",
+                    "uuid": "d193b563-3bbf-4de3-aa4f-21e3ed0ed630",
+                    "description": "<ul><li>AWSCA-5.9: Uninterruptible Power Supply (UPS) units provide backup power in the event of an electrical failure in Amazon- owned data centers and third-party colocation sites where Amazon maintains the UPS units.</li><li>AWSCA-5.10: Amazon-owned data centers have generators to provide backup power in case of electrical failure. </li><li>AWSCA-5.11: Contracts are in place with third- party colocation service providers which include provisions to provide fire suppression systems, air conditioning to maintain appropriate atmospheric conditions, Uninterruptible Power Supply (UPS) units (unless maintained by Amazon), and redundant power supplies. Contracts also include provisions requiring communication of incidents or events that impact Amazon assets and/or customers to AWS.</li></ul>"
+                  },
+                  {
+                    "statement-id": "cpg234-para46-b",
+                    "uuid": "e3be4b08-c14e-4687-8f04-676f14f1a864",
+                    "description": "AWSCA-5.1: Physical access to data centers is approved by an authorized individual.  AWSCA-5.2: Physical access is revoked within 24 hours of the employee or vendor record being deactivated.  AWSCA-5.3 Physical access to data centers is reviewed on a quarterly basis by appropriate personnel. AWSCA-5.4: Closed circuit television cameras (CCTV) are used to monitor server locations in data centers. Images are retained for 90 days, unless limited by legal or contractual obligations. AWSCA-5.5: Access to server locations is managed by electronic access control devices. AWSCA-5.12: AWS performs periodic reviews of colocation service providers to validate adherence with AWS security and operational standards."
+                  },
+                  {
+                    "statement-id": "cpg234-para46-c",
+                    "uuid": "e2063800-854d-47c5-a978-8f7d5407a794",
+                    "description": "AWSCA-5.7: Amazon-owned data centers are protected by fire detection and suppression systems. AWSCA-5.8: Amazon-owned data centers are air conditioned to maintain appropriate atmospheric conditions. Personnel and systems monitor and control air temperature and humidity at appropriate levels. AWSCA-5.11: Contracts are in place with third- party colocation service providers which include provisions to provide fire suppression systems, air conditioning to maintain appropriate atmospheric conditions, Uninterruptible Power Supply (UPS) units (unless maintained by Amazon), and redundant power supplies. Contracts also include provisions requiring communication of incidents or events that impact Amazon assets and/or customers to AWS."
+                  },
+                  {
+                    "statement-id": "cpg234-para46-d",
+                    "uuid": "a91c0515-ee75-41c4-9a8a-368ef03b6197",
+                    "description": "AWSCA-5.6: Electronic intrusion detection systems are installed within data server locations to monitor, detect, and automatically alert appropriate personnel of security incidents. AWSCA-5.11: Contracts are in place with third- party colocation service providers which include provisions to provide fire suppression systems, air conditioning to maintain appropriate atmospheric conditions, Uninterruptible Power Supply (UPS) units (unless maintained by Amazon), and redundant power supplies. Contracts also include provisions requiring communication of incidents or events that impact Amazon assets and/or customers to AWS."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "uuid": "e44f005d-4b37-45d8-805c-c2cd307e504c",
+        "type": "validation",
+        "title": "APRA CPS234 Compliance - Validation",
+        "description": "The validation as provided by System and Organization Controls 2 (SOC 2) Type 2 Report For the Period April 1, 2022 to September 30, 2022",
+        "responsible-roles": [
+          {
+            "role-id": "auditor",
+            "party-uuids": ["69171c15-b03a-4291-86d1-4afb3e21835c"]
+          }
+        ],
+        "control-implementations": [
+          {
+            "uuid": "b194a73c-6d22-4b9e-9d11-315756080972",
+            "source": "#9403e20b-690b-4ecb-b5d0-81522f7756b1",
+            "description": "CPS234 Control Verification - The CPS234 controls specified in the profile are those that have been identified as applying to AWS at a vendor or 'OF the cloud' level. The controls listed are the AWSCA controls as listed in the SOC2 Report with the results of the tests performed by the auditor.",
+            "implemented-requirements": [
+              {
+                "uuid": "522260e7-3474-40b2-9b00-21de72baf72a",
+                "control-id": "ic-pec-1",
+                "description": "AWSCA-1.10: <ul><li>Test: Inquired of a Risk and Resiliency Senior Manager to ascertain environmental and geo-political risks were reviewed before launching new data center regions.<br>Result: No deviations noted.</li><li>Test: Inspected review documentation for a sample of new in-scope data center regions from the data center inventory system to ascertain a review of environmental and geopolitical risks was performed before a new data center region was launched.<br>Result: Per inspection of the Q2 2022 and Q3 2022 Data Center listings, we determined that there were no new in-scope regions during our examination period; therefore, no samples were available to test.</li></ul>",
+                "statements": [
+                  {
+                    "statement-id": "cpg234-para46-a",
+                    "uuid": "e054c8b8-b3eb-4749-b9fd-58289bf4293a",
+                    "description": "AWSCA-5.9: <ul> <li>Test: Inquired of Data Center Operations Managers to ascertain UPS units provided backup power in the event of an electrical failure in Amazon-owned data centers or in colocation sites where Amazon manages the UPS units.<br>Result: No deviations noted.</li> <li>Test: Selected a sample of Amazon-owned data centers and observed on-premise UPS equipment to ascertain UPS units existed and that they were available to provide backup power in the event of an electrical failure.<br>Result: No deviations noted.</li> </ul> AWSCA-5.10: <ul> <li>Test: Inquired of Data Center Operations Managers to ascertain Amazon-owned data centers had generators to provide backup power in case of electrical failure.<br>Result: No deviations noted.</li> <li>Test: Selected a sample of Amazon-owned data centers and observed on-premise generator equipment to ascertain generators existed and that they were available to provide backup power in case of electrical failure.<br>Result: No deviations noted.</li> </ul> AWSCA-5.11: <ul> <li>Test: Inquired of AWS Legal Corporate Counsel to ascertain contracts were in place at the colocation service providers which included provisions for fire suppression systems, air conditioning, UPS units, and redundant power supplies as well as provisions requiring communication of incidents or events that impact Amazon assets or customers to AWS.<br>Result: No deviations noted.</li> <li>Test: Selected a sample of data centers managed by colocation service providers and inspected the current contractual agreements between service providers and AWS to ascertain they included provisions for fire suppression systems, air conditioning, UPS units, and redundant power supplies as well as provisions requiring colocation service providers to notify Amazon immediately of discovery of any unauthorized use or disclosure of confidential information or any other breach.<br>Result: No deviations noted.</li> <li>Test: Selected a sample of ACE sites and inspected site monitoring outputs to ascertain that ACE sites were monitored in the event of a crossed threshold or outage.<br>Result: No deviations noted.</li> <li>Test: Haphazardly selected an ACE site and inspected an incident ticket automatically raised by a monitoring configuration to ascertain the incident was tracked through to resolution.<br>Result: No deviations noted.</li> </ul>"
+                  },
+                  {
+                    "statement-id": "cpg234-para46-b",
+                    "uuid": "69058a99-8ebe-43f2-acdf-474d3f4c7f4b",
+                    "description": "AWSCA-5.1: <ul> <li>Test: Inquired of an AWS Security Technical Program Manager to ascertain physical access to data centers was approved by an authorized individual.<br>Result: No deviations noted.</li> <li>Test: Inspected the configuration for executing the physical access approval and provisioning within the data center access management system to ascertain physical access to data centers was designed to be granted after an approval by an authorized individual.<br>Result: No deviations noted.</li> <li>Test: Selected a user whose data center access was provisioned during the period and inspected the data center physical access provisioning records to ascertain physical access was granted after it was approved by an authorized individual.<br>Result: No deviations noted.</li> </ul> AWSCA-5.2: <ul> <li>Test: Inquired of an AWS Security Technical Program Manager to ascertain physical access was automatically revoked within 24 hours of the employee or vendor record being deactivated.<br>Result: No deviations noted.</li> <li>Test: Inspected the system configurations within the data center access management system to ascertain physical access was automatically revoked within 24 hours of the employee or vendor record being deactivated in the HR system.<br>Result: No deviations noted.</li> <li>Test: Selected a terminated employee and inspected the HR System record to ascertain physical access was systematically revoked within 24 hours of the employee record being deactivated in the HR system by the access provisioning system.<br>Result: No deviations noted.</li> </ul> AWSCA-5.3:<ul><li</li></ul> AWSCA-5.4: <ul> <li>Test: Inquired of an AWS Security Technical Program Manager and Data Center Operations Managers to ascertain physical access points to server locations were monitored by a closed circuit television camera (CCTV) and that images were retained for 90 days unless limited by legal or contractual obligations.<br>Result: No deviations noted.</li> <li>Test: Selected a sample of data centers, observed areas around access points to server locations, and ascertained CCTV cameras were placed to record physical access points to server locations.<br>Result: No deviations noted.</li> <li>Test: Selected a sample of CCTV cameras and observed the CCTV footage, to ascertain physical access points to server locations were recorded.<br>Result: No deviations noted.</li> <li>Test: Selected a sample of server locations and inspected the network video recorder configuration to ascertain CCTV images were retained for 90 days, unless limited by legal or contractual obligations.<br>Result: No deviations noted.</li> </ul> AWSCA-5.5: <ul> <li>Test: Inquired of an AWS Security Technical Program Manager and Data Center Operations Managers to ascertain physical access points to server locations were managed by electronic access control devices.<br>Result: No deviations noted.</li> <li>Test: Selected a sample of physical access points to server locations for a sample of data centers, and observed electronic access control devices or inspected the physical security access control configurations to ascertain electronic access control devices were installed at physical access points to server locations and that they required authorized Amazon badges with corresponding PINs to enter server locations.<br>Result: No deviations noted.</li> </ul>"
+                  },
+                  {
+                    "statement-id": "cpg234-para46-c",
+                    "uuid": "9359ae71-eee9-4b31-a6e6-cca0990e4dcc",
+                    "description": " AWSCA-5.7: <ul> <li>Test: Inquired of Data Center Operations Managers to ascertain Amazon-owned data centers were protected by fire detection and fire suppression systems.<br>Result: No deviations noted.</li> <li>Test: Selected a sample of Amazon-owned data centers and observed on-premise fire detection systems to ascertain they were located on premise at the data centers.<br>Result: No deviations noted.</li> <li>Test: Selected a sample of Amazon-owned data centers and observed on-premise  fire suppression devices to ascertain they were located on premise at the data centers.<br>Result: No deviations noted.</li> </ul> AWSCA-5.8: <ul> <li>Test: Inquired of Data Center Operations Managers to ascertain Amazon-owned data centers were air conditioned to maintain appropriate atmospheric conditions and that the units were monitored by personnel and systems to control air temperature and humidity at appropriate levels.<br>Result: No deviations noted.</li> <li>Test: Selected a sample of Amazon-owned data centers and observed on-premise air-conditioning systems ascertain they monitored and controlled temperature and humidity at appropriate levels.<br>Result: No deviations noted.</li> </ul> AWSCA-5.11: <ul> <li>Test: Inquired of AWS Legal Corporate Counsel to ascertain contracts were in place at the colocation service providers which included provisions for fire suppression systems, air conditioning, UPS units, and redundant power supplies as well as provisions requiring communication of incidents or events that impact Amazon assets or customers to AWS.<br>Result: No deviations noted.</li> <li>Test: Selected a sample of data centers managed by colocation service providers and inspected the current contractual agreements between service providers and AWS to ascertain they included provisions for fire suppression systems, air conditioning, UPS units, and redundant power supplies as well as provisions requiring colocation service providers to notify Amazon immediately of discovery of any unauthorized use or disclosure of confidential information or any other breach.<br>Result: No deviations noted.</li> <li>Test: Selected a sample of ACE sites and inspected site monitoring outputs to ascertain that ACE sites were monitored in the event of a crossed threshold or outage.<br>Result: No deviations noted.</li> <li>Test: Haphazardly selected an ACE site and inspected an incident ticket automatically raised by a monitoring configuration to ascertain the incident was tracked through to resolution.<br>Result: No deviations noted.</li> </ul> "
+                  },
+                  {
+                    "statement-id": "cpg234-para46-d",
+                    "uuid": "301f3176-b8d0-4cec-8ea7-6c7db6f2541d",
+                    "description": "AWSCA-5.6: <ul> <li>Test: Inquired of an AWS Security Technical Program Manager and Data Center Operations Managers to ascertain electronic intrusion detection systems were installed and capable of detecting breaches into data center server locations.<br>Result: No deviations noted.</li> <li>Test: Selected a sample of data centers, and observed on-premise electronic intrusion detection systems or inspected the physical security access control configurations to ascertain electronic intrusion detection systems were installed, that they were capable of detecting intrusion attempts, and that they automatically alerted security personnel of detected events for investigation and resolution.<br>Result: No deviations noted.</li> </ul> AWSCA-5.11: <ul> <li>Test: Inquired of AWS Legal Corporate Counsel to ascertain contracts were in place at the colocation service providers which included provisions for fire suppression systems, air conditioning, UPS units, and redundant power supplies as well as provisions requiring communication of incidents or events that impact Amazon assets or customers to AWS.<br>Result: No deviations noted.</li> <li>Test: Selected a sample of data centers managed by colocation service providers and inspected the current contractual agreements between service providers and AWS to ascertain they included provisions for fire suppression systems, air conditioning, UPS units, and redundant power supplies as well as provisions requiring colocation service providers to notify Amazon immediately of discovery of any unauthorized use or disclosure of confidential information or any other breach.<br>Result: No deviations noted.</li> <li>Test: Selected a sample of ACE sites and inspected site monitoring outputs to ascertain that ACE sites were monitored in the event of a crossed threshold or outage.<br>Result: No deviations noted.</li> <li>Test: Haphazardly selected an ACE site and inspected an incident ticket automatically raised by a monitoring configuration to ascertain the incident was tracked through to resolution.<br>Result: No deviations noted.</li> </ul> "
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "9403e20b-690b-4ecb-b5d0-81522f7756b1",
+          "description": "APRA CPS234 controls that apply to AWS at the vendor level",
+          "rlinks": [
+            {
+              "href": "https://raw.githubusercontent.com/paulJRCurtis/oscal-content/main/cps234/profile.cps234.aws.json",
+              "media-type": "application/oscal.profile+json"
+            }
+          ]
+
+        }
       ]
     }
-  ]
-
   }
 }
