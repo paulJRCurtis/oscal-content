@@ -5,7 +5,29 @@
       "title": "APRA CPS234 Information Security July 2019",
       "last-modified": "2022-11-25T12:32:36+11:00",
       "version": "0.0.1",
-      "oscal-version": "1.0.4"
+      "oscal-version": "1.0.4",
+      "roles": [
+        {
+          "id": "author",
+          "title": "OSCAL Document Author"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d274304e-8c6f-4ddf-899e-4a537d36eb0c",
+          "type": "person",
+          "name": "Paul Curtis",
+          "email-addresses": [
+            "p_curtis@me.com", "test@test.com"
+          ]
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "author",
+          "party-uuids": ["d274304e-8c6f-4ddf-899e-4a537d36eb0c"]
+        }
+      ]
     },
     "groups": [
       {

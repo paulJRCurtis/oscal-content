@@ -2,7 +2,7 @@
   "system-security-plan": {
     "uuid": "050f9d1a-f4f2-4226-9c6b-730cb87242fb",
     "metadata": {
-      "title": "System Security Plan - Mortgage Application - Web App",
+      "title": "System Security Plan - Mortgage Application",
       "last-modified": "2022-12-01T06:40:58+11:00",
       "version": "0.0.1",
       "oscal-version": "1.0.4",
@@ -43,6 +43,12 @@
             "categorizations": [
               {
                 "system": "https://github.com/paulJRCurtis/oscal-content/blob/main/references/Data_Classification_Standard_v001.pdf"
+              }
+            ],
+            "props": [
+              {
+                "name": "owner",
+                "value": "Jane Doe - General Manager Mortgages"
               }
             ],
             "confidentiality-impact": {
