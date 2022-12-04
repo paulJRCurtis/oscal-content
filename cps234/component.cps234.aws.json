@@ -117,7 +117,7 @@
           {
             "uuid": "b194a73c-6d22-4b9e-9d11-315756080972",
             "source": "#9403e20b-690b-4ecb-b5d0-81522f7756b1",
-            "description": "CPS234 Control Verification - The CPS234 controls specified in the profile are those that have been identified as applying to AWS at a vendor or 'OF the cloud' level. The controls listed are the AWSCA controls as listed in the SOC2 Report with the results of the tests performed by the auditor.",
+            "description": "CPS234 Control Validation - The CPS234 controls specified in the profile are those that have been identified as applying to AWS at a vendor or 'OF the cloud' level. The controls listed are the AWSCA controls as listed in the SOC2 Report with the results of the tests performed by the auditor.",
             "implemented-requirements": [
               {
                 "uuid": "522260e7-3474-40b2-9b00-21de72baf72a",
