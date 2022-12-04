@@ -8,8 +8,12 @@
       "oscal-version": "1.0.4",
       "roles": [
         {
-          "id": "provider",
-          "title": "Provider"
+          "id": "author",
+          "title": "Document Author"
+        },
+        {
+          "id": "service-provider",
+          "title": "Service Provider"
         },
         {
           "id": "auditor",
@@ -34,6 +38,11 @@
       ],
       "parties": [
         {
+          "uuid": "52e49fe3-72f8-4fe9-a1af-e2df77e1513b",
+          "type": "person",
+          "name": "Paul Curtis"
+        },
+        {
           "uuid": "549c00b7-b8d0-4a9b-b63b-989fe79019dd",
           "type": "organization",
           "name": "AWS",
@@ -44,14 +53,25 @@
           "type": "organization",
           "name": "Ernst & Young"
         }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "author",
+          "party-uuids": ["52e49fe3-72f8-4fe9-a1af-e2df77e1513b"]
+        },
+        {
+          "role-id": "service-provider",
+          "party-uuids": ["549c00b7-b8d0-4a9b-b63b-989fe79019dd"]
+        }
       ]
+
     },
     "components": [
       {
         "uuid": "c7c42263-bc9b-4fe3-808a-7da73ed8fa97",
         "type": "standard",
         "title": "APRA CPS234 Compliance",
-        "description": "",
+        "description": "Compliance requirements as per CPS234 and the related guidance CPG234",
         "links": [
           {
             
@@ -61,7 +81,7 @@
         ],
         "responsible-roles": [
           {
-            "role-id": "provider",
+            "role-id": "service-provider",
             "party-uuids": ["549c00b7-b8d0-4a9b-b63b-989fe79019dd"]
           }
         ],
