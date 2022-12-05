@@ -198,10 +198,10 @@
           ]
         },
         {
-          "uuid": "d7ba11ef-4d30-4a00-b56c-cde48ec4d175",
+          "uuid": "6c458520-dbe7-4b74-a1c2-7411acf52981",
           "type": "service",
-          "title": "Internet Gateway",
-          "description": "An Internet Gateway attached to the VPC; A public route table routing internet traffic to the Internet Gateway, and two private route tables routing traffic internally within the VPC.",
+          "title": "APRA CPS234 Compliance",
+          "description": "Compliance requirements as per CPS234 and the related guidance CPG234",
           "status": {
             "state": "operational"
           }
@@ -211,15 +211,6 @@
           "type": "service",
           "title": "S3 - Application Storage",
           "description": "An Amazon Simple Storage Service (Amazon S3) bucket to store the application and framework artifacts, images, scripts and configuration files that are referenced by any new Tomcat application server instances provisioned by automatic scaling",
-          "status": {
-            "state": "operational"
-          }
-        },
-        {
-          "uuid": "e02680ad-e319-46f8-933d-731dfe4be902",
-          "type": "service",
-          "title": "MySQL RDS - Transactional and Customer Datastores",
-          "description": "A MySQL Amazon Relational Database Service (Amazon RDS) Multi-AZ deployment for MySQL RDS to store the; mortgage applications, customer data, mortgage product tables, contact management and role access tables",
           "status": {
             "state": "operational"
           }
@@ -266,9 +257,9 @@
           ],
           "by-components": [
             {
-              "component-uuid": "d7ba11ef-4d30-4a00-b56c-cde48ec4d175",
+              "component-uuid": "6c458520-dbe7-4b74-a1c2-7411acf52981",
               "uuid": "77600289-9316-46bb-820e-b055cf5ce587",
-              "description": "Internet Gateway implementation of data centre physical and environmental controls",
+              "description": "Data centre physical and environmental controls",
               "implementation-status": {
                 "state": "implemented"
               }
