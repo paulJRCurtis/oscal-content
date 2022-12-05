@@ -18,7 +18,7 @@
           "type": "person",
           "name": "Mary Smith",
           "email-addresses": ["mary.smith@organisation.com"],
-          "remarks": "Policy owner of the Data encryption policy. Policy Owner must be Line 2 Risk/Info Sec."
+          "remarks": "Policy owner of the Data Encryption Policy. Policy Owner must be Line 2 Risk/Info Sec."
         }
       ]
     },
@@ -63,7 +63,7 @@
           },
           {
             "title": "Mortgage Product Information",
-            "description": "Product rates, terms and disclosure statements",
+            "description": "Product rates, terms and disclosure statements.",
             "categorizations": [
               {
                 "system": "https://github.com/paulJRCurtis/oscal-content/blob/main/references/Data_Classification_Standard_v001.pdf"
@@ -76,7 +76,7 @@
               "base": "high"
             },
             "availability-impact": {
-              "base": "moderate"
+              "base": "low"
             }
           }
         ]
@@ -111,8 +111,8 @@
       "users": [
         {
           "uuid": "d042a45e-cf4f-4d92-ac89-c39579f73dd6",
-          "title": "customers",
-          "description": "",
+          "title": "Customers",
+          "description": "End customers lodging selecting a mortgage product, lodging and tracking their application.",
           "props": [
             {
               "name": "type",
@@ -122,8 +122,8 @@
         },
         {
           "uuid": "c5633776-44c4-416b-8292-4fc1ef1df27d",
-          "title": "mortgage product owner",
-          "description": "",
+          "title": "Mortgage Product Owner",
+          "description": "Responsible for maintenance of mortgage product information.",
           "role-ids": [
             "product-admin"
           ],
@@ -136,8 +136,22 @@
         },
         {
           "uuid": "fa161a88-77be-4041-93e5-acf94011e353",
-          "title": "system owner",
-          "description": "",
+          "title": "Mortgage Operations",
+          "description": "Responsible for any manual processing and exception handling of applications.",
+          "role-ids": [
+            "sys-ops"
+          ],
+          "props": [
+            {
+              "name": "type",
+              "value": "internal"
+            }
+          ]
+        },
+        {
+          "uuid": "7fdae384-07ee-49fd-93ee-0d76e1286547",
+          "title": "System Administrator",
+          "description": "Responsible for the maintenance of the system. No production access.",
           "role-ids": [
             "sys-admin"
           ],
@@ -157,7 +171,8 @@
           "description": "Specifies the encryption standards required by information asset classification. Identifies who is responsible/accountable for performing these functions",
           "links": [
             {
-              "href": "#7cba7205-82b5-4e08-b74e-ab091a23f863"
+              "href": "#7cba7205-82b5-4e08-b74e-ab091a23f863",
+              "rel": "reference"
             }
           ],
           "status": {

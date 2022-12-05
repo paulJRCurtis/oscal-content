@@ -730,7 +730,7 @@
             "controls": [
               {
                 "id": "ic-cry-1",
-                "title": "Encryption in storage and in transit",
+                "title": "Encryption in-storage and in-transit",
                 "parts": [
                   {
                     "id": "ic-cry-1_obj",
