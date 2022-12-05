@@ -1,0 +1,36 @@
+{
+  "assessment-plan": {
+    "uuid": "884253f7-126e-44a0-b123-09b1b5993b69",
+    "metadata": {
+      "title": "CPS234 Assessment Plan for Mortgage App",
+      "last-modified": "2022-12-05T14:41:22+11:00",
+      "version": "0.0.1",
+      "oscal-version": "1.0.4"
+    },
+    "import-ssp": {
+      "href": "#61715e27-a7ec-42d2-80b0-6c9e29f7f0c7"
+    },
+    "reviewed-controls": {
+      "control-selections": [
+        {
+          "include-all": {}
+        }
+      ]
+    },
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "61715e27-a7ec-42d2-80b0-6c9e29f7f0c7",
+          "title": "CPS234 SSP for Mortgages App",
+          "rlinks": [
+            {
+              "href": "/Users/paucurt/projects/oscal-content/cps234/ssp.cps234.mortgages-app.json",
+              "media-type": "application/oscal.ssp+json"
+            }
+          ]
+        }
+        
+      ]
+    }
+  }
+}

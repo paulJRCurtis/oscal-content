@@ -1,0 +1,17 @@
+{
+  "plan-of-action-and-milestones": {
+    "uuid": "39862264-9139-4413-8708-396c44299041",
+    "metadata": {
+      "title": "CPS234 Plan of Action and Milestones for Mortgage App",
+      "last-modified": "2022-12-05T15:30:46+11:00",
+      "version": "0.0.1",
+      "oscal-version": "1.0.4"
+    },
+    "poam-items": [
+      {
+        "title": "",
+        "description": ""
+      }
+    ]
+  }
+}
