@@ -166,7 +166,7 @@
     },
     "control-implementation": 
     {
-      "description": "",
+      "description": "Implemented controls",
       "implemented-requirements": [
         {
           "uuid": "22715bb3-f37c-471c-8e3d-50893f365768",
