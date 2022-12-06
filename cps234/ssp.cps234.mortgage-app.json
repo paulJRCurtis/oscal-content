@@ -10,6 +10,10 @@
         {
           "id": "policy-owner",
           "title": "Policy Owner"
+        },
+        {
+          "id": "data-asset-owner",
+          "title": "Data Asset Owner"
         }
       ],
       "parties": [
@@ -19,6 +23,13 @@
           "name": "Mary Smith",
           "email-addresses": ["mary.smith@organisation.com"],
           "remarks": "Policy owner of the Data Encryption Policy. Policy Owner must be Line 2 Risk/Info Sec."
+        },
+        {
+          "uuid": "0bb63558-f3b1-4ccc-96b1-ba54291fdda8",
+          "type": "person",
+          "name": "Jane Doe",
+          "email-addresses": ["jane.doe@organisation.com"],
+          "remarks": "General Manager Mortgages."
         }
       ]
     },
@@ -34,8 +45,32 @@
       ],
       "system-name": "Customer Mortgage Application - web app hosted on AWS",
       "description": "The solution is comprised of the following components: <ul><li>A VPC across two Availability Zones</li> <li>Two public subnets, two private app subnets, and two private DB subnets</li> <li>An Internet Gateway attached to the VPC</li> <ul><li>A public route table routing internet traffic to the Internet Gateway</li> <li>Two private route tables routing traffic internally within the VPC</li></ul> <li>A frontend web server application Elastic Load Balancing that routes traffic to the Apache Web Servers</li> <li>An Auto Scaling group that launches additional Apache Web Servers based on defined scaling policies. Each instance of the web server is based on a launch template, which defines the same configuration for each new web server.</li> <li>A hosted zone in Amazon Route 53 with a domain name that routes to the frontend web server Elastic Load Balancing</li> <li>An application Elastic Load Balancing that routes traffic to the Tomcat application servers</li> <li>An Auto Scaling group that launches additional Tomcat Application Servers based on defined scaling policies. Each instance of the Tomcat application server is based on a launch template, which defines the same configuration and software components for each new application server</li> <li>A Redis cache cluster with a primary and replica node to store session data after the user has authenticated, making your application servers stateless</li> <li>A Redis open-source Java client, with a Tomcat Session Manager implementation to store authenticated user session data in Redis cache</li> <li>A MySQL Amazon Relational Database Service (Amazon RDS) Multi-AZ deployment for MySQL RDS to store the contact management and role access tables</li> <li>An Amazon Simple Storage Service (Amazon S3) bucket to store the application and framework artifacts, images, scripts and configuration files that are referenced by any new Tomcat application server instances provisioned by automatic scaling</li> <li>Amazon Cognito with a sign-up Lambda function to register users and insert a corresponding entry in the user account tables. Cognito acts as an identity provider and performs the user authentication using an OpenID Connect Authenticator Java component.</li></ul> ",
+      "props": [
+        {
+          "name": "apra-risk-rating",
+          "value": "heightened inherent risk"
+        },
+        {
+          "name": "cloud-deployment-model",
+          "value": "public"
+        }
+      ],
       "security-sensitivity-level": "high",
       "system-information": {
+        "props": [
+          {
+            "name": "privacy-designation",
+            "value": "yes"
+            
+          }
+        ],
+        "links": [
+          {
+            "rel": "privacy-impact-assessment",
+            "href": "",
+            "media-type": "application/pdf"
+          }
+        ],
         "information-types": [
           {
             "title": "Customer Mortgage Application",
@@ -47,8 +82,8 @@
             ],
             "props": [
               {
-                "name": "owner",
-                "value": "Jane Doe - General Manager Mortgages"
+                "name": "data-asset-owner",
+                "value": "#0bb63558-f3b1-4ccc-96b1-ba54291fdda8"
               }
             ],
             "confidentiality-impact": {
@@ -67,6 +102,12 @@
             "categorizations": [
               {
                 "system": "https://github.com/paulJRCurtis/oscal-content/blob/main/references/Data_Classification_Standard_v001.pdf"
+              }
+            ],
+            "props": [
+              {
+                "name": "data-asset-owner",
+                "value": "#0bb63558-f3b1-4ccc-96b1-ba54291fdda8"
               }
             ],
             "confidentiality-impact": {
@@ -287,7 +328,8 @@
             "text": "Armstrong, Rick (2022) How to re-platform and modernize Java web applications on AWS",
             "links": [
               {
-                "href": "https://aws.amazon.com/blogs/compute/re-platform-java-web-applications-on-aws/"
+                "href": "https://aws.amazon.com/blogs/compute/re-platform-java-web-applications-on-aws/",
+                "media-type": "text/html"
               }
             ]
           },
