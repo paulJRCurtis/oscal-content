@@ -134,7 +134,7 @@
         "description": "The authorization boundary incudes the system components as shown on the system architecture for the production environment. The authorization boundary does not include non-production environments as synthetic data is used in these environments. The authorization boundary does not include; external identity providers, backend customer stores, external product data stores, or other external systems."
       },
       "network-architecture": {
-        "description": "Architecture diagram for AWS hosted three tier web app",
+        "description": "Architecture diagram for AWS hosted three tier web application.",
         "diagrams": [
           {
             "uuid": "c802d950-ccb9-442e-b5c1-d31782b906ef",
@@ -335,7 +335,7 @@
           },
           "rlinks": [
             {
-              "href": "/Users/paucurt/projects/oscal-content/cps234/profile.cps234.3p-system.json",
+              "href": "/resources/aws.three-tier-web-app.png",
               "media-type": "image/png"
             }
           ]
