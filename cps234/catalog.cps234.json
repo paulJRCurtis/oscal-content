@@ -1320,6 +1320,9 @@
         {
           "uuid": "373725f0-a8ac-48ec-b617-eada353569de",
           "title": "APRA CPS234 - Information Security",
+          "citation": {
+            "text": "APRA (2019) Prudential Standard CPS 234 Information Security Sydney"
+          },
           "rlinks": [
             {
               "href": "https://www.apra.gov.au/sites/default/files/cps_234_july_2019_for_public_release.pdf",
@@ -1330,6 +1333,9 @@
         {
           "uuid": "7767ba71-dc3a-4409-90a5-886e6bf7a06d",
           "title": "APRA CPG234 - Information Security",
+          "citation": {
+            "text": "APRA (2019) Prudential Practice Guide: CPG 234 Information Security Sydney"
+          },
           "rlinks": [
             {
               "href": "https://www.apra.gov.au/sites/default/files/cpg_234_information_security_june_2019_0.pdf",
@@ -1340,6 +1346,9 @@
         {
           "uuid": "0268e1ec-46cb-4d64-9609-4b7d8e162f5a",
           "title": "APRA CPG234 - Attachment A: Security principles",
+          "citation": {
+            "text": "APRA (2019) Prudential Practice Guide: CPG 234 Information Security Sydney"
+          },
           "rlinks": [
             {
               "href": "https://raw.githubusercontent.com/paulJRCurtis/oscal-content/main/cps234/cpg234.attachment-a.html",
@@ -1349,7 +1358,10 @@
         },
         {
           "uuid": "16deec76-a574-48eb-9d04-e895d1a2de41",
-          "title": "APRA CPG234 - Attachment B: Training and awaremess",
+          "title": "APRA CPG234 - Attachment B: Training and awareness",
+          "citation": {
+            "text": "APRA (2019) Prudential Practice Guide: CPG 234 Information Security Sydney"
+          },
           "rlinks": [
             {
               "href": "cpg234.attachment-b.html",
@@ -1360,6 +1372,9 @@
         {
           "uuid": "a3a46824-6d07-4354-acd3-1262166d3dda",
           "title": "APRA CPG234 - Attachment C: Identity and access",
+          "citation": {
+            "text": "APRA (2019) Prudential Practice Guide: CPG 234 Information Security Sydney"
+          },
           "rlinks": [
             {
               "href": "cpg234.attachment-c.html",
@@ -1370,6 +1385,9 @@
         {
           "uuid": "d51d18c9-aa94-4e75-a4a2-b4e5f9ca73be",
           "title": "APRA CPG234 - Attachment D: Software security",
+          "citation": {
+            "text": "APRA (2019) Prudential Practice Guide: CPG 234 Information Security Sydney"
+          },
           "rlinks": [
             {
               "href": "cpg234.attachment-d.html",
@@ -1380,6 +1398,9 @@
         {
           "uuid": "912156d0-ee32-475d-906a-197fb80192ed",
           "title": "APRA CPG234 - Attachment E: Cryptographic techniques",
+          "citation": {
+            "text": "APRA (2019) Prudential Practice Guide: CPG 234 Information Security Sydney"
+          },
           "rlinks": [
             {
               "href": "cpg234.attachment-e.html",
@@ -1390,6 +1411,9 @@
         {
           "uuid": "0174b59c-36bb-48b0-a7e4-fdca1954023e",
           "title": "APRA CPG234 - Attachment F: Customer security",
+          "citation": {
+            "text": "APRA (2019) Prudential Practice Guide: CPG 234 Information Security Sydney"
+          },
           "rlinks": [
             {
               "href": "cpg234.attachment-f.html",
@@ -1400,6 +1424,9 @@
         {
           "uuid": "dbc14d36-d463-420e-9709-1bc4df014c89",
           "title": "APRA CPG234 - Attachment G: Testing techniques",
+          "citation": {
+            "text": "APRA (2019) Prudential Practice Guide: CPG 234 Information Security Sydney"
+          },
           "rlinks": [
             {
               "href": "cpg234.attachment-g.html",
@@ -1410,6 +1437,9 @@
         {
           "uuid": "a405ec0d-0b81-4d19-9903-bae2d1c2e400",
           "title": "APRA CPG234 - Attachment H: Reporting",
+          "citation": {
+            "text": "APRA (2019) Prudential Practice Guide: CPG 234 Information Security Sydney"
+          },
           "rlinks": [
             {
               "href": "/resources/cpg234.attachment-h.html",
