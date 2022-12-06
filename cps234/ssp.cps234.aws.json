@@ -259,7 +259,7 @@
           "description": "APRA CPS234 Profile - Third party hosted system",
           "rlinks": [
             {
-              "href": "/Users/paucurt/projects/oscal-content/cps234/profile.cps234.3p-system.json",
+              "href": "/Users/paucurt/projects/oscal-content/cps234/profile.cps234.aws.json",
               "media-type": "application/oscal.profile+json"
             }
           ]
