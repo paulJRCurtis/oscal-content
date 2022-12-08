@@ -33,10 +33,12 @@
       {
         "id": "rr",
         "title": "Roles and responsibilities",
+        "class": "group",
         "groups": [
           {
             "id": "rr-bur",
             "title": "Board ultimate responsibility",
+            "class": "subgroup",
             "controls": [
               {
                 "id": "rr-bur-1",
@@ -66,6 +68,7 @@
           {
             "id": "rr-bd",
             "title": "Board delegations",
+            "class": "subgroup",
             "controls": [
               {
                 "id": "rr-bd-1",
@@ -89,6 +92,7 @@
           {
             "id": "rr-drr",
             "title": "Clearly defined roles and responsibilities",
+            "class": "subgroup",
             "controls": [
               {
                 "id": "rr-drr-1",
@@ -123,6 +127,7 @@
           {
             "id": "rr-sti",
             "title": "Sufficient and timely information",
+            "class": "subgroup",
             "controls": [
               {
                 "id": "rr-sti-1",
@@ -153,10 +158,12 @@
       {
         "id": "isc",
         "title": "Information security capability",
+        "class": "group",
         "groups": [
           {
             "id": "isc-asc",
             "title": "Assessing sufficiency of capability",
+            "class": "subgroup",
             "controls": [
               {
                 "id": "isc-asc-1",
@@ -184,6 +191,7 @@
           {
             "id": "isc-ctp",
             "title": "Capability of third parties and related parties",
+            "class": "subgroup",
             "controls": [
               {
                 "id": "isc-ctp-1",
@@ -223,6 +231,7 @@
           {
             "id": "isc-afi",
             "title": "Adaptive and forward-looking investment",
+            "class": "subgroup",
             "controls": [
               {
                 "id": "isc-afi-1",
@@ -247,10 +256,12 @@
       {
         "id": "pf",
         "title": "Policy framework",
+        "class": "group",
         "groups": [
           {
             "id": "pf-php",
             "title": "A policy hierarchy informed by a set of key principles",
+            "class": "subgroup",
             "controls": [
               {
                 "id": "pf-php-1",
@@ -297,6 +308,7 @@
           {
             "id": "pf-rr",
             "title": "Roles and responsibilities",
+            "class": "subgroup",
             "controls": [
               {
                 "id": "pf-rr-1",
@@ -321,6 +333,7 @@
           {
             "id": "pf-eh",
             "title": "Exemption handling",
+            "class": "subgroup",
             "controls": [
               {
                 "id": "pf-eh-1",
@@ -362,10 +375,12 @@
       {
         "id": "iac",
         "title": "Information asset identification and classification",
+        "class": "group",
         "groups": [
           {
             "id": "iac-ccs",
             "title": "Classification of all information assets by criticality and sensitivity",
+            "class": "subgroup",
             "controls": [
               {
                 "id": "iac-ccs-1",
@@ -398,6 +413,7 @@
           {
             "id": "iac-cm",
             "title": "Classification methodology",
+            "class": "subgroup",
             "controls": [
               {
                 "id": "iac-cm-1",
@@ -437,6 +453,7 @@
       {
         "id": "ic",
         "title": "Implementation of controls",
+        "class": "group",
         "controls": [
           {
             "id": "ic-1",
@@ -461,6 +478,7 @@
           {
             "id": "ic-ias",
             "title": "Information security controls implemented at all stages",
+            "class": "subgroup",
             "controls": [
               {
                 "id": "ic-ias-1",
@@ -504,6 +522,7 @@
           {
             "id": "ic-vm",
             "title": "Vulnerabilities and threats are identified, assessed and remediated",
+            "class": "subgroup",
             "controls": [
               {
                 "id": "ic-vm-1",
@@ -521,6 +540,7 @@
           {
             "id": "ic-eol",
             "title": "End-of-life and out-of-support issues",
+            "class": "subgroup",
             "controls": [
               {
                 "id": "ic-eol-1",
@@ -553,6 +573,7 @@
           {
             "id": "ic-sa",
             "title": "Minimise exposure to plausible worst case scenarios",
+            "class": "subgroup",
             "controls": [
               {
                 "id": "ic-sa-1",
@@ -575,6 +596,7 @@
           {
             "id": "ic-pec",
             "title": "Physical and environmental controls",
+            "class": "subgroup",
             "controls": [
               {
                 "id": "ic-pec-1",
@@ -666,6 +688,7 @@
           {
             "id": "ic-scm",
             "title": "Security in change management",
+            "class": "subgroup",
             "controls": [
               {
                 "id": "ic-scm-1",
@@ -689,6 +712,7 @@
           {
             "id": "ic-ss",
             "title": "Software security",
+            "class": "subgroup",
             "controls": [
               {
                 "id": "ic-ss-1",
@@ -717,6 +741,7 @@
           {
             "id": "ic-dl",
             "title": "Data leakage",
+            "class": "subgroup",
             "controls": [
               {
                 "id": "ic-dl-1",
@@ -749,6 +774,7 @@
           {
             "id": "ic-cry",
             "title": "Cryptographic techniques to restrict access",
+            "class": "subgroup",
             "controls": [
               {
                 "id": "ic-cry-1",
@@ -794,6 +820,7 @@
           {
             "id": "ic-sts",
             "title": "Information security technology solutions",
+            "class": "subgroup",
             "controls": [
               {
                 "id": "ic-sts-1",
@@ -811,6 +838,7 @@
           {
             "id": "ic-edt",
             "title": "End-user developed/configured software",
+            "class": "subgroup",
             "controls": [
               {
                 "id": "ic-edt-1",
@@ -838,6 +866,7 @@
           {
             "id": "ic-et",
             "title": "Emerging technologies",
+            "class": "subgroup",
             "controls": [
               {
                 "id": "ic-et-1",
@@ -865,6 +894,7 @@
           {
             "id": "ic-tp",
             "title": "Information assets managed by third parties and related parties",
+            "class": "subgroup",
             "controls": [
               {
                 "id": "ic-tp-1",
@@ -906,10 +936,12 @@
       {
         "id": "im",
         "title": "Incident management",
+        "class": "group",
         "groups": [
           {
             "id": "im-dsc",
             "title": "Detection of security compromises",
+            "class": "subgroup",
             "controls": [
               {
                 "id": "im-dsc-1",
@@ -947,6 +979,7 @@
           {
             "id": "im-rsc",
             "title": "Response to a security compromise",
+            "class": "subgroup",
             "controls": [
               {
                 "id": "im-rsc-1",
@@ -979,6 +1012,7 @@
           {
             "id": "im-sis",
             "title": "Information security incident stages",
+            "class": "subgroup",
             "controls": [
               {
                 "id": "im-sis-1",
@@ -1001,6 +1035,7 @@
           {
             "id": "im-irt",
             "title": "Incident response testing",
+            "class": "subgroup",
             "controls": [
               {
                 "id": "im-irt-1",
@@ -1023,6 +1058,7 @@
           {
             "id": "im-tp",
             "title": "Third parties and related parties",
+            "class": "subgroup",
             "controls": [
               {
                 "id": "im-to-1",
@@ -1045,6 +1081,7 @@
           {
             "id": "im-bcm",
             "title": "Integration with business continuity and crisis management",
+            "class": "subgroup",
             "controls": [
               {
                 "id": "im-bcm-1",
@@ -1064,10 +1101,12 @@
       {
         "id": "tce",
         "title": "Testing control effectiveness",
+        "class": "group",
         "groups": [
           {
             "id": "tce-stp",
             "title": "Systematic testing program",
+            "class": "subgroup",
             "controls": [
               {
                 "id": "tce-stp-1",
@@ -1123,6 +1162,7 @@
           {
             "id": "tce-iot",
             "title": "Independence of testers",
+            "class": "subgroup",
             "controls": [
               {
                 "id": "ce-iot-1",
@@ -1145,6 +1185,7 @@
           {
             "id": "tce-tpt",
             "title": "Third party testing",
+            "class": "subgroup",
             "controls": [
               {
                 "id": "tce-tpt-1",
@@ -1169,6 +1210,7 @@
           {
             "id": "tce-tpr",
             "title": "Testing program review",
+            "class": "subgroup",
             "controls": [
               {
                 "id": "tce-tpr-1",
@@ -1188,10 +1230,12 @@
       {
         "id": "ia",
         "title": "Internal Audit",
+        "class": "group",
         "groups": [
           {
             "id": "ia-atb",
             "title": "Assurance to the Board",
+            "class": "subgroup",
             "controls": [
               {
                 "id": "ia-atb",
@@ -1224,6 +1268,7 @@
           {
             "id": "ia-tp",
             "title": "Use of assurance reports from third parties",
+            "class": "subgroup",
             "controls": [
               {
                 "id": "ia-tp-1",
@@ -1253,6 +1298,7 @@
           {
             "id": "ia-asp",
             "title": "appropriately skilled personnel",
+            "class": "subgroup",
             "controls": [
               {
                 "id": "ia-asp-1",
@@ -1272,10 +1318,12 @@
       {
         "id": "an",
         "title": "APRA notification",
+        "class": "group",
         "groups": [
           {
             "id": "an-232",
             "title": "Interaction between CPS 232 and CPS 234 notifications",
+            "class": "subgroup",
             "controls": [
               {
                 "id": "an-232-1",
@@ -1293,6 +1341,7 @@
           {
             "id": "an-not",
             "title": "CPS 234 notifications",
+            "class": "subgroup",
             "controls": [
               {
                 "id": "an-not-1",
