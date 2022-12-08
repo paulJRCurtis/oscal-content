@@ -440,7 +440,7 @@
         "controls": [
           {
             "id": "ic-1",
-            "title": "comensurate information security controls",
+            "title": "commensurate information security controls",
             "parts": [
               {
                 "id": "cps234-para21",
@@ -572,7 +572,6 @@
               }
             ]
           },
-          
           {
             "id": "ic-pec",
             "title": "Physical and environmental controls",
@@ -582,60 +581,55 @@
                 "title": "Physical and environmental controls",
                 "parts": [
                   {
+                    "name": "statement",
+                    "prose": "The absence of physical and environmental controls can compromise the effectiveness of other information security controls. An APRA-regulated entity would typically have in place the following physical and environmental controls (commonly through professionally managed data centres as part of third party or related party arrangements):"
+                  },
+                  {
                     "id": "ic-pec-1_obj",
                     "name": "objective",
                     "prose": "Ensure the secure and on-going operation of facilities."
-                  },
+                  }
+                ],
+                "controls": [
                   {
-                    "id": "cpg234-para46",
-                    "name": "guidance",
+                    "id": "cpg234-para46-a",
+                    "title": "protection from natural and man-made threats",
                     "parts": [
                       {
-                        "id": "cpg234-para46-a",
-                        "name": "item",
-                        "props": [
-                          {
-                            "name": "label",
-                            "value": "a."
-                          }
-                        ],
+                        "name": "guidance",
                         "prose": "location and building facilities that provide a level of protection from natural and man-made threats. This includes diversity of access to key utility services such as power and telecommunications, as well as fall-back mechanisms where access to the key utility service has failed (e.g. generators, Uninterrupted Power Supply (UPS) devices and alternate telecommunication connections);"
-                      },
+                      }
+                    ]
+                  },
+                  {
+                    "id": "cpg234-para46-b",
+                    "title": "physical access controls",
+                    "parts": [
                       {
-                        "id": "cpg234-para46-b",
-                        "name": "item",
-                        "props": [
-                          {
-                            "name": "label",
-                            "value": "b."
-                          }
-                        ],
+                        "name": "guidance",
                         "prose": "physical access controls that protect the site perimeter, building, data room and computing racks. Common controls include gates, locks and procedures for granting and reviewing access by staff, third party providers and visitors;"
-                      },
+                      }
+                    ]
+                  },
+                  {
+                    "id": "cpg234-para46-c",
+                    "title": "environmental controls",
+                    "parts": [
                       {
-                        "id": "cpg234-para46-c",
-                        "name": "item",
-                        "props": [
-                          {
-                            "name": "label",
-                            "value": "c."
-                          }
-                        ],
+                        "name": "guidance",
                         "prose": "environmental controls which maintain environmental conditions within acceptable parameters. Common controls include ventilation, air conditioning and fire suppressant systems; and"
-                      },
+                      }
+                    ]
+                  },
+                  {
+                    "id": "cpg234-para46-d",
+                    "title": "monitoring and alert mechanisms",
+                    "parts": [
                       {
-                        "id": "cpg234-para46-d",
-                        "name": "item",
-                        "props": [
-                          {
-                            "name": "label",
-                            "value": "d."
-                          }
-                        ],
+                        "name": "guidance",
                         "prose": "monitoring and alert mechanisms that detect information security incidents where physical and environmental controls have failed. Common controls include sensors/alarms for temperature, humidity, water, smoke, unauthorised access; and service availability alerts (e.g. power supply, telecommunication, servers)."
                       }
-                    ],
-                    "prose": "The absence of physical and environmental controls can compromise the effectiveness of other information security controls. An APRA-regulated entity would typically have in place the following physical and environmental controls (commonly through professionally managed data centres as part of third party or related party arrangements):"
+                    ]
                   }
                 ]
               }
