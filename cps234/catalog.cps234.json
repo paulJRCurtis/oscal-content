@@ -596,7 +596,13 @@
                     "title": "protection from natural and man-made threats",
                     "parts": [
                       {
-                        "name": "guidance",
+                        "name": "statement",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "a)"
+                          }
+                        ],
                         "prose": "location and building facilities that provide a level of protection from natural and man-made threats. This includes diversity of access to key utility services such as power and telecommunications, as well as fall-back mechanisms where access to the key utility service has failed (e.g. generators, Uninterrupted Power Supply (UPS) devices and alternate telecommunication connections);"
                       }
                     ]
@@ -606,8 +612,18 @@
                     "title": "physical access controls",
                     "parts": [
                       {
-                        "name": "guidance",
+                        "name": "statement",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "b)"
+                          }
+                        ],
                         "prose": "physical access controls that protect the site perimeter, building, data room and computing racks. Common controls include gates, locks and procedures for granting and reviewing access by staff, third party providers and visitors;"
+                      },
+                      {
+                        "name": "guidance",
+                        "prose": "Common controls include gates, locks and procedures for granting and reviewing access by staff, third party providers and visitors;"
                       }
                     ]
                   },
@@ -617,6 +633,12 @@
                     "parts": [
                       {
                         "name": "guidance",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "c)"
+                          }
+                        ],
                         "prose": "environmental controls which maintain environmental conditions within acceptable parameters. Common controls include ventilation, air conditioning and fire suppressant systems; and"
                       }
                     ]
@@ -627,6 +649,12 @@
                     "parts": [
                       {
                         "name": "guidance",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "d)"
+                          }
+                        ],
                         "prose": "monitoring and alert mechanisms that detect information security incidents where physical and environmental controls have failed. Common controls include sensors/alarms for temperature, humidity, water, smoke, unauthorised access; and service availability alerts (e.g. power supply, telecommunication, servers)."
                       }
                     ]
