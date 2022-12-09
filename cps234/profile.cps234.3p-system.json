@@ -8,11 +8,11 @@
       "oscal-version": "1.0.4",
       "roles": [
         {
-          "id": "author",
+          "id": "document-author",
           "title": "OSCAL Document Author"
         },
         {
-          "id": "reviewer",
+          "id": "document-reviewer",
           "title": "OSCAL Document Approver"
         }
       ],
@@ -36,11 +36,11 @@
       ],
       "responsible-parties": [
         {
-          "role-id": "author",
+          "role-id": "document-author",
           "party-uuids": ["d274304e-8c6f-4ddf-899e-4a537d36eb0c"]
         },
         {
-          "role-id": "reviewer",
+          "role-id": "document-reviewer",
           "party-uuids": ["03750666-1ab1-48a7-9aa8-1d5bddf7f394"]
         }
       ]
