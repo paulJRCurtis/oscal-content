@@ -3,9 +3,47 @@
     "uuid": "d931bd45-49bb-440e-8107-75bc9b7a89cc",
     "metadata": {
       "title": "Profile for third-part managed system",
-      "last-modified": "2022-11-29T14:56:26+11:00",
+      "last-modified": "2022-12-09T15:36:52+11:00",
       "version": "0.0.1",
-      "oscal-version": "1.0.4"
+      "oscal-version": "1.0.4",
+      "roles": [
+        {
+          "id": "author",
+          "title": "OSCAL Document Author"
+        },
+        {
+          "id": "reviewer",
+          "title": "OSCAL Document Approver"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "d274304e-8c6f-4ddf-899e-4a537d36eb0c",
+          "type": "person",
+          "name": "Paul Curtis",
+          "email-addresses": [
+            "p_curtis@me.com", "test@test.com"
+          ]
+        },
+        {
+          "uuid": "03750666-1ab1-48a7-9aa8-1d5bddf7f394",
+          "type": "person",
+          "name": "Mary Jones",
+          "email-addresses": [
+            "mark@jones.com"
+          ]
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "author",
+          "party-uuids": ["d274304e-8c6f-4ddf-899e-4a537d36eb0c"]
+        },
+        {
+          "role-id": "reviewer",
+          "party-uuids": ["03750666-1ab1-48a7-9aa8-1d5bddf7f394"]
+        }
+      ]
     },
     "imports": [
       {
