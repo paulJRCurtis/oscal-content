@@ -641,7 +641,7 @@
                             "value": "b)"
                           }
                         ],
-                        "prose": "physical access controls that protect the site perimeter, building, data room and computing racks. Common controls include gates, locks and procedures for granting and reviewing access by staff, third party providers and visitors;"
+                        "prose": "physical access controls that protect the site perimeter, building, data room and computing racks."
                       },
                       {
                         "name": "guidance",
@@ -654,14 +654,18 @@
                     "title": "environmental controls",
                     "parts": [
                       {
-                        "name": "guidance",
+                        "name": "statement",
                         "props": [
                           {
                             "name": "label",
                             "value": "c)"
                           }
                         ],
-                        "prose": "environmental controls which maintain environmental conditions within acceptable parameters. Common controls include ventilation, air conditioning and fire suppressant systems; and"
+                        "prose": "environmental controls which maintain environmental conditions within acceptable parameters."
+                      },
+                      {
+                        "name": "guidance",
+                        "prose": "Common controls include ventilation, air conditioning and fire suppressant systems."
                       }
                     ]
                   },
@@ -670,14 +674,18 @@
                     "title": "monitoring and alert mechanisms",
                     "parts": [
                       {
-                        "name": "guidance",
+                        "name": "statement",
                         "props": [
                           {
                             "name": "label",
                             "value": "d)"
                           }
                         ],
-                        "prose": "monitoring and alert mechanisms that detect information security incidents where physical and environmental controls have failed. Common controls include sensors/alarms for temperature, humidity, water, smoke, unauthorised access; and service availability alerts (e.g. power supply, telecommunication, servers)."
+                        "prose": "monitoring and alert mechanisms that detect information security incidents where physical and environmental controls have failed."
+                      },
+                      {
+                        "name": "guidance",
+                        "prose": "Common controls include sensors/alarms for temperature, humidity, water, smoke, unauthorised access; and service availability alerts (e.g. power supply, telecommunication, servers)."
                       }
                     ]
                   }
