@@ -12,11 +12,32 @@
           "title": "OSCAL Document Author"
         },
         {
-          "id": "platform-owner",
+          "id": "document-reviewer",
+          "title": "OSCAL Document Reviewer"
+        },
+        {
+          "id": "system-owner",
           "title": "Platform Owner"
+        },
+        {
+          "id": "system-owner",
+          "title": "Platform Owner"
+        },
+        {
+          "id": "data-asset-owner",
+          "title": "Data Asset Owner"
         }
+
       ],
       "parties": [
+        {
+          "uuid": "d274304e-8c6f-4ddf-899e-4a537d36eb0c",
+          "type": "person",
+          "name": "Paul Curtis",
+          "email-addresses": [
+            "p_curtis@me.com", "test@test.com"
+          ]
+        },
         {
           "uuid": "6a6ef323-f836-4b95-ab78-625c0278bce1",
           "type": "person",
@@ -29,7 +50,28 @@
           "type": "person",
           "name": "Jane Doe",
           "email-addresses": ["jane.doe@organisation.com"],
-          "remarks": ""
+          "remarks": "General Manager Cloud Platform"
+        },
+        {
+          "uuid": "5070a5a3-e471-4854-abe2-7f752b6beed0",
+          "type": "person",
+          "name": "Mark Jones",
+          "email-addresses": ["jane.doe@organisation.com"],
+          "remarks": "Chief Security Officer"
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "document-author",
+          "party-uuids": ["d274304e-8c6f-4ddf-899e-4a537d36eb0c"]
+        },
+        {
+          "role-id": "document-reviewer",
+          "party-uuids": ["6a6ef323-f836-4b95-ab78-625c0278bce1"]
+        },
+        {
+          "role-id": "system-owner",
+          "party-uuids": ["5070a5a3-e471-4854-abe2-7f752b6beed0"]
         }
       ]
     },
@@ -44,11 +86,11 @@
         }
       ],
       "system-name": "AWS Platform",
-      "description": "",
+      "description": "A landing zone is a well-architected, multi-account AWS environment that is scalable and secure. This is a starting point from which your organization can quickly launch and deploy workloads and applications with confidence in your security and infrastructure environment.",
       "props": [
         {
           "name": "apra-risk-rating",
-          "value": "Extreme inherent risk"
+          "value": "heightened inherent risk"
         },
         {
           "name": "cloud-deployment-model",
@@ -59,8 +101,8 @@
       "system-information": {
         "information-types": [
           {
-            "title": "",
-            "description": "",
+            "title": "IAM Identity Center directory",
+            "description": "Identity and authorisation data store - You can create workforce users and groups in IAM Identity Center, or connect and synchronize to an existing set of users and groups in your own identity source for use across all your AWS accounts and applications. Supported identity sources include Microsoft Active Directory Domain Services, and external identity providers such as Okta Universal Directory.",
             "categorizations": [
               {
                 "system": "https://github.com/paulJRCurtis/oscal-content/blob/main/references/Data_Classification_Standard_v001.pdf"
@@ -80,6 +122,30 @@
             },
             "availability-impact": {
               "base": "high"
+            }
+          },
+          {
+            "title": "Service Catalog",
+            "description": "Account vending and service configuration data including cloudformation StackSets",
+            "categorizations": [
+              {
+                "system": "https://github.com/paulJRCurtis/oscal-content/blob/main/references/Data_Classification_Standard_v001.pdf"
+              }
+            ],
+            "props": [
+              {
+                "name": "data-asset-owner",
+                "value": "#0bb63558-f3b1-4ccc-96b1-ba54291fdda8"
+              }
+            ],
+            "confidentiality-impact": {
+              "base": "moderate"
+            },
+            "integrity-impact": {
+              "base": "moderate"
+            },
+            "availability-impact": {
+              "base": "low"
             }
           }
         ]
@@ -156,7 +222,7 @@
         {
           "uuid": "76c61661-2b80-45c5-b437-b1b9a6eff985",
           "type": "standard",
-          "title": "APRA CPS234 Compliance",
+          "title": "AWS 'OF the cloud' controls to APRA CPS234 Compliance",
           "description": "Compliance requirements as per CPS234 and the related guidance CPG234",
           "status": {
             "state": "operational"
@@ -181,69 +247,123 @@
               "value": "SOC2"
             }
           ],
-          "statements": [
-            {
-              "statement-id": "cpg234-para46-a",
-              "uuid": "f3d11ee8-9ce7-41ea-81e3-183827987e88",
-              "by-components": [
-                {
-                  "component-uuid": "76c61661-2b80-45c5-b437-b1b9a6eff985",
-                  "uuid": "844979ea-52c6-4a4d-aaeb-de6f5d458326",
-                  "description": "<ul><li>AWSCA-5.9: Uninterruptible Power Supply (UPS) units provide backup power in the event of an electrical failure in Amazon- owned data centers and third-party colocation sites where Amazon maintains the UPS units.</li><li>AWSCA-5.10: Amazon-owned data centers have generators to provide backup power in case of electrical failure. </li><li>AWSCA-5.11: Contracts are in place with third- party colocation service providers which include provisions to provide fire suppression systems, air conditioning to maintain appropriate atmospheric conditions, Uninterruptible Power Supply (UPS) units (unless maintained by Amazon), and redundant power supplies. Contracts also include provisions requiring communication of incidents or events that impact Amazon assets and/or customers to AWS.</li></ul>",
-                  "implementation-status": {
-                    "state": "implemented"
-                  }
-                }
-              ]
-            },
-            {
-              "statement-id": "cpg234-para46-b",
-              "uuid": "b39f055e-e1f3-41f7-bab2-8a9790fd37ff",
-              "by-components": [
-                {
-                  "component-uuid": "76c61661-2b80-45c5-b437-b1b9a6eff985",
-                  "uuid": "9068122d-d12c-4007-a1af-0ba47172039b",
-                  "description": "<ul><li>AWSCA-5.1: Physical access to data centers is approved by an authorized individual.</li><li>AWSCA-5.2: Physical access is revoked within 24 hours of the employee or vendor record being deactivated.</li><li>AWSCA-5.3: Physical access to data centers is reviewed on a quarterly basis by appropriate personnel.</li><li>AWSCA-5.4: Closed circuit television cameras (CCTV) are used to monitor server locations in data centers. Images are retained for 90 days, unless limited by legal or contractual obligations.</li><li>AWSCA-5.5: Access to server locations is managed by electronic access control devices.</li><li>AWSCA-5.12: AWS performs periodic reviews of colocation service providers to validate adherence with AWS security and operational standards.</lu></ul>",
-                  "implementation-status": {
-                    "state": "implemented"
-                  }
-                }
-              ]
-            },
-            {
-              "statement-id": "cpg234-para46-c",
-              "uuid": "c99c3697-827d-4812-811e-7759c14d441d",
-              "by-components": [
-                {
-                  "component-uuid": "76c61661-2b80-45c5-b437-b1b9a6eff985",
-                  "uuid": "a12a6370-708e-43ef-a262-7e03313fbf0f",
-                  "description": "<ul><li>AWSCA-5.7: Amazon-owned data centers are protected by fire detection and suppression systems.</li><li>AWSCA-5.8: Amazon-owned data centers are air conditioned to maintain appropriate atmospheric conditions. Personnel and systems monitor and control air temperature and humidity at appropriate levels.</li><li>AWSCA-5.11: Contracts are in place with third-party colocation service providers which include provisions to provide fire suppression systems, air conditioning to maintain appropriate atmospheric conditions, Uninterruptible Power Supply (UPS) units (unless maintained by Amazon), and redundant power supplies. Contracts also include provisions requiring communication of incidents or events that impact Amazon assets and/or customers to AWS.</ul></li>",
-                  "implementation-status": {
-                    "state": "implemented"
-                  }
-                }
-              ]
-            },
-            {
-              "statement-id": "cpg234-para46-d",
-              "uuid": "c5f6cc34-7b10-4f54-9d98-e5defdd412b0",
-              "by-components": [
-                {
-                  "component-uuid": "76c61661-2b80-45c5-b437-b1b9a6eff985",
-                  "uuid": "d25468c4-b2ae-430b-a1ea-7c69ca38f747",
-                  "description": "<ul><li>AWSCA-5.6: Electronic intrusion detection systems are installed within data server locations to monitor, detect, and automatically alert appropriate personnel of security incidents.</li><li>AWSCA-5.11: Contracts are in place with third- party colocation service providers which include provisions to provide fire suppression systems, air conditioning to maintain appropriate atmospheric conditions, Uninterruptible Power Supply (UPS) units (unless maintained by Amazon), and redundant power supplies. Contracts also include provisions requiring communication of incidents or events that impact Amazon assets and/or customers to AWS.</ul></li>",
-                  "implementation-status": {
-                    "state": "implemented"
-                  }
-                }
-              ]
-            }
-          ],
           "by-components": [
             {
               "component-uuid": "76c61661-2b80-45c5-b437-b1b9a6eff985",
               "uuid": "7ae5f110-d62f-48d1-8994-672a5e29c802",
               "description": "AWSCA-1.10: AWS has a process in place to review environmental and geo-political risks before launching a new region.",
+              "implementation-status": {
+                "state": "implemented"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "c63e0b27-19d5-43f7-8a17-739eeb32f68d",
+          "control-id": "cpg234-para46-a",
+          "by-components": [
+            {
+              "component-uuid": "76c61661-2b80-45c5-b437-b1b9a6eff985",
+              "uuid": "844979ea-52c6-4a4d-aaeb-de6f5d458326",
+              "description": "AWSCA-5.9: Uninterruptible Power Supply (UPS) units provide backup power in the event of an electrical failure in Amazon- owned data centers and third-party colocation sites where Amazon maintains the UPS units.",
+              "implementation-status": {
+                "state": "implemented"
+              }
+            },
+            {
+              "component-uuid": "76c61661-2b80-45c5-b437-b1b9a6eff985",
+              "uuid": "8a34cb55-b7e9-409e-98e6-751b4ed6e0c1",
+              "description": "AWSCA-5.10: Amazon-owned data centers have generators to provide backup power in case of electrical failure.",
+              "implementation-status": {
+                "state": "implemented"
+              }
+            },
+            {
+              "component-uuid": "76c61661-2b80-45c5-b437-b1b9a6eff985",
+              "uuid": "d0a208c7-1c3e-4e67-82c4-6674b416d2ac",
+              "description": "AWSCA-5.11: Contracts are in place with third- party colocation service providers which include provisions to provide fire suppression systems, air conditioning to maintain appropriate atmospheric conditions, Uninterruptible Power Supply (UPS) units (unless maintained by Amazon), and redundant power supplies. Contracts also include provisions requiring communication of incidents or events that impact Amazon assets and/or customers to AWS.",
+              "implementation-status": {
+                "state": "implemented"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "09682c51-bc67-4186-9068-eba34da2cb46",
+          "control-id": "cpg234-para46-b",
+          "by-components": [
+            {
+              "component-uuid": "76c61661-2b80-45c5-b437-b1b9a6eff985",
+              "uuid": "9068122d-d12c-4007-a1af-0ba47172039b",
+              "description": "AWSCA-5.1: Physical access to data centers is approved by an authorized individual.",
+              "implementation-status": {
+                "state": "implemented"
+              }
+            },
+            {
+              "component-uuid": "76c61661-2b80-45c5-b437-b1b9a6eff985",
+              "uuid": "9068122d-d12c-4007-a1af-0ba47172039b",
+              "description": "AWSCA-5.2: Physical access is revoked within 24 hours of the employee or vendor record being deactivated.",
+              "implementation-status": {
+                "state": "implemented"
+              }
+            },
+            {
+              "component-uuid": "76c61661-2b80-45c5-b437-b1b9a6eff985",
+              "uuid": "9068122d-d12c-4007-a1af-0ba47172039b",
+              "description": "AWSCA-5.3: Physical access to data centers is reviewed on a quarterly basis by appropriate personnel.",
+              "implementation-status": {
+                "state": "implemented"
+              }
+            },
+            {
+              "component-uuid": "76c61661-2b80-45c5-b437-b1b9a6eff985",
+              "uuid": "9068122d-d12c-4007-a1af-0ba47172039b",
+              "description": "AWSCA-5.4: Closed circuit television cameras (CCTV) are used to monitor server locations in data centers. Images are retained for 90 days, unless limited by legal or contractual obligations.",
+              "implementation-status": {
+                "state": "implemented"
+              }
+            },
+            {
+              "component-uuid": "76c61661-2b80-45c5-b437-b1b9a6eff985",
+              "uuid": "9068122d-d12c-4007-a1af-0ba47172039b",
+              "description": "AWSCA-5.5: Access to server locations is managed by electronic access control devices.",
+              "implementation-status": {
+                "state": "implemented"
+              }
+            },
+            {
+              "component-uuid": "76c61661-2b80-45c5-b437-b1b9a6eff985",
+              "uuid": "9068122d-d12c-4007-a1af-0ba47172039b",
+              "description": "AWSCA-5.12: AWS performs periodic reviews of colocation service providers to validate adherence with AWS security and operational standards.",
+              "implementation-status": {
+                "state": "implemented"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "2898253a-93b4-4a9e-a513-7981d86d7b2e",
+          "control-id": "cpg234-para46-c",
+          "by-components": [
+            {
+              "component-uuid": "76c61661-2b80-45c5-b437-b1b9a6eff985",
+              "uuid": "a12a6370-708e-43ef-a262-7e03313fbf0f",
+              "description": "<ul><li>AWSCA-5.7: Amazon-owned data centers are protected by fire detection and suppression systems.</li><li>AWSCA-5.8: Amazon-owned data centers are air conditioned to maintain appropriate atmospheric conditions. Personnel and systems monitor and control air temperature and humidity at appropriate levels.</li><li>AWSCA-5.11: Contracts are in place with third-party colocation service providers which include provisions to provide fire suppression systems, air conditioning to maintain appropriate atmospheric conditions, Uninterruptible Power Supply (UPS) units (unless maintained by Amazon), and redundant power supplies. Contracts also include provisions requiring communication of incidents or events that impact Amazon assets and/or customers to AWS.</ul></li>",
+              "implementation-status": {
+                "state": "implemented"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "820e578f-a818-41d5-abb5-0cfda01094fd",
+          "control-id": "cpg234-para46-d",
+          "by-components": [
+            {
+              "component-uuid": "76c61661-2b80-45c5-b437-b1b9a6eff985",
+              "uuid": "d25468c4-b2ae-430b-a1ea-7c69ca38f747",
+              "description": "<ul><li>AWSCA-5.6: Electronic intrusion detection systems are installed within data server locations to monitor, detect, and automatically alert appropriate personnel of security incidents.</li><li>AWSCA-5.11: Contracts are in place with third- party colocation service providers which include provisions to provide fire suppression systems, air conditioning to maintain appropriate atmospheric conditions, Uninterruptible Power Supply (UPS) units (unless maintained by Amazon), and redundant power supplies. Contracts also include provisions requiring communication of incidents or events that impact Amazon assets and/or customers to AWS.</ul></li>",
               "implementation-status": {
                 "state": "implemented"
               }
