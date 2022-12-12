@@ -26,8 +26,11 @@
         {
           "id": "data-asset-owner",
           "title": "Data Asset Owner"
+        },
+        {
+          "id": "auditor",
+          "title": "Auditor"
         }
-
       ],
       "parties": [
         {
@@ -58,6 +61,32 @@
           "name": "Mark Jones",
           "email-addresses": ["jane.doe@organisation.com"],
           "remarks": "Chief Security Officer"
+        },
+        {
+          "uuid": "69171c15-b03a-4291-86d1-4afb3e21835c",
+          "type": "organization",
+          "name": "Ernst & Young",
+          "email-addresses": [],
+          "addresses": [],
+          "telephone-numbers": [
+            {
+              "number": "+1 213 9773200"
+            }
+          ]
+        },
+        {
+          "uuid": "73807b54-1b30-4886-828c-4bef16dcff8c",
+          "type": "organization",
+          "name": "Amazon Web Services",
+          "addresses": [
+            {
+              "addr-lines": ["410 Terry Avenue North"],
+              "city": "Seattle",
+              "state": "WA",
+              "country": "USA",
+              "postal-code": "98109-5210"
+            }
+          ]
         }
       ],
       "responsible-parties": [
@@ -227,6 +256,21 @@
           "status": {
             "state": "operational"
           }
+        },
+        {
+          "uuid": "dc41e353-4e5d-42fb-ae8d-7053ba86d59e",
+          "type": "validation",
+          "title": "SOC2 Compliance",
+          "description": "The validation as provided by System and Organization Controls 2 (SOC 2) Type 2 Report For the Period April 1, 2022 to September 30, 2022",
+          "status": {
+            "state": "operational"
+          },
+          "responsible-roles": [
+            {
+              "role-id": "auditor",
+              "party-uuids": ["69171c15-b03a-4291-86d1-4afb3e21835c"]
+            }
+          ]
         }
       ]
     },
@@ -254,6 +298,23 @@
               "description": "AWSCA-1.10: AWS has a process in place to review environmental and geo-political risks before launching a new region.",
               "implementation-status": {
                 "state": "implemented"
+              }
+            },
+            {
+              "component-uuid": "dc41e353-4e5d-42fb-ae8d-7053ba86d59e",
+              "uuid": "dd9281a5-4688-4156-81aa-e42bbf1170a2",
+              "description": "Test: Inquired of a Risk and Resiliency Senior Manager to ascertain environmental and geo-political risks were reviewed before launching new data center regions.",
+              "implementation-status": {
+                "state": "no-deviations-noted"
+              }
+            },
+            {
+              "component-uuid": "dc41e353-4e5d-42fb-ae8d-7053ba86d59e",
+              "uuid": "2905ea8d-0e06-4b09-9499-f178f217553a",
+              "description": "Test: Inspected review documentation for a sample of new in-scope data center regions from the data center inventory system to ascertain a review of environmental and geopolitical risks was performed before a new data center region was launched.",
+              "implementation-status": {
+                "state": "note",
+                "remarks": "Per inspection of the Q2 2022 and Q3 2022 Data Center listings, we determined that there were no new in-scope regions during our examination period; therefore, no samples were available to test."
               }
             }
           ]
