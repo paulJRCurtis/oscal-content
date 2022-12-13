@@ -66,8 +66,15 @@
           "uuid": "69171c15-b03a-4291-86d1-4afb3e21835c",
           "type": "organization",
           "name": "Ernst & Young",
-          "email-addresses": [],
-          "addresses": [],
+          "addresses": [
+            {
+              "addr-lines": ["725 South Figueroa St."],
+              "city": "Los Angeles",
+              "state": "CA",
+              "country": "USA",
+              "postal-code": "90017-5418"
+            }
+          ],
           "telephone-numbers": [
             {
               "number": "+1 213 9773200"
