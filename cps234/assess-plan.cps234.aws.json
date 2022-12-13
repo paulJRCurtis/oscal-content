@@ -17,6 +17,26 @@
         }
       ]
     },
+    "assessment-subjects": [
+      {
+        "type": "component"
+        
+      }
+    ],
+    "tasks": [
+      {
+        "uuid": "b115d405-7265-4a70-b0f5-823435ea9778",
+        "type": "",
+        "title": "",
+        "description": "",
+        "associated-activities": [
+          {
+            "activity-uuid": ""
+          }
+        ],
+        "subjects": []
+      }
+    ],
     "back-matter": {
       "resources": [
         {
