@@ -1,0 +1,66 @@
+{
+  "system-security-plan": {
+    "uuid": "",
+    "metadata": {
+      "title": "",
+      "last-modified": "",
+      "version": "0.0.1",
+      "oscal-version": "1.0.4"
+    },
+    "import-profile": {
+      "href": ""
+    },
+    "system-characteristics": {
+      "system-ids": [
+        {
+          "id": ""
+        }
+      ],
+      "system-name": "",
+      "description": "",
+      "security-sensitivity-level": "",
+      "system-information": {
+        "information-types": [
+          {
+            "title": "",
+            "description": "",
+            "confidentiality-impact": {
+              "base": ""
+            },
+            "integrity-impact": {
+              "base": ""
+            },
+            "availability-impact": {
+              "base": ""
+            }
+          }
+        ]
+      },
+      "security-impact-level": {
+        "security-objective-confidentiality": "",
+        "security-objective-integrity": "",
+        "security-objective-availability": ""
+      },
+      "status": {
+        "state": ""
+      },
+      "authorization-boundary": {
+        "description": ""
+      }
+    },
+    "system-implementation": {
+      "users": [],
+      "components": []
+    },
+    "control-implementation": {
+      "description": "",
+      "implemented-requirements": [
+        {
+          "uuid": "",
+          "control-id": ""
+        }
+      ]
+
+    }
+  }
+}
