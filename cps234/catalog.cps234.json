@@ -2,19 +2,31 @@
   "catalog": {
     "uuid": "f9b1d703-e209-43cd-884f-50c4748a917c",
     "metadata": {
-      "title": "APRA CPS234 Information Security July 2019",
-      "last-modified": "2022-11-25T12:32:36+11:00",
-      "version": "0.0.1",
+      "title": "APRA CPS234 and CPG 234 Information Security 2019",
+      "last-modified": "2022-12-15T13:30:39+11:00",
+      "version": "0.0.2",
       "oscal-version": "1.0.4",
       "roles": [
         {
           "id": "author",
           "title": "OSCAL Document Author"
+        },
+        {
+          "id": "regulator",
+          "title": "Regulator"
         }
       ],
       "parties": [
         {
           "uuid": "d274304e-8c6f-4ddf-899e-4a537d36eb0c",
+          "type": "person",
+          "name": "Paul Curtis",
+          "email-addresses": [
+            "p_curtis@me.com", "test@test.com"
+          ]
+        },
+        {
+          "uuid": "0f2c487f-ebd4-4b45-937c-b21f1b73ba3f",
           "type": "person",
           "name": "Paul Curtis",
           "email-addresses": [
@@ -26,6 +38,10 @@
         {
           "role-id": "author",
           "party-uuids": ["d274304e-8c6f-4ddf-899e-4a537d36eb0c"]
+        },
+        {
+          "role-id": "regulator",
+          "party-uuids": ["0f2c487f-ebd4-4b45-937c-b21f1b73ba3f"]
         }
       ]
     },
@@ -50,9 +66,27 @@
                     "prose": "Ensure Board is ultimately responsible for the information security of the entity."
                   },
                   {
-                    "id": "cps234-para13",
+                    "id": "cps234-para13-1",
                     "name": "statement",
-                    "prose": "The Board of an APRA-regulated entity (Board) is ultimately responsible for the information security of the entity. The Board must ensure that the entity maintains information security in a manner commensurate with the size and extent of threats to its information assets, and which enables the continued sound operation of the entity.",
+                    "prose": "The Board of an APRA-regulated entity (Board) is ultimately responsible for the information security of the entity.",
+                    "parts": [
+                      {
+                        "id": "cps234-fn5",
+                        "name": "footnote",
+                        "prose": "A reference to the Board in the case of a foreign ADI, is a reference to the senior officer outside Australia."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "rr-bur-2",
+                "title": "Maintain information security",
+                "parts": [
+                  {
+                    "id": "cps234-para13-2",
+                    "name": "statement",
+                    "prose": "The Board must ensure that the entity maintains information security in a manner commensurate with the size and extent of threats to its information assets, and which enables the continued sound operation of the entity.",
                     "parts": [
                       {
                         "id": "cps234-fn5",
@@ -113,7 +147,7 @@
                   {
                     "id": "cpg234-para11",
                     "name": "guidance",
-                    "prose": "Definition of information security-related roles and responsibilities is typically achieved through a combination of role statements, policy statements, reporting lines and charters of governing bodies. Common governing bodies and individuals with decision-making, approval, oversight, operations and other information security roles and responsibilities typically include: <ol type='a'><li>a) information security steering/oversight committee;</li><li>b) risk management committee (Board and management levels);</li><li>c) Board audit committee;</li><li>d) executive management/executive management committee;</li><li>e) chief information officer (CIO)/IT manager;</li><li>f) chief information security officer (CISO)/IT security manager;</li><li>g) information security operations/administration; and</li><li>h) management (business and IT).</li></oi>"
+                    "prose": "Definition of information security-related roles and responsibilities is typically achieved through a combination of role statements, policy statements, reporting lines and charters of governing bodies. Common governing bodies and individuals with decision-making, approval, oversight, operations and other information security roles and responsibilities typically include: <ol type='a'><li>information security steering/oversight committee;</li><li>risk management committee (Board and management levels);</li><li>Board audit committee;</li><li>executive management/executive management committee;</li><li>chief information officer (CIO)/IT manager;</li><li>chief information security officer (CISO)/IT security manager;</li><li>information security operations/administration; and</li><li>management (business and IT).</li></oi>"
                   },
                   {
                     "id": "cpg234-para12",
@@ -182,7 +216,7 @@
                   {
                     "id": "cpg234-para16",
                     "name": "guidance",
-                    "prose": "The current threat landscape has necessitated information security capabilities that extend beyond information technology general controls to more specialised information security capabilities. These typically include: a) vulnerability and threat management; b) situational awareness and intelligence; c) information security operations and administration; d) secure design, architecture and consultation; e) security testing, including penetration testing; f) information security reporting and analytics; g) incident detection and response, including recovery, notification and communication; h) information security investigation, including preservation of evidence and forensic analysis; and i) information security assurance."
+                    "prose": "The current threat landscape has necessitated information security capabilities that extend beyond information technology general controls to more specialised information security capabilities. These typically include:<ol type='a'><li>vulnerability and threat management;</li><li>situational awareness and intelligence;</li><li>information security operations and administration;</li><li>secure design, architecture and consultation;</li><li>security testing, including penetration testing;</li><li>information security reporting and analytics;</li><li>incident detection and response, including recovery, notification and communication;</li><li>information security investigation, including preservation of evidence and forensic analysis; and</li><li>information security assurance."
                   }
                 ]
               }
@@ -271,34 +305,243 @@
                     "id": "cps234-para18",
                     "name": "statement",
                     "prose": "An APRA-regulated entity must maintain an information security policy framework commensurate with its exposures to vulnerabilities and threats."
-                  },
+                  }
+                ]
+              },
+              {
+                "id": "cpg234-para21",
+                "title": "Information security policy framework structure",
+                "parts": [
                   {
-                    "id": "cpg234-para21",
-                    "name": "guidance",
-                    "prose": "An APRA-regulated entity’s information security policy framework is commonly structured as a hierarchy, with higher level policies supported by underlying standards, guidelines and procedures. A policy framework would normally be informed by a set of information security principles that guide decision-making with regard to information security (refer to Attachment A for common information security principles). Common areas addressed by a policy framework include: a) identification, authorisation and granting of access to information assets (refer to Attachment C for further guidance); b) life-cycle1 management that addresses the various stages of an information asset’s life to ensure that information security requirements are considered at each stage, from planning and acquisition through to decommissioning and destruction; c) management of information security technology solutions that include firewall, anti- malicious software, intrusion detection/prevention, cryptographic systems and monitoring/log analysis tools; d) definition of an overarching information security architecture that outlines the approach for designing the IT environment (encompassing all information assets) from a security perspective (e.g. network zones/segments, end point controls, gateway design, authentication, identity management, interface controls, software engineering and location of information security technology solutions and controls); e) monitoring and incident management to address the identification and classification of incidents, reporting and escalation guidelines, preservation of evidence and the investigation process; f) expectations with respect to the maintenance of information security when using third parties and related parties; g) acceptable usage of information assets that define the information security responsibilities of end-users including staff, third parties, related parties and customers (refer to Attachment B and Attachment F for further guidance); h) recruitment and vetting of staff and contractors; i) information security roles and responsibilities; j) physical and environmental controls; and k) mechanisms to assess compliance with, and the ongoing effectiveness of, the information security policy framework.",
+                    "id": "id",
+                    "name": "statement",
+                    "prose": "An APRA-regulated entity’s information security policy framework is commonly structured as a hierarchy, with higher level policies supported by underlying standards, guidelines and procedures. A policy framework would normally be informed by a set of information security principles that guide decision-making with regard to information security (refer to Attachment A for common information security principles). Common areas addressed by a policy framework include:",
                     "links": [
                       {
                         "href": "#0268e1ec-46cb-4d64-9609-4b7d8e162f5a",
                         "text": "refer to Attachment A for common information security principles."
-                      },
-                      {
-                        "href": "#a3a46824-6d07-4354-acd3-1262166d3dda",
-                        "text": "refer to Attachment C for further guidance."
-                      },
-                      {
-                        "href": "#16deec76-a574-48eb-9d04-e895d1a2de41",
-                        "text": "refer to Attachment B for further guidance."
-                      },
-                      {
-                        "href": "#0174b59c-36bb-48b0-a7e4-fdca1954023e",
-                        "text": "refer to Attachment F for further guidance."
                       }
                     ]
-                    
+                  }
+                ],
+                "controls": [
+                  {
+                    "id": "cpg234-para21-a",
+                    "title": "Policy framework - IAM",
+                    "parts": [
+                      {
+                        "id": "cpg234-para21-a_s",
+                        "name": "statement",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "a"
+                          }
+                        ],
+                        "prose": "identification, authorisation and granting of access to information assets (refer to Attachment C for further guidance);",
+                        "links": [
+                          {
+                            "href": "#a3a46824-6d07-4354-acd3-1262166d3dda",
+                            "text": "refer to Attachment C for further guidance."
+                          }
+                        ]
+                      }
+                    ]
                   },
                   {
-                    "id": "cpg234-para22",
-                    "name": "guidance",
+                    "id": "cpg234-para21-b",
+                    "title": "Policy framework - life-cycle management",
+                    "parts": [
+                      {
+                        "id": "id",
+                        "name": "statement",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "b"
+                          }
+                        ],
+                        "prose": "life-cycle management that addresses the various stages of an information asset’s life to ensure that information security requirements are considered at each stage, from planning and acquisition through to decommissioning and destruction;"
+                      },
+                      {
+                        "id": "",
+                        "name": "footnote",
+                        "prose": "Refers to the life-cycle of information assets more broadly, not just to the software development life-cycle. The life-cycle phases consist of: planning, design, acquisition, implementation, decommissioning and disposal."
+                      }
+                    ]
+                  },
+                  {
+                    "id": "cpg234-para21-c",
+                    "title": "Policy framework - technology solutions",
+                    "parts": [
+                      {
+                        "id": "id",
+                        "name": "statement",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "c"
+                          }
+                        ],
+                        "prose": "management of information security technology solutions that include firewall, anti- malicious software, intrusion detection/prevention, cryptographic systems and monitoring/log analysis tools;"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "cpg234-para21-d",
+                    "title": "Policy framework - information security architecture",
+                    "parts": [
+                      {
+                        "id": "id",
+                        "name": "statement",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "d"
+                          }
+                        ],
+                        "prose": "definition of an overarching information security architecture that outlines the approach for designing the IT environment (encompassing all information assets) from a security perspective (e.g. network zones/segments, end point controls, gateway design, authentication, identity management, interface controls, software engineering and location of information security technology solutions and controls);"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "cpg234-para21-e",
+                    "title": "Policy framework - monitoring and incident management",
+                    "parts": [
+                      {
+                        "id": "id",
+                        "name": "statement",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "e"
+                          }
+                        ],
+                        "prose": "monitoring and incident management to address the identification and classification of incidents, reporting and escalation guidelines, preservation of evidence and the investigation process;"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "cpg234-para21-f",
+                    "title": "Policy framework - third parties",
+                    "parts": [
+                      {
+                        "id": "id",
+                        "name": "statement",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "f"
+                          }
+                        ],
+                        "prose": "expectations with respect to the maintenance of information security when using third parties and related parties;"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "cpg234-para21-g",
+                    "title": "Policy framework - acceptable usage",
+                    "parts": [
+                      {
+                        "id": "id",
+                        "name": "statement",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "g"
+                          }
+                        ],
+                        "prose": "acceptable usage of information assets that define the information security responsibilities of end-users including staff, third parties, related parties and customers (refer to Attachment B and Attachment F for further guidance);",
+                        "links": [
+                          {
+                            "href": "#16deec76-a574-48eb-9d04-e895d1a2de41",
+                            "text": "refer to Attachment B for further guidance."
+                          },
+                          {
+                            "href": "#0174b59c-36bb-48b0-a7e4-fdca1954023e",
+                            "text": "refer to Attachment F for further guidance."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "cpg234-para21-h",
+                    "title": "Policy framework - recruitment and vetting",
+                    "parts": [
+                      {
+                        "id": "id",
+                        "name": "statement",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "h"
+                          }
+                        ],
+                        "prose": "recruitment and vetting of staff and contractors;"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "cpg234-para21-i",
+                    "title": "Policy framework - roles and responsibilities",
+                    "parts": [
+                      {
+                        "id": "id",
+                        "name": "statement",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "i"
+                          }
+                        ],
+                        "prose": "information security roles and responsibilities;"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "cpg234-para21-j",
+                    "title": "Policy framework - physical and environmental controls",
+                    "parts": [
+                      {
+                        "id": "id",
+                        "name": "statement",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "j"
+                          }
+                        ],
+                        "prose": "physical and environmental controls;"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "cpg234-para21-k",
+                    "title": "Policy framework - assess compliance",
+                    "parts": [
+                      {
+                        "id": "id",
+                        "name": "statement",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "k)"
+                          }
+                        ],
+                        "prose": "mechanisms to assess compliance with, and the ongoing effectiveness of, the information security policy framework."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "cpg234-para22",
+                "title": "information security policy framework consistency",
+                "parts": [
+                  {
+                    "id": "id",
+                    "name": "statement",
                     "prose": "An APRA-regulated entity’s information security policy framework would typically be consistent with other entity frameworks such as risk management, service provider management and project management."
                   }
                 ]
@@ -399,7 +642,14 @@
                   {
                     "id": "cpg234-para27",
                     "name": "guidance",
-                    "prose": "Under CPS 234, all information assets must be classified by criticality2 and sensitivity3 . This includes infrastructure, ancillary systems such as environmental control systems and physical access control systems as well as information assets managed by third parties and related parties. Furthermore, APRA-regulated entities could benefit from considering the interrelationships between information assets, including identifying information assets which are not intrinsically critical or sensitive but could be used to compromise information assets which are critical or sensitive."
+                    "prose": "Under CPS 234, all information assets must be classified by criticality and sensitivity. This includes infrastructure, ancillary systems such as environmental control systems and physical access control systems as well as information assets managed by third parties and related parties. Furthermore, APRA-regulated entities could benefit from considering the interrelationships between information assets, including identifying information assets which are not intrinsically critical or sensitive but could be used to compromise information assets which are critical or sensitive.",
+                    "parts": [
+                      {
+                        "id": "",
+                        "name": "footnote",
+                        "prose": "criticality refers to the potential impact of a loss of availability; sensitivity means the potential impact of a loss of confidentiality or integrity."
+                      }
+                    ]
                   },
                   {
                     "id": "cpg234-para28",
@@ -423,7 +673,13 @@
                     "id": "cpg234-para29",
                     "name": "guidance",
                     "prose": "In order to identify and classify information assets, an APRA-regulated entity would benefit from maintaining a classification methodology that provides clarity as to what constitutes an information asset, granularity considerations and the method for rating criticality and sensitivity. The rating could take into account the impact of an information security compromise on an information asset. Notably, an information asset could be assessed as having a different rating from the perspective of its criticality and sensitivity."
-                  },
+                  }
+                ]
+              },
+              {
+                "id": "id",
+                "title": "information assets classification granularity",
+                "parts": [
                   {
                     "id": "cpg234-para30",
                     "name": "guidance",
@@ -487,29 +743,289 @@
                   {
                     "id": "cpg234-para34",
                     "name": "guidance",
-                    "prose": "Under CPS 234, an APRA-regulated entity must have information security controls to protect its information assets commensurate with, amongst other things, the stage at which the information assets are within their life-cycle. This includes ensuring that information security controls remain effective at each stage of the life-cycle of the information asset and that there is formal allocation of responsibility and accountability for the information security of an information asset to an information asset owner. Typically, the information asset owner would be an individual located within the business function which is most dependent on the information asset."
-                  },
+                    "prose": "Under CPS 234, an APRA-regulated entity must have information security controls to protect its information assets commensurate with, amongst other things, the stage at which the information assets are within their life-cycle. This includes ensuring that information security controls remain effective at each stage of the life-cycle of the information asset and that "
+                  }
+                ],
+                "controls": [
+                  {
+                    "id": "id",
+                    "title": "life-cycle - information asset owner",
+                    "parts": [
+                      {
+                        "id": "id",
+                        "name": "statement",
+                        "prose": "there is formal allocation of responsibility and accountability for the information security of an information asset to an information asset owner. Typically, the information asset owner would be an individual located within the business function which is most dependent on the information asset."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "ic-ias-1",
+                "title": "life-cycle - planning and design",
+                "parts": [
                   {
                     "id": "cpg234-para35",
                     "name": "guidance",
                     "prose": "As the first phases of an information asset life-cycle, planning and design controls would typically be in place to ensure that information security is incorporated within the information assets of the APRA-regulated entity, the solutions implemented would typically comply with the information security requirements of an APRA-regulated entity as embodied in its information security policy framework."
-                  },
+                  }
+                ]
+              },
+              {
+                "id": "ic-ias-1",
+                "title": "life-cycle - acquisition and implementation",
+                "parts": [
                   {
                     "id": "cpg234-para36",
                     "name": "guidance",
-                    "prose": "Acquisition and implementation controls would typically be in place to ensure that information security is not compromised by the introduction of new information assets. Ongoing support and maintenance controls would typically be in place to ensure that information assets continue to meet the information security requirements of the APRA- regulated entity. Typical examples of categories of control include: a) change management —information security is addressed as part of the change management process and the information asset inventory is updated; b) configuration management —the configuration of information assets minimises vulnerabilities and is defined, assessed, registered, maintained, including when new vulnerabilities and threats are discovered, and applied consistently; c) deployment and environment management —development, test and production environments are appropriately segregated and enforce segregation of duties; d) access management controls —only authorised users, software and hardware are able to access information assets (refer to Attachment B for further guidance); e) hardware and software asset controls —appropriate authorisation to prevent security compromises from unauthorised hardware and software assets; f) network design — to ensure authorised network traffic flows and to reduce the impact of security compromises; g) vulnerability management controls — which identify and address information security vulnerabilities in a timely manner;h) patch management controls — to manage the assessment and application of patches and other updates that address known vulnerabilities in a timely manner; i) service level management mechanisms — to monitor, manage and align information security with business objectives; j) monitoring controls — for timely detection of compromises to information security; k) response controls — to manage information security incidents and feedback mechanisms to address control deficiencies; l) capacity and performance management controls — to ensure that availability is not compromised by current or projected business volumes; and m) service provider management controls — to ensure that a regulated entity’s information security requirements are met.",
-                    "links": [
+                    "prose": "Acquisition and implementation controls would typically be in place to ensure that information security is not compromised by the introduction of new information assets. Ongoing support and maintenance controls would typically be in place to ensure that information assets continue to meet the information security requirements of the APRA- regulated entity. Typical examples of categories of control include:"
+                  }
+                ],
+                "controls": [
+                  {
+                    "id": "id",
+                    "title": "life-cycle - acquisition and implementation - change management",
+                    "parts": [
                       {
-                        "href": "#16deec76-a574-48eb-9d04-e895d1a2de41",
-                        "text": "refer to Attachment B for further guidance."
+                        "id": "id",
+                        "name": "statement",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "a"
+                          }
+                        ],
+                        "prose": "information security is addressed as part of the change management process and the information asset inventory is updated; "
                       }
                     ]
                   },
                   {
+                    "id": "id",
+                    "title": "life-cycle - acquisition and implementation - configuration management",
+                    "parts": [
+                      {
+                        "id": "id",
+                        "name": "statement",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "b"
+                          }
+                        ],
+                        "prose": "the configuration of information assets minimises vulnerabilities and is defined, assessed, registered, maintained, including when new vulnerabilities and threats are discovered, and applied consistently; "
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id",
+                    "title": "life-cycle - acquisition and implementation - deployment and environment management",
+                    "parts": [
+                      {
+                        "id": "id",
+                        "name": "statement",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "c"
+                          }
+                        ],
+                        "prose": "development, test and production environments are appropriately segregated and enforce segregation of duties; "
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id",
+                    "title": "life-cycle - acquisition and implementation - access management controls",
+                    "parts": [
+                      {
+                        "id": "id",
+                        "name": "statement",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "d"
+                          }
+                        ],
+                        "prose": "only authorised users, software and hardware are able to access information assets (refer to Attachment B for further guidance);",
+                        "links": [
+                          {
+                            "href": "#16deec76-a574-48eb-9d04-e895d1a2de41",
+                            "text": "refer to Attachment B for further guidance."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id",
+                    "title": "life-cycle - acquisition and implementation - hardware and software asset controls",
+                    "parts": [
+                      {
+                        "id": "id",
+                        "name": "statement",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "e"
+                          }
+                        ],
+                        "prose": "appropriate authorisation to prevent security compromises from unauthorised hardware and software assets;"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id",
+                    "title": "life-cycle - acquisition and implementation - network design",
+                    "parts": [
+                      {
+                        "id": "id",
+                        "name": "statement",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "f"
+                          }
+                        ],
+                        "prose": "to ensure authorised network traffic flows and to reduce the impact of security compromises;"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id",
+                    "title": "life-cycle - acquisition and implementation - vulnerability management controls",
+                    "parts": [
+                      {
+                        "id": "id",
+                        "name": "statement",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "g"
+                          }
+                        ],
+                        "prose": "which identify and address information security vulnerabilities in a timely manner;"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id",
+                    "title": "life-cycle - acquisition and implementation - patch management controls",
+                    "parts": [
+                      {
+                        "id": "id",
+                        "name": "statement",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "h"
+                          }
+                        ],
+                        "prose": "to manage the assessment and application of patches and other updates that address known vulnerabilities in a timely manner;"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id",
+                    "title": "life-cycle - acquisition and implementation - service level management mechanisms",
+                    "parts": [
+                      {
+                        "id": "id",
+                        "name": "statement",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "i"
+                          }
+                        ],
+                        "prose": "to monitor, manage and align information security with business objectives;"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id",
+                    "title": "life-cycle - acquisition and implementation - monitoring controls",
+                    "parts": [
+                      {
+                        "id": "id",
+                        "name": "statement",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "j"
+                          }
+                        ],
+                        "prose": "for timely detection of compromises to information security;"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id",
+                    "title": "life-cycle - acquisition and implementation - response controls",
+                    "parts": [
+                      {
+                        "id": "id",
+                        "name": "statement",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "k"
+                          }
+                        ],
+                        "prose": "to manage information security incidents and feedback mechanisms to address control deficiencies;"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id",
+                    "title": "life-cycle - acquisition and implementation - capacity and performance management controls",
+                    "parts": [
+                      {
+                        "id": "id",
+                        "name": "statement",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "l"
+                          }
+                        ],
+                        "prose": "to ensure that availability is not compromised by current or projected business volumes;"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id",
+                    "title": "life-cycle - acquisition and implementation - service provider management controls",
+                    "parts": [
+                      {
+                        "id": "id",
+                        "name": "statement",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "m"
+                          }
+                        ],
+                        "prose": "to ensure that a regulated entity’s information security requirements are met."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "ic-ias-1",
+                "title": "life-cycle - Decommissioning and destruction",
+                "parts": [
+                  {
                     "id": "cpg234-para37",
                     "name": "guidance",
                     "prose": "Decommissioning and destruction controls are typically used to ensure that information security is not compromised as information assets reach the end of their useful life. Examples include archiving strategies and the secure data deletion (that is, deleting data using techniques to ensure data is irrecoverable) of sensitive information prior to the disposal of information assets."
-                  },
+                  }
+                ]
+              },
+              {
+                "id": "ic-ias-1",
+                "title": "life-cycle - completeness",
+                "parts": [
                   {
                     "id": "cpg234-para38",
                     "name": "guidance",
@@ -555,16 +1071,30 @@
                     "id": "cpg234-para41",
                     "name": "guidance",
                     "prose": "Maintaining information assets therefore necessitates a disciplined approach to information asset life-cycle management, including a comprehensive understanding of assets that support the business, as well as the potential impacts of an information security compromise of these assets. Maintenance of information assets can be facilitated through the monitoring of end-of-support dates, where available, and the active identification of systems, including those that are internally-developed and which are no longer invested in or are not secure by design. A technology refresh plan with committed resourcing can also facilitate the timely replacement of hardware and software."
+                  }
+                ],
+                "controls": [
+                  {
+                    "id": "id",
+                    "title": "extended support arrangements",
+                    "parts": [
+                      {
+                        "id": "cpg234-para42",
+                        "name": "guidance",
+                        "prose": "Where extended support arrangements are in place, it is important that there is a clear understanding of the nature and effectiveness of these arrangements. Additionally, while extended or custom support arrangements may partially mitigate risk, they are often costly, could provide a false sense of security and can further delay remediation of ageing technology. Furthermore, support agreements of this nature typically provide hot-fixes or patches for critical vulnerabilities only, and remain constrained by the dated security model and design limitations of the technology."
+                      }
+                    ]
                   },
                   {
-                    "id": "cpg234-para42",
-                    "name": "guidance",
-                    "prose": "Where extended support arrangements are in place, it is important that there is a clear understanding of the nature and effectiveness of these arrangements. Additionally, while extended or custom support arrangements may partially mitigate risk, they are often costly, could provide a false sense of security and can further delay remediation of ageing technology. Furthermore, support agreements of this nature typically provide hot-fixes or patches for critical vulnerabilities only, and remain constrained by the dated security model and design limitations of the technology."
-                  },
-                  {
-                    "id": "cpg234-para43",
-                    "name": "guidance",
-                    "prose": "To minimise information security vulnerabilities, an APRA-regulated entity would typically decommission systems: a) that cannot be adequately updated as new security vulnerabilities or threats are identified; and b) where the use of mitigating controls — such as segregation from other information assets — is not an option."
+                    "id": "id",
+                    "title": "decommission systems",
+                    "parts": [
+                      {
+                        "id": "cpg234-para43",
+                        "name": "guidance",
+                        "prose": "To minimise information security vulnerabilities, an APRA-regulated entity would typically decommission systems: a) that cannot be adequately updated as new security vulnerabilities or threats are identified; and b) where the use of mitigating controls — such as segregation from other information assets — is not an option."
+                      }
+                    ]
                   }
                 ]
               }
@@ -705,11 +1235,132 @@
                   {
                     "id": "cpg234-para47",
                     "name": "guidance",
-                    "prose": "APRA envisages that a regulated entity would implement controls to manage changes to information assets, including changes to hardware, software, data, and configuration (both where the change is planned and in response to an emergency) with the aim of maintaining information security. This would typically include: a) security testing (including reviews) to identify vulnerabilities and confirm information security requirements have been met. The nature of testing would be commensurate with the scope of the change and the sensitivity and criticality of the impacted information asset (refer to Attachment H for examples of common testing techniques); b) approval of changes prior to deployment into the production environment; c) segregation of duty controls which prevent personnel from deploying their own software changes to production; d) changes are developed and verified in another environment, sufficiently segregated from production so as to avoid any compromise of information security; e) information security requirements are validated prior to deployment; f) desensitising sensitive production data when used for development or testing purposes; and g) intentionally introduced information security vulnerabilities are authorised. In APRA’s view, changes that knowingly introduce security vulnerabilities would be minimised and, where possible, compensating controls implemented. This situation normally arises when dealing with system outages.",
-                    "links": [
+                    "prose": "APRA envisages that a regulated entity would implement controls to manage changes to information assets, including changes to hardware, software, data, and configuration (both where the change is planned and in response to an emergency) with the aim of maintaining information security. This would typically include:"
+                  }
+                ],
+                "controls": [
+                  {
+                    "id": "id",
+                    "title": "security testing",
+                    "parts": [
                       {
-                        "href": "#a405ec0d-0b81-4d19-9903-bae2d1c2e400",
-                        "text": "refer to Attachment H for examples of common testing techniques"
+                        "id": "id",
+                        "name": "statement",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "a)"
+                          }
+                        ],
+                        "prose": "security testing (including reviews) to identify vulnerabilities and confirm information security requirements have been met. The nature of testing would be commensurate with the scope of the change and the sensitivity and criticality of the impacted information asset (refer to Attachment H for examples of common testing techniques);",
+                        "links": [
+                          {
+                            "href": "#a405ec0d-0b81-4d19-9903-bae2d1c2e400",
+                            "text": "refer to Attachment H for examples of common testing techniques"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id",
+                    "title": "approval of changes",
+                    "parts": [
+                      {
+                        "id": "id",
+                        "name": "statement",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "b)"
+                          }
+                        ],
+                        "prose": "approval of changes prior to deployment into the production environment;"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id",
+                    "title": "segregation of duty",
+                    "parts": [
+                      {
+                        "id": "id",
+                        "name": "statement",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "c)"
+                          }
+                        ],
+                        "prose": "segregation of duty controls which prevent personnel from deploying their own software changes to production;"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id",
+                    "title": "non-production environments",
+                    "parts": [
+                      {
+                        "id": "id",
+                        "name": "statement",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "d)"
+                          }
+                        ],
+                        "prose": "changes are developed and verified in another environment, sufficiently segregated from production so as to avoid any compromise of information security;"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id",
+                    "title": "information security requirements",
+                    "parts": [
+                      {
+                        "id": "id",
+                        "name": "statement",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "e)"
+                          }
+                        ],
+                        "prose": "information security requirements are validated prior to deployment;"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id",
+                    "title": "desensitising production data",
+                    "parts": [
+                      {
+                        "id": "id",
+                        "name": "statement",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "f)"
+                          }
+                        ],
+                        "prose": "desensitising sensitive production data when used for development or testing purposes;"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id",
+                    "title": "intentional information security vulnerabilities",
+                    "parts": [
+                      {
+                        "id": "id",
+                        "name": "statement",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "g)"
+                          }
+                        ],
+                        "prose": "intentionally introduced information security vulnerabilities are authorised. In APRA’s view, changes that knowingly introduce security vulnerabilities would be minimised and, where possible, compensating controls implemented. This situation normally arises when dealing with system outages."
                       }
                     ]
                   }
@@ -740,7 +1391,7 @@
                   {
                     "id": "cpg234-para49",
                     "name": "guidance",
-                    "prose": "The outcome of secure software development and acquisition is to ensure that software: a) continues to function as intended regardless of unforeseen circumstances, including where erroneous input is supplied; b) has a reduced propensity to be misused either intentionally (e.g. for the purposes of theft) or inadvertently; and c) complies with the information security policy framework."
+                    "prose": "The outcome of secure software development and acquisition is to ensure that software:<ol type='a'><li>continues to function as intended regardless of unforeseen circumstances, including where erroneous input is supplied;</li><li>has a reduced propensity to be misused either intentionally (e.g. for the purposes of theft) or inadvertently; and</li><li>complies with the information security policy framework.</li></ol>"
                   }
                 ]
               }
@@ -759,21 +1410,132 @@
                     "id": "cpg234-para50",
                     "name": "guidance",
                     "prose": "Data leakage is the unauthorised removal, copying, distribution, capturing or other types of disclosure of sensitive data that results in a loss of data confidentiality (also known as a data breach). Access to data removal methods would typically be subject to risk assessment and only granted where a valid business need exists."
+                  }
+                ],
+                "controls": [
+                  {
+                    "id": "id",
+                    "title": "title",
+                    "parts": [
+                      {
+                        "id": "cpg234-para51",
+                        "name": "guidance",
+                        "prose": "Controls, commensurate with the sensitivity and criticality of the data, would typically be implemented where sensitive data is at risk of leakage. Examples of data leakage methods include the misuse of portable computing devices (e.g. laptops, tablets, mobile phones), portable storage devices (e.g. USB flash drives, portable hard drives, writable disks), electronic transfer mechanisms (e.g. email, instant messaging) and hard copy."
+                      }
+                    ]
                   },
                   {
-                    "id": "cpg234-para51",
-                    "name": "guidance",
-                    "prose": "Controls, commensurate with the sensitivity and criticality of the data, would typically be implemented where sensitive data is at risk of leakage. Examples of data leakage methods include the misuse of portable computing devices (e.g. laptops, tablets, mobile phones), portable storage devices (e.g. USB flash drives, portable hard drives, writable disks), electronic transfer mechanisms (e.g. email, instant messaging) and hard copy."
+                    "id": "id",
+                    "title": "title",
+                    "parts": [
+                      {
+                        "id": "cpg234-para52",
+                        "name": "guidance",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "a)"
+                          }
+                        ],
+                        "prose": "authorisation, registration and regular review of users and associated transfer mechanisms and devices, including printers, telephony and video conferencing equipment. Users with a greater level of access to sensitive data would be subject to increased scrutiny;"
+                      }
+                    ]
                   },
                   {
-                    "id": "cpg234-para52",
-                    "name": "guidance",
-                    "prose": "Typically, the strength of data leakage controls would be commensurate with the sensitivity of the data. Common controls include: a) authorisation, registration and regular review of users and associated transfer mechanisms and devices, including printers, telephony and video conferencing equipment. Users with a greater level of access to sensitive data would be subject to increased scrutiny; b) appropriate blocking, filtering and monitoring of electronic transfer mechanisms, websites and printing; c) appropriate encryption, cleansing and auditing of devices; d) appropriate segmentation of data, based on sensitivity and access needs; e) monitoring for unauthorised software and hardware (e.g. key loggers, password cracking software, wireless access points, business implemented technology solutions); and f) appropriate removal of sensitive data after recovery tests are concluded."
+                    "id": "id",
+                    "title": "title",
+                    "parts": [
+                      {
+                        "id": "cpg234-para52",
+                        "name": "guidance",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "b)"
+                          }
+                        ],
+                        "prose": "appropriate blocking, filtering and monitoring of electronic transfer mechanisms, websites and printing;"
+                      }
+                    ]
                   },
                   {
-                    "id": "cpg234-para53",
-                    "name": "guidance",
-                    "prose": "Wholesale access to sensitive data (e.g. contents of customer databases or intellectual property that can be exploited for personal gain) would be highly restricted to reduce the risk exposure to significant data leakage events. Industry experience of actual data leakage incidents include the unauthorised extraction of debit/credit card details, theft of personally identifiable information, loss of unencrypted backup media and the sale/trade or exploitation of customer identity data."
+                    "id": "id",
+                    "title": "title",
+                    "parts": [
+                      {
+                        "id": "cpg234-para52",
+                        "name": "guidance",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "c)"
+                          }
+                        ],
+                        "prose": "appropriate encryption, cleansing and auditing of devices;"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id",
+                    "title": "title",
+                    "parts": [
+                      {
+                        "id": "cpg234-para52",
+                        "name": "guidance",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "d)"
+                          }
+                        ],
+                        "prose": "appropriate segmentation of data, based on sensitivity and access needs;"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id",
+                    "title": "title",
+                    "parts": [
+                      {
+                        "id": "cpg234-para52",
+                        "name": "guidance",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "e)"
+                          }
+                        ],
+                        "prose": "monitoring for unauthorised software and hardware (e.g. key loggers, password cracking software, wireless access points, business implemented technology solutions);"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id",
+                    "title": "title",
+                    "parts": [
+                      {
+                        "id": "cpg234-para52",
+                        "name": "guidance",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "f)"
+                          }
+                        ],
+                        "prose": "appropriate removal of sensitive data after recovery tests are concluded."
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id",
+                    "title": "Wholesale access to sensitive data",
+                    "parts": [
+                      {
+                        "id": "cpg234-para53",
+                        "name": "guidance",
+                        "prose": "Wholesale access to sensitive data (e.g. contents of customer databases or intellectual property that can be exploited for personal gain) would be highly restricted to reduce the risk exposure to significant data leakage events. Industry experience of actual data leakage incidents include the unauthorised extraction of debit/credit card details, theft of personally identifiable information, loss of unencrypted backup media and the sale/trade or exploitation of customer identity data."
+                      }
+                    ]
                   }
                 ]
               }
@@ -837,7 +1599,111 @@
                   {
                     "id": "cpg234-para56",
                     "name": "guidance",
-                    "prose": "An APRA-regulated entity would typically deploy appropriate information security technology solutions which maintain the security of information assets. Examples include firewalls, network access control, intrusion detection/prevention devices, anti- malware, encryption and monitoring/log analysis tools. The degree of reliance placed on technology solutions for information security could necessitate a heightened set of life- cycle controls, including but not limited to: a) guidelines outlining when information security-specific technology solutions should be used; b) standards documenting the detailed objectives and requirements of individual information security-specific technology solutions; c) authorisation of individuals who can make changes to information security-specific technology solutions. This would typically take into account segregation of duties issues; d) regular assessment of the information security-specific technology solutions configuration, assessing both continued effectiveness as well as identification of any unauthorised access or modification; e) periodic review of industry practice and benchmarking against peers; and f) detection techniques deployed which provide an alert if information security-specific technology solutions are not working as designed."
+                    "prose": "An APRA-regulated entity would typically deploy appropriate information security technology solutions which maintain the security of information assets. Examples include firewalls, network access control, intrusion detection/prevention devices, anti- malware, encryption and monitoring/log analysis tools. The degree of reliance placed on technology solutions for information security could necessitate a heightened set of life- cycle controls, including but not limited to:"
+                  }
+                ],
+                "controls": [
+                  {
+                    "id": "id",
+                    "title": "title",
+                    "parts": [
+                      {
+                        "id": "id",
+                        "name": "guidance",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "a)"
+                          }
+                        ],
+                        "prose": "guidelines outlining when information security-specific technology solutions should be used;"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id",
+                    "title": "title",
+                    "parts": [
+                      {
+                        "id": "id",
+                        "name": "guidance",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "b)"
+                          }
+                        ],
+                        "prose": "standards documenting the detailed objectives and requirements of individual information security-specific technology solutions;"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id",
+                    "title": "title",
+                    "parts": [
+                      {
+                        "id": "id",
+                        "name": "guidance",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "c)"
+                          }
+                        ],
+                        "prose": "authorisation of individuals who can make changes to information security-specific technology solutions. This would typically take into account segregation of duties issues;"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id",
+                    "title": "title",
+                    "parts": [
+                      {
+                        "id": "id",
+                        "name": "guidance",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "d)"
+                          }
+                        ],
+                        "prose": "regular assessment of the information security-specific technology solutions configuration, assessing both continued effectiveness as well as identification of any unauthorised access or modification;"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id",
+                    "title": "title",
+                    "parts": [
+                      {
+                        "id": "id",
+                        "name": "guidance",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "e)"
+                          }
+                        ],
+                        "prose": "periodic review of industry practice and benchmarking against peers;"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id",
+                    "title": "title",
+                    "parts": [
+                      {
+                        "id": "id",
+                        "name": "guidance",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "f)"
+                          }
+                        ],
+                        "prose": "detection techniques deployed which provide an alert if information security-specific technology solutions are not working as designed."
+                      }
+                    ]
                   }
                 ]
               }
@@ -919,21 +1785,52 @@
                         "prose": "For the avoidance of doubt, paragraph 22 of this Prudential Standard applies to all information assets managed by related parties and third parties, not only those captured under agreements with service providers of outsourced material business activities under Prudential Standard CPS 231 Outsourcing or Prudential Standard SPS 231 Outsourcing."
                       }
                     ]
+                  }
+                ],
+                "controls": [
+                  {
+                    "id": "id",
+                    "title": "controls in place or planned",
+                    "parts": [
+                      {
+                        "id": "cpg234-para63",
+                        "name": "guidance",
+                        "prose": "Evaluation of the design of information security controls of third parties and related parties necessitates an understanding of the controls in place or planned. This can be maintained over time through a combination of interviews, surveys, control testing, certifications, contractual reviews, attestations and independent assurance assessments. Controls identified can then be compared to common industry controls and considered in light of controls within the regulated entity as well as the nature of the information assets involved. Any capability gaps identified would be addressed in a timely manner."
+                      }
+                    ]
                   },
                   {
-                    "id": "cpg234-para63",
-                    "name": "guidance",
-                    "prose": "Evaluation of the design of information security controls of third parties and related parties necessitates an understanding of the controls in place or planned. This can be maintained over time through a combination of interviews, surveys, control testing, certifications, contractual reviews, attestations and independent assurance assessments. Controls identified can then be compared to common industry controls and considered in light of controls within the regulated entity as well as the nature of the information assets involved. Any capability gaps identified would be addressed in a timely manner."
+                    "id": "id",
+                    "title": "sub-contracting/on- sourcing arrangements",
+                    "parts": [
+                      {
+                        "id": "cpg234-para64",
+                        "name": "guidance",
+                        "prose": "Third parties and related party agreements often take advantage of sub-contracting/on- sourcing arrangements, whether at the start of the arrangement or over time. Consequently, in order to effectively evaluate the design of information security controls, an APRA-regulated entity would consider what is permissible within the agreement, and ongoing awareness of changes to the way services are provided."
+                      }
+                    ]
                   },
                   {
-                    "id": "cpg234-para64",
-                    "name": "guidance",
-                    "prose": "Third parties and related party agreements often take advantage of sub-contracting/on- sourcing arrangements, whether at the start of the arrangement or over time. Consequently, in order to effectively evaluate the design of information security controls, an APRA-regulated entity would consider what is permissible within the agreement, and ongoing awareness of changes to the way services are provided."
+                    "id": "id",
+                    "title": "contractual obligations",
+                    "parts": [
+                      {
+                        "id": "cpg234-para65",
+                        "name": "guidance",
+                        "prose": "An APRA-regulated institution would usually consider whether information security considerations are appropriately captured in contractual obligations and oversight arrangements."
+                      }
+                    ]
                   },
                   {
-                    "id": "cpg234-para65",
-                    "name": "guidance",
-                    "prose": "An APRA-regulated institution would usually consider whether information security considerations are appropriately captured in contractual obligations and oversight arrangements. The regulated entity would also consider the scope, depth and independence of any certifications, attestations and assurance provided and take steps to address any limitations identified."
+                    "id": "id",
+                    "title": "certifications, attestations and assurance",
+                    "parts": [
+                      {
+                        "id": "cpg234-para65",
+                        "name": "guidance",
+                        "prose": "The regulated entity would also consider the scope, depth and independence of any certifications, attestations and assurance provided and take steps to address any limitations identified."
+                      }
+                    ]
                   }
                 ]
               }
@@ -953,7 +1850,7 @@
             "controls": [
               {
                 "id": "im-dsc-1",
-                "title": "",
+                "title": "detect and respond to information security incidents",
                 "parts": [
                   {
                     "id": "cps234-para23",
@@ -964,21 +1861,41 @@
                     "id": "cpg234-para66",
                     "name": "guidance",
                     "prose": "Under CPS 234, an APRA-regulated entity is required to have robust mechanisms in place to detect and respond to actual or potential compromises of information security in a timely manner. The term ‘potential’ is used to highlight that information security incidents are commonly identified when an event occurs (e.g. unauthorised access notification, customer complaint) requiring further investigation in order to ascertain whether an actual security compromise has occurred."
+                  }
+                ],
+                "controls": [
+                  {
+                    "id": "id",
+                    "title": "Detection mechanisms",
+                    "parts": [
+                      {
+                        "id": "cpg234-para67",
+                        "name": "guidance",
+                        "prose": "Detection mechanisms typically include scanning, sensing and logging mechanisms which can be used to identify potential information security incidents. Monitoring processes could include the identification of unusual patterns of behaviour and logging that facilitates investigation and preserves forensic evidence. The strength and nature of monitoring controls would typically be commensurate with the impact of an information security incident. Monitoring processes would consider the broad set of events, ranging from the physical hardware layer to higher order business activities such as payments and changes to user access. Common monitoring techniques include:<ol type='a'><li>network and user profiling that establishes a baseline of normal activity which, when combined with logging and alerting mechanisms, can enable detection of anomalous activity;</li><li>scanning for unauthorised hardware, software and changes to configurations;</li><li>sensors that provide an alert when a measure breaches a defined threshold(s) (e.g. device, server and network activity);</li><li>logging and alerting of access to sensitive data or unsuccessful logon attempts to identify potential unauthorised access; and</li><li>users with privileged access accounts subject to a greater level of monitoring in light of the heightened risks involved."
+                      }
+                    ]
                   },
                   {
-                    "id": "cpg234-para67",
-                    "name": "guidance",
-                    "prose": "Detection mechanisms typically include scanning, sensing and logging mechanisms which can be used to identify potential information security incidents. Monitoring processes could include the identification of unusual patterns of behaviour and logging that facilitates investigation and preserves forensic evidence. The strength and nature of monitoring controls would typically be commensurate with the impact of an information security incident. Monitoring processes would consider the broad set of events, ranging from the physical hardware layer to higher order business activities such as payments and changes to user access. Common monitoring techniques include: a) network and user profiling that establishes a baseline of normal activity which, when combined with logging and alerting mechanisms, can enable detection of anomalous activity; b) scanning for unauthorised hardware, software and changes to configurations; c) sensors that provide an alert when a measure breaches a defined threshold(s) (e.g. device, server and network activity); d) logging and alerting of access to sensitive data or unsuccessful logon attempts to identify potential unauthorised access; and e) users with privileged access accounts subject to a greater level of monitoring in light of the heightened risks involved."
+                    "id": "id",
+                    "title": "Monitoring processes and tools",
+                    "parts": [
+                      {
+                        "id": "cpg234-para68",
+                        "name": "guidance",
+                        "prose": "Monitoring processes and tools remain in step with the evolving nature of threats and contemporary industry practices."
+                      }
+                    ]
                   },
                   {
-                    "id": "cpg234-para68",
-                    "name": "guidance",
-                    "prose": "Monitoring processes and tools remain in step with the evolving nature of threats and contemporary industry practices."
-                  },
-                  {
-                    "id": "cpg234-para69",
-                    "name": "guidance",
-                    "prose": "APRA envisages that a regulated entity would establish a clear allocation of responsibilities for monitoring processes, with appropriate tools in place to enable timely detection. Access controls and segregation of duties would typically be used as a means to safeguard the integrity of the monitoring processes."
+                    "id": "id",
+                    "title": "responsibilities for monitoring processes",
+                    "parts": [
+                      {
+                        "id": "cpg234-para69",
+                        "name": "guidance",
+                        "prose": "APRA envisages that a regulated entity would establish a clear allocation of responsibilities for monitoring processes, with appropriate tools in place to enable timely detection. Access controls and segregation of duties would typically be used as a means to safeguard the integrity of the monitoring processes."
+                      }
+                    ]
                   }
                 ]
               }
@@ -997,21 +1914,46 @@
                     "id": "cps234-para24",
                     "name": "statement",
                     "prose": "An APRA-regulated entity must maintain plans to respond to information security incidents that the entity considers could plausibly occur (information security response plans)."
+                  }
+                ],
+                "controls": [
+                  {
+                    "id": "id",
+                    "title": "maintain response plans",
+                    "parts": [
+                      {
+                        "id": "cpg234-para70",
+                        "name": "guidance",
+                        "prose": "An APRA-regulated entity would maintain plans in line with information security incidents experienced, both internally and externally. Examples of information security incidents include:<ol type='a'><li>malware infection (e.g. virus, ransomware);</li><li>data breach (customer or internal data);</li><li>compromise of staff or customer credentials (e.g. as the result of a phishing attack);</li><li>denial-of-service attack;</li><li>hack of an internet-facing platform;</li><li>website defacement; and</li><li>compromise by an advanced persistent threat.6"
+                      },
+                      {
+                        "id": "cpg234-para70",
+                        "name": "footnote",
+                        "prose": "Advanced persistent threats (APTs) are characterised as a set of sophisticated, covert and continuous computer hacking processes coordinated by an individual, group or nation-state targeting a specific entity. An APT usually targets organisations or nations for commercial or political motives. APT processes require a high degree of covertness and diligence over a long period of time (typically months)."
+                      }
+                    ]
                   },
                   {
-                    "id": "cpg234-para70",
-                    "name": "guidance",
-                    "prose": "An APRA-regulated entity would maintain plans in line with information security incidents experienced, both internally and externally. Examples of information security incidents include: a) malware infection (e.g. virus, ransomware); b) data breach (customer or internal data); c) compromise of staff or customer credentials (e.g. as the result of a phishing attack); d) denial-of-service attack; e) hack of an internet-facing platform; f) website defacement; and g) compromise by an advanced persistent threat.6"
+                    "id": "id",
+                    "title": "clear accountability and communication strategies",
+                    "parts": [
+                      {
+                        "id": "cpg234-para71",
+                        "name": "guidance",
+                        "prose": "An APRA-regulated entity would typically have clear accountability and communication strategies to limit the impact of information security incidents. Under CPS 234, this includes escalation and reporting of information security incidents to the Board, other governing bodies and individuals responsible for information security incident management and oversight, as appropriate. A regulated entity could also include customer communication as part of any such communication strategy where appropriate. Incident response plans would also typically assist in compliance with regulatory notification requirements."
+                      }
+                    ]
                   },
                   {
-                    "id": "cpg234-para71",
-                    "name": "guidance",
-                    "prose": "An APRA-regulated entity would typically have clear accountability and communication strategies to limit the impact of information security incidents. Under CPS 234, this includes escalation and reporting of information security incidents to the Board, other governing bodies and individuals responsible for information security incident management and oversight, as appropriate. A regulated entity could also include customer communication as part of any such communication strategy where appropriate. Incident response plans would also typically assist in compliance with regulatory notification requirements."
-                  },
-                  {
-                    "id": "cpg234-para72",
-                    "name": "guidance",
-                    "prose": "The level of detail of response plans would be sufficient to minimise the amount of decision-making required and provide clarity regarding roles and responsibilities when experiencing an information security incident."
+                    "id": "id",
+                    "title": "detail of response plans",
+                    "parts": [
+                      {
+                        "id": "cpg234-para72",
+                        "name": "guidance",
+                        "prose": "The level of detail of response plans would be sufficient to minimise the amount of decision-making required and provide clarity regarding roles and responsibilities when experiencing an information security incident."
+                      }
+                    ]
                   }
                 ]
               }
