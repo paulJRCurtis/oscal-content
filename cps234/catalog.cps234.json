@@ -6,6 +6,18 @@
       "last-modified": "2022-12-15T13:30:39+11:00",
       "version": "0.0.2",
       "oscal-version": "1.0.4",
+      "links": [
+        {
+          "href": "#373725f0-a8ac-48ec-b617-eada353569de",
+          "rel": "reference",
+          "text": "APRA Prudential Standard CPS234 - Information Security - July 2019"
+        },
+        {
+          "href": "#7767ba71-dc3a-4409-90a5-886e6bf7a06d",
+          "rel": "reference",
+          "text": "APRA CPG234 - Prudential Practice Guide: Information Security - July 2019"
+        }
+      ],
       "roles": [
         {
           "id": "author",
@@ -1971,12 +1983,122 @@
                   {
                     "id": "cps234-para25",
                     "name": "statement",
-                    "prose": "An APRA-regulated entity’s information security response plans must include the mechanisms in place for: (a) managing all relevant stages of an incident, from detection to post-incident review; and (b) escalation and reporting of information security incidents to the Board, other governing bodies and individuals responsible for information security incident management and oversight, as appropriate."
+                    "prose": "An APRA-regulated entity’s information security response plans must include the mechanisms in place for:<ol type='a'><li>managing all relevant stages of an incident, from detection to post-incident review; and</li><li>escalation and reporting of information security incidents to the Board, other governing bodies and individuals responsible for information security incident management and oversight, as appropriate</li>."
+                  }
+                ],
+                "controls": [
+                  {
+                    "id": "id",
+                    "title": "title",
+                    "parts": [
+                      {
+                        "id": "cpg234-para73",
+                        "name": "guidance",
+                        "prose": "Under CPS 234, an APRA-regulated entity’s information security response plans must include mechanisms for managing all relevant stages of an incident. These typically include:<ol type='a'><li>detection of an information security event through the use of automated sensors and manual review;"
+                      }
+                    ]
                   },
                   {
-                    "id": "cpg234-para73",
-                    "name": "guidance",
-                    "prose": "Under CPS 234, an APRA-regulated entity’s information security response plans must include mechanisms for managing all relevant stages of an incident. These typically include: a) detection of an information security event through the use of automated sensors and manual review; b) identification and analysis to determine if it is an incident or an event;c) escalation to ensure that decision-makers are aware of the incident and to trigger incident response processes; d) containment to minimise the damage caused, and reduce the possibility of further damage; e) eradication which involves the removal of the source of the information security compromise (typically malware); f) response and recovery which involves a mixture of system restoration (where integrity and availability have been compromised) and managing sensitive data loss where confidentiality has been compromised. This allows for a return to business- as-usual processing; and g) post-incident analysis and review to reduce the possibility of a similar information security incident in the future, improve incident management procedures and forensic analysis to facilitate attribution and restitution (where relevant)."
+                    "id": "id",
+                    "title": "title",
+                    "parts": [
+                      {
+                        "id": "cpg234-para73",
+                        "name": "guidance",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "b)"
+                          }
+                        ],
+                        "prose": "identification and analysis to determine if it is an incident or an event;"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id",
+                    "title": "title",
+                    "parts": [
+                      {
+                        "id": "cpg234-para73",
+                        "name": "guidance",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "c)"
+                          }
+                        ],
+                        "prose": "c) escalation to ensure that decision-makers are aware of the incident and to trigger incident response processes;"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id",
+                    "title": "title",
+                    "parts": [
+                      {
+                        "id": "cpg234-para73",
+                        "name": "guidance",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "d)"
+                          }
+                        ],
+                        "prose": "containment to minimise the damage caused, and reduce the possibility of further damage;"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id",
+                    "title": "title",
+                    "parts": [
+                      {
+                        "id": "cpg234-para73",
+                        "name": "guidance",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "e)"
+                          }
+                        ],
+                        "prose": "eradication which involves the removal of the source of the information security compromise (typically malware);"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id",
+                    "title": "title",
+                    "parts": [
+                      {
+                        "id": "cpg234-para73",
+                        "name": "guidance",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "f)"
+                          }
+                        ],
+                        "prose": "response and recovery which involves a mixture of system restoration (where integrity and availability have been compromised) and managing sensitive data loss where confidentiality has been compromised. This allows for a return to business- as-usual processing;"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id",
+                    "title": "title",
+                    "parts": [
+                      {
+                        "id": "cpg234-para73",
+                        "name": "guidance",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "g)"
+                          }
+                        ],
+                        "prose": "post-incident analysis and review to reduce the possibility of a similar information security incident in the future, improve incident management procedures and forensic analysis to facilitate attribution and restitution (where relevant)."
+                      }
+                    ]
                   }
                 ]
               }
@@ -2342,7 +2464,7 @@
           "uuid": "373725f0-a8ac-48ec-b617-eada353569de",
           "title": "APRA CPS234 - Information Security",
           "citation": {
-            "text": "APRA (2019) Prudential Standard CPS 234 Information Security Sydney"
+            "text": "APRA (2019) Prudential Standard CPS 234 Information Security, Sydney"
           },
           "rlinks": [
             {
