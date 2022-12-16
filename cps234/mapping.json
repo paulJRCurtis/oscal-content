@@ -1,5 +1,197 @@
 {
   "apra": [
-    "rr-drr-1", "isc-ctp-1"
+    {
+      "control": "isc-ctp-1",
+      "awsca": []
+    },
+    {
+      "control": "ic-1",
+      "awsca": []
+    },
+    {
+      "control": "ic-ias-1",
+      "awsca": []
+    },
+    {
+      "control": "ic-ias-3",
+      "awsca": []
+    },
+    {
+      "control": "ic-ias-3-1",
+      "awsca": []
+    },
+    {
+      "control": "ic-ias-3-2",
+      "awsca": []
+    },
+    {
+      "control": "ic-ias-3-3",
+      "awsca": []
+    },
+    {
+      "control": "ic-ias-3-4",
+      "awsca": []
+    },
+    {
+      "control": "ic-ias-3-5",
+      "awsca": []
+    },
+    {
+      "control": "ic-ias-3-6",
+      "awsca": []
+    },
+    {
+      "control": "ic-ias-3-7",
+      "awsca": []
+    },
+    {
+      "control": "ic-ias-3-8",
+      "awsca": []
+    },
+    {
+      "control": "ic-ias-3-10",
+      "awsca": []
+    },
+    {
+      "control": "ic-ias-3-11",
+      "awsca": []
+    },
+    {
+      "control": "ic-ias-3-12",
+      "awsca": []
+    },
+    {
+      "control": "ic-ias-4",
+      "awsca": []
+    },
+    {
+      "control": "ic-vm-1",
+      "awsca": []
+    },
+    {
+      "control": "ic-vm-1-1",
+      "awsca": []
+    },
+    {
+      "control": "ic-vm-1-2",
+      "awsca": []
+    },
+    {
+      "control": "ic-vm-1-3",
+      "awsca": []
+    },
+    {
+      "control": "ic-vm-1-4",
+      "awsca": []
+    },
+    {
+      "control": "ic-eol-1",
+      "awsca": []
+    },
+    {
+      "control": "ic-eol-1-2",
+      "awsca": []
+    },
+    {
+      "control": "ic-pec-1",
+      "awsca": []
+    },
+    {
+      "control": "ic-pec-1-1",
+      "awsca": []
+    },
+    {
+      "control": "ic-pec-1-2",
+      "awsca": []
+    },
+    {
+      "control": "ic-pec-1-3",
+      "awsca": []
+    },
+    {
+      "control": "ic-pec-1-4",
+      "awsca": []
+    },
+    {
+      "control": "ic-scm-1",
+      "awsca": []
+    },
+    {
+      "control": "ic-scm-1-1",
+      "awsca": []
+    },
+    {
+      "control": "ic-scm-1-2",
+      "awsca": []
+    },
+    {
+      "control": "ic-scm-1-3",
+      "awsca": []
+    },
+    {
+      "control": "ic-scm-1-4",
+      "awsca": []
+    },
+    {
+      "control": "ic-scm-1-5",
+      "awsca": []
+    },
+    {
+      "control": "ic-dl-1",
+      "awsca": []
+    },
+    {
+      "control": "ic-dl-1-1",
+      "awsca": []
+    },
+    {
+      "control": "ic-cry-1",
+      "awsca": []
+    },
+    {
+      "control": "ic-cry-2",
+      "awsca": []
+    },
+    {
+      "control": "ic-tp-1-2",
+      "awsca": []
+    },
+    {
+      "control": "ic-tp-1-3",
+      "awsca": []
+    },
+    {
+      "control": "im-dsc-1",
+      "awsca": []
+    },
+    {
+      "control": "im-dsc-1-1",
+      "awsca": []
+    },
+    {
+      "control": "im-dsc-1-2",
+      "awsca": []
+    },
+    {
+      "control": "im-dsc-1-3",
+      "awsca": []
+    },
+    {
+      "control": "im-rsc-1",
+      "awsca": []
+    },
+    {
+      "control": "im-rsc-1-1",
+      "awsca": []
+    },
+    {
+      "control": "im-rsc-1-2",
+      "awsca": []
+    },
+    {
+      "control": "im-rsc-1-3",
+      "awsca": []
+    }
+
   ]
 }

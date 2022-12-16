@@ -16,6 +16,12 @@
             "with-ids": [
               "ic-pec-1"
             ]
+          },
+          { 
+            "with-child-controls": "no",
+            "with-ids": [
+              "ic-pec-1"
+            ]
           }
         ]
       }
