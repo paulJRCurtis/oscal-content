@@ -3,7 +3,7 @@
     "uuid": "f9b1d703-e209-43cd-884f-50c4748a917c",
     "metadata": {
       "title": "APRA CPS234 and CPG 234 Information Security 2019",
-      "last-modified": "2022-12-16T11:54:05+11:00",
+      "last-modified": "2022-12-17T13:50:55+11:00",
       "version": "0.0.3",
       "oscal-version": "1.0.4",
       "links": [
@@ -508,11 +508,11 @@
                 ],
                 "controls": [
                   {
-                    "id": "pf-php-3",
+                    "id": "pf-php-2-1",
                     "title": "Policy framework - IAM",
                     "parts": [
                       {
-                        "id": "pf-php-3_smt",
+                        "id": "pf-php-2-1_smt",
                         "name": "statement",
                         "props": [
                           {
@@ -539,11 +539,11 @@
                     ]
                   },
                   {
-                    "id": "pf-php-4",
+                    "id": "pf-php-2-2",
                     "title": "Policy framework - life-cycle management",
                     "parts": [
                       {
-                        "id": "pf-php-4_smt",
+                        "id": "pf-php-2-2_smt",
                         "name": "statement",
                         "props": [
                           {
@@ -569,11 +569,11 @@
                     ]
                   },
                   {
-                    "id": "pf-php-5",
+                    "id": "pf-php-2-3",
                     "title": "Policy framework - technology solutions",
                     "parts": [
                       {
-                        "id": "pf-php-5_smt",
+                        "id": "pf-php-2-3_smt",
                         "name": "statement",
                         "props": [
                           {
@@ -594,11 +594,11 @@
                     ]
                   },
                   {
-                    "id": "pf-php-6",
+                    "id": "pf-php-2-4",
                     "title": "Policy framework - information security architecture",
                     "parts": [
                       {
-                        "id": "pf-php-6_smt",
+                        "id": "pf-php-2-4_smt",
                         "name": "statement",
                         "props": [
                           {
@@ -619,11 +619,11 @@
                     ]
                   },
                   {
-                    "id": "pf-php-7",
+                    "id": "pf-php-2-5",
                     "title": "Policy framework - monitoring and incident management",
                     "parts": [
                       {
-                        "id": "pf-php-7_smt",
+                        "id": "pf-php-2-5_smt",
                         "name": "statement",
                         "props": [
                           {
@@ -644,11 +644,11 @@
                     ]
                   },
                   {
-                    "id": "pf-php-8",
+                    "id": "pf-php-2-6",
                     "title": "Policy framework - third parties",
                     "parts": [
                       {
-                        "id": "pf-php-8_smt",
+                        "id": "pf-php-2-6_smt",
                         "name": "statement",
                         "props": [
                           {
@@ -669,11 +669,11 @@
                     ]
                   },
                   {
-                    "id": "pf-php-9",
+                    "id": "pf-php-2-7",
                     "title": "Policy framework - acceptable usage",
                     "parts": [
                       {
-                        "id": "pf-php-9_smt",
+                        "id": "pf-php-2-7_smt",
                         "name": "statement",
                         "props": [
                           {
@@ -702,115 +702,115 @@
                         ]
                       }
                     ]
-                  },
-                  {
-                    "id": "pf-php-10",
-                    "title": "Policy framework - recruitment and vetting",
-                    "parts": [
-                      {
-                        "id": "pf-php-10_smt",
-                        "name": "statement",
-                        "props": [
-                          {
-                            "name": "source",
-                            "value": "CPG234"
-                          },
-                          {
-                            "name": "section",
-                            "value": "para21"
-                          },
-                          {
-                            "name": "label",
-                            "value": "h)"
-                          }
-                        ],
-                        "prose": "recruitment and vetting of staff and contractors;"
-                      }
-                    ]
-                  },
-                  {
-                    "id": "pf-php-11",
-                    "title": "Policy framework - roles and responsibilities",
-                    "parts": [
-                      {
-                        "id": "pf-php-11_smt",
-                        "name": "statement",
-                        "props": [
-                          {
-                            "name": "source",
-                            "value": "CPG234"
-                          },
-                          {
-                            "name": "section",
-                            "value": "para21"
-                          },
-                          {
-                            "name": "label",
-                            "value": "i)"
-                          }
-                        ],
-                        "prose": "information security roles and responsibilities;"
-                      }
-                    ]
-                  },
-                  {
-                    "id": "pf-php-12",
-                    "title": "Policy framework - physical and environmental controls",
-                    "parts": [
-                      {
-                        "id": "pf-php-12_smt",
-                        "name": "statement",
-                        "props": [
-                          {
-                            "name": "source",
-                            "value": "CPG234"
-                          },
-                          {
-                            "name": "section",
-                            "value": "para21"
-                          },
-                          {
-                            "name": "label",
-                            "value": "j)"
-                          }
-                        ],
-                        "prose": "physical and environmental controls;"
-                      }
-                    ]
-                  },
-                  {
-                    "id": "pf-php-13",
-                    "title": "Policy framework - assess compliance",
-                    "parts": [
-                      {
-                        "id": "pf-php-13_smt",
-                        "name": "statement",
-                        "props": [
-                          {
-                            "name": "source",
-                            "value": "CPG234"
-                          },
-                          {
-                            "name": "section",
-                            "value": "para21"
-                          },
-                          {
-                            "name": "label",
-                            "value": "k)"
-                          }
-                        ],
-                        "prose": "mechanisms to assess compliance with, and the ongoing effectiveness of, the information security policy framework."
-                      }
-                    ]
                   }
                 ]
               },
               {
-                "id": "pf-php-14",
+                "id": "pf-php-3",
+                "title": "Policy framework - recruitment and vetting",
+                "parts": [
+                  {
+                    "id": "pf-php-3_smt",
+                    "name": "statement",
+                    "props": [
+                      {
+                        "name": "source",
+                        "value": "CPG234"
+                      },
+                      {
+                        "name": "section",
+                        "value": "para21"
+                      },
+                      {
+                        "name": "label",
+                        "value": "h)"
+                      }
+                    ],
+                    "prose": "recruitment and vetting of staff and contractors;"
+                  }
+                ]
+              },
+              {
+                "id": "pf-php-4",
+                "title": "Policy framework - roles and responsibilities",
+                "parts": [
+                  {
+                    "id": "pf-php-4_smt",
+                    "name": "statement",
+                    "props": [
+                      {
+                        "name": "source",
+                        "value": "CPG234"
+                      },
+                      {
+                        "name": "section",
+                        "value": "para21"
+                      },
+                      {
+                        "name": "label",
+                        "value": "i)"
+                      }
+                    ],
+                    "prose": "information security roles and responsibilities;"
+                  }
+                ]
+              },
+              {
+                "id": "pf-php-5",
+                "title": "Policy framework - physical and environmental controls",
+                "parts": [
+                  {
+                    "id": "pf-php-5_smt",
+                    "name": "statement",
+                    "props": [
+                      {
+                        "name": "source",
+                        "value": "CPG234"
+                      },
+                      {
+                        "name": "section",
+                        "value": "para21"
+                      },
+                      {
+                        "name": "label",
+                        "value": "j)"
+                      }
+                    ],
+                    "prose": "physical and environmental controls;"
+                  }
+                ]
+              },
+              {
+                "id": "pf-php-6",
+                "title": "Policy framework - assess compliance",
+                "parts": [
+                  {
+                    "id": "pf-php-6_smt",
+                    "name": "statement",
+                    "props": [
+                      {
+                        "name": "source",
+                        "value": "CPG234"
+                      },
+                      {
+                        "name": "section",
+                        "value": "para21"
+                      },
+                      {
+                        "name": "label",
+                        "value": "k)"
+                      }
+                    ],
+                    "prose": "mechanisms to assess compliance with, and the ongoing effectiveness of, the information security policy framework."
+                  }
+                ]
+              },
+              {
+                "id": "pf-php-7",
                 "title": "information security policy framework consistency",
                 "parts": [
                   {
-                    "id": "pf-php-14_smt",
+                    "id": "pf-php-7_smt",
                     "name": "statement",
                     "props": [
                       {
@@ -1123,7 +1123,7 @@
         "controls": [
           {
             "id": "ic-1",
-            "title": "commensurate information security controls",
+            "title": "Commensurate information security controls",
             "parts": [
               {
                 "id": "ic-1_smt",
@@ -1138,7 +1138,7 @@
                     "value": "para21"
                   }
                 ],
-                "prose": "An APRA-regulated entity must have information security controls to protect its information assets, including those managed by related parties and third parties, that are implemented in a timely manner and that are commensurate with: (a) vulnerabilities and threats to the information assets; (b) the criticality and sensitivity of the information assets; (c) the stage at which the information assets are within their life-cycle;9 and (d) the potential consequences of an information security incident.",
+                "prose": "An APRA-regulated entity must have information security controls to protect its information assets, including those managed by related parties and third parties, that are implemented in a timely manner and that are commensurate with:<ol type='a'><li>vulnerabilities and threats to the information assets;</li><li>the criticality and sensitivity of the information assets;</li><li>the stage at which the information assets are within their life-cycle;9 and</li><li>the potential consequences of an information security incident.</li></ol>",
                 "parts": [
                   {
                     "id": "ic-1_smt_fnt",
@@ -1179,7 +1179,7 @@
                 "controls": [
                   {
                     "id": "ic-ias-1-1",
-                    "title": "life-cycle - information asset owner",
+                    "title": "Life-cycle - information asset owner",
                     "parts": [
                       {
                         "id": "ic-ias-1-1_smt",
@@ -1202,7 +1202,7 @@
               },
               {
                 "id": "ic-ias-2",
-                "title": "life-cycle - planning and design",
+                "title": "Life-cycle - planning and design",
                 "parts": [
                   {
                     "id": "ic-ias-2_gdn",
@@ -1223,7 +1223,7 @@
               },
               {
                 "id": "ic-ias-3",
-                "title": "life-cycle - acquisition and implementation",
+                "title": "Life-cycle - acquisition and implementation",
                 "parts": [
                   {
                     "id": "ic-ias-3_gdn",
@@ -1244,7 +1244,7 @@
                 "controls": [
                   {
                     "id": "ic-ias-3-1",
-                    "title": "life-cycle - acquisition and implementation - change management",
+                    "title": "Life-cycle - acquisition and implementation - change management",
                     "parts": [
                       {
                         "id": "ic-ias-3-1_smt",
@@ -1269,7 +1269,7 @@
                   },
                   {
                     "id": "ic-ias-3-2",
-                    "title": "life-cycle - acquisition and implementation - configuration management",
+                    "title": "Life-cycle - acquisition and implementation - configuration management",
                     "parts": [
                       {
                         "id": "ic-ias-3-2_smt",
@@ -1294,7 +1294,7 @@
                   },
                   {
                     "id": "ic-ias-3-3",
-                    "title": "life-cycle - acquisition and implementation - deployment and environment management",
+                    "title": "Life-cycle - acquisition and implementation - deployment and environment management",
                     "parts": [
                       {
                         "id": "ic-ias-3-3_smt",
@@ -1319,7 +1319,7 @@
                   },
                   {
                     "id": "ic-ias-3-4",
-                    "title": "life-cycle - acquisition and implementation - access management controls",
+                    "title": "Life-cycle - acquisition and implementation - access management controls",
                     "parts": [
                       {
                         "id": "ic-ias-3-4_smt",
@@ -1350,7 +1350,7 @@
                   },
                   {
                     "id": "ic-ias-3-5",
-                    "title": "life-cycle - acquisition and implementation - hardware and software asset controls",
+                    "title": "Life-cycle - acquisition and implementation - hardware and software asset controls",
                     "parts": [
                       {
                         "id": "ic-ias-3-5_smt",
@@ -1375,7 +1375,7 @@
                   },
                   {
                     "id": "ic-ias-3-6",
-                    "title": "life-cycle - acquisition and implementation - network design",
+                    "title": "Life-cycle - acquisition and implementation - network design",
                     "parts": [
                       {
                         "id": "ic-ias-3-6_smt",
@@ -1400,7 +1400,7 @@
                   },
                   {
                     "id": "ic-ias-3-7",
-                    "title": "life-cycle - acquisition and implementation - vulnerability management controls",
+                    "title": "Life-cycle - acquisition and implementation - vulnerability management controls",
                     "parts": [
                       {
                         "id": "ic-ias-3-7_smt",
@@ -1425,7 +1425,7 @@
                   },
                   {
                     "id": "ic-ias-3-8",
-                    "title": "life-cycle - acquisition and implementation - patch management controls",
+                    "title": "Life-cycle - acquisition and implementation - patch management controls",
                     "parts": [
                       {
                         "id": "ic-ias-3-8_smt",
@@ -1450,7 +1450,7 @@
                   },
                   {
                     "id": "ic-ias-3-9",
-                    "title": "life-cycle - acquisition and implementation - service level management mechanisms",
+                    "title": "Life-cycle - acquisition and implementation - service level management mechanisms",
                     "parts": [
                       {
                         "id": "ic-ias-3-9_smt",
@@ -1475,7 +1475,7 @@
                   },
                   {
                     "id": "ic-ias-3-10",
-                    "title": "life-cycle - acquisition and implementation - monitoring controls",
+                    "title": "Life-cycle - acquisition and implementation - monitoring controls",
                     "parts": [
                       {
                         "id": "ic-ias-3-10_smt",
@@ -1500,7 +1500,7 @@
                   },
                   {
                     "id": "ic-ias-3-11",
-                    "title": "life-cycle - acquisition and implementation - response controls",
+                    "title": "Life-cycle - acquisition and implementation - response controls",
                     "parts": [
                       {
                         "id": "ic-ias-3-11_smt",
@@ -1525,7 +1525,7 @@
                   },
                   {
                     "id": "ic-ias-3-12",
-                    "title": "life-cycle - acquisition and implementation - capacity and performance management controls",
+                    "title": "Life-cycle - acquisition and implementation - capacity and performance management controls",
                     "parts": [
                       {
                         "id": "ic-ias-3-12_smt",
@@ -1550,7 +1550,7 @@
                   },
                   {
                     "id": "ic-ias-3-13",
-                    "title": "life-cycle - acquisition and implementation - service provider management controls",
+                    "title": "Life-cycle - acquisition and implementation - service provider management controls",
                     "parts": [
                       {
                         "id": "ic-ias-3-13_smt",
@@ -1577,7 +1577,7 @@
               },
               {
                 "id": "ic-ias-4",
-                "title": "life-cycle - Decommissioning and destruction",
+                "title": "Life-cycle - Decommissioning and destruction",
                 "parts": [
                   {
                     "id": "ic-ias-4_gdn",
@@ -1647,7 +1647,7 @@
                 "controls": [
                   {
                     "id": "ic-vm-1-1",
-                    "title": "title",
+                    "title": "Vulnerability management - threat intelligence",
                     "props": [
                       {
                         "name": "source",
@@ -1664,15 +1664,15 @@
                     ],
                     "parts": [
                       {
-                        "id": "ic-vm-1-1_gdn",
-                        "name": "guidance",
+                        "id": "ic-vm-1-1_smt",
+                        "name": "statement",
                         "prose": "implement mechanisms that access and analyse timely threat intelligence regarding vulnerabilities, threats, methods of attack and countermeasures;"
                       }
                     ]
                   },
                   {
                     "id": "ic-vm-1-2",
-                    "title": "title",
+                    "title": "Vulnerability management - engage with stakeholders",
                     "props": [
                       {
                         "name": "source",
@@ -1689,15 +1689,15 @@
                     ],
                     "parts": [
                       {
-                        "id": "ic-vm-1-2_gdn",
-                        "name": "guidance",
+                        "id": "ic-vm-1-2_smt",
+                        "name": "statement",
                         "prose": "engage with stakeholders (including Government, industry participants and customers) regarding threats and countermeasures, as appropriate;"
                       }
                     ]
                   },
                   {
                     "id": "ic-vm-1-3",
-                    "title": "title",
+                    "title": "Vulnerability management - remediation activities",
                     "props": [
                       {
                         "name": "source",
@@ -1714,15 +1714,15 @@
                     ],
                     "parts": [
                       {
-                        "id": "ic-vm-1-3_gdn",
-                        "name": "guidance",
+                        "id": "ic-vm-1-3_smt",
+                        "name": "statement",
                         "prose": "develop tactical and strategic remediation activities for the control environment (prevention, detection and response) commensurate with the threat; and."
                       }
                     ]
                   },
                   {
                     "id": "ic-vm-1-4",
-                    "title": "title",
+                    "title": "Vulnerability management - disrupt phases of an attack",
                     "props": [
                       {
                         "name": "source",
@@ -1739,8 +1739,8 @@
                     ],
                     "parts": [
                       {
-                        "id": "ic-vm-1-4_gdn",
-                        "name": "guidance",
+                        "id": "ic-vm-1-4_smt",
+                        "name": "statement",
                         "prose": "implement mechanisms to disrupt the various phases of an attack. Example phases include reconnaissance, vulnerability exploitation, malware installation, privilege escalation, and unauthorised access."
                       }
                     ]
@@ -1912,7 +1912,7 @@
                 "controls": [
                   {
                     "id": "ic-pec-1-1",
-                    "title": "protection from natural and man-made threats",
+                    "title": "Protection from natural and man-made threats",
                     "parts": [
                       {
                         "id": "ic-pec-1-1_smt",
@@ -1937,7 +1937,7 @@
                   },
                   {
                     "id": "ic-pec-1-2",
-                    "title": "physical access controls",
+                    "title": "Physical access controls",
                     "parts": [
                       {
                         "id": "ic-pec-1-2_smt",
@@ -1966,7 +1966,7 @@
                   },
                   {
                     "id": "ic-pec-1-3",
-                    "title": "environmental controls",
+                    "title": "Environmental controls",
                     "parts": [
                       {
                         "id": "ic-pec-1-3_smt",
@@ -1995,7 +1995,7 @@
                   },
                   {
                     "id": "ic-pec-1-4",
-                    "title": "monitoring and alert mechanisms",
+                    "title": "Monitoring and alert mechanisms",
                     "parts": [
                       {
                         "id": "ic-pec-1-4_smt",
@@ -2033,7 +2033,7 @@
             "controls": [
               {
                 "id": "ic-scm-1",
-                "title": "",
+                "title": "Security in change management",
                 "parts": [
                   {
                     "id": "ic-scm-1_gdn",
@@ -2054,7 +2054,7 @@
                 "controls": [
                   {
                     "id": "ic-scm-1-1",
-                    "title": "security testing",
+                    "title": "Security in change management - security testing",
                     "parts": [
                       {
                         "id": "ic-scm-1-1_smt",
@@ -2085,7 +2085,7 @@
                   },
                   {
                     "id": "ic-scm-1-2",
-                    "title": "approval of changes",
+                    "title": "Security in change management - approval of changes",
                     "parts": [
                       {
                         "id": "ic-scm-1-2_smt",
@@ -2110,7 +2110,7 @@
                   },
                   {
                     "id": "ic-scm-1-3",
-                    "title": "segregation of duty",
+                    "title": "Security in change management - segregation of duty",
                     "parts": [
                       {
                         "id": "ic-scm-1-3_smt",
@@ -2135,7 +2135,7 @@
                   },
                   {
                     "id": "ic-scm-1-4",
-                    "title": "non-production environments",
+                    "title": "Security in change management - non-production environments",
                     "parts": [
                       {
                         "id": "ic-scm-1-4_smt",
@@ -2160,7 +2160,7 @@
                   },
                   {
                     "id": "ic-scm-1-5",
-                    "title": "information security requirements",
+                    "title": "Security in change management - information security requirements",
                     "parts": [
                       {
                         "id": "ic-scm-1-5_smt",
@@ -2185,7 +2185,7 @@
                   },
                   {
                     "id": "ic-scm-1-6",
-                    "title": "desensitising production data",
+                    "title": "Security in change management - desensitising production data",
                     "parts": [
                       {
                         "id": "ic-scm-1-6_smt",
@@ -2210,7 +2210,7 @@
                   },
                   {
                     "id": "ic-scm-1-7",
-                    "title": "intentional information security vulnerabilities",
+                    "title": "Security in change management - intentional information security vulnerabilities",
                     "parts": [
                       {
                         "id": "ic-scm-1-7_smt",
@@ -2244,7 +2244,7 @@
             "controls": [
               {
                 "id": "ic-ss-1",
-                "title": "",
+                "title": "Secure software development and acquisition",
                 "parts": [
                   {
                     "id": "ic-ss-1_smt",
@@ -2293,7 +2293,7 @@
             "controls": [
               {
                 "id": "ic-dl-1",
-                "title": "",
+                "title": "Data leakage - Access to data removal methods",
                 "parts": [
                   {
                     "id": "ic-dl-1_gdn",
@@ -2314,7 +2314,7 @@
                 "controls": [
                   {
                     "id": "ic-dl-1-1",
-                    "title": "title",
+                    "title": "Data leakage - Controls commensurate with sensitivity and criticality",
                     "parts": [
                       {
                         "id": "ic-dl-1-1_gdn",
@@ -2335,7 +2335,7 @@
                   },
                   {
                     "id": "ic-dl-1-2",
-                    "title": "title",
+                    "title": "Data leakage - user reviews",
                     "parts": [
                       {
                         "id": "ic-dl-1-2_gdn",
@@ -2360,7 +2360,7 @@
                   },
                   {
                     "id": "ic-dl-1-3",
-                    "title": "title",
+                    "title": "Data leakage - appropriate blocking, filtering and monitoring",
                     "parts": [
                       {
                         "id": "ic-dl-1-3_gdn",
@@ -2384,8 +2384,8 @@
                     ]
                   },
                   {
-                    "id": "id",
-                    "title": "ic-dl-1-4",
+                    "id": "ic-dl-1-4",
+                    "title": "Data leakage - device management",
                     "parts": [
                       {
                         "id": "ic-dl-1-4_gdn",
@@ -2410,7 +2410,7 @@
                   },
                   {
                     "id": "ic-dl-1-5",
-                    "title": "title",
+                    "title": "Data leakage - segmentation of data",
                     "parts": [
                       {
                         "id": "ic-dl-1-5_gdn",
@@ -2435,7 +2435,7 @@
                   },
                   {
                     "id": "ic-dl-1-6",
-                    "title": "title",
+                    "title": "Data leakage - unauthorised software and hardware",
                     "parts": [
                       {
                         "id": "ic-dl-1-6_gdn",
@@ -2460,7 +2460,7 @@
                   },
                   {
                     "id": "ic-dl-1-7",
-                    "title": "title",
+                    "title": "Data leakage - recovery tests",
                     "parts": [
                       {
                         "id": "ic-dl-1-7_gdn",
@@ -2485,7 +2485,7 @@
                   },
                   {
                     "id": "ic-dl-1-8",
-                    "title": "Wholesale access to sensitive data",
+                    "title": "Data leakage - Wholesale access to sensitive data",
                     "parts": [
                       {
                         "id": "ic-dl-1-8_gdn",
@@ -2581,7 +2581,7 @@
             "controls": [
               {
                 "id": "ic-sts-1",
-                "title": "",
+                "title": "Information security technology solutions",
                 "parts": [
                   {
                     "id": "ic-sts-1_gdn",
@@ -2602,7 +2602,7 @@
                 "controls": [
                   {
                     "id": "ic-sts-1-1",
-                    "title": "title",
+                    "title": "Information security technology solutions - guidelines",
                     "parts": [
                       {
                         "id": "ic-sts-1-1_gdn",
@@ -2627,7 +2627,7 @@
                   },
                   {
                     "id": "ic-sts-1-2",
-                    "title": "title",
+                    "title": "Information security technology solutions - standards",
                     "parts": [
                       {
                         "id": "ic-sts-1-2_gdn",
@@ -2652,7 +2652,7 @@
                   },
                   {
                     "id": "ic-sts-1-3",
-                    "title": "title",
+                    "title": "Information security technology solutions - authorisation",
                     "parts": [
                       {
                         "id": "ic-sts-1-3_gdn",
@@ -2677,7 +2677,7 @@
                   },
                   {
                     "id": "ic-sts-1-4",
-                    "title": "title",
+                    "title": "Information security technology solutions - regular assessment",
                     "parts": [
                       {
                         "id": "ic-sts-1-4_gdn",
@@ -2702,7 +2702,7 @@
                   },
                   {
                     "id": "ic-sts-1-5",
-                    "title": "title",
+                    "title": "Information security technology solutions - periodic review",
                     "parts": [
                       {
                         "id": "ic-sts-1-5_gdn",
@@ -2727,7 +2727,7 @@
                   },
                   {
                     "id": "ic-sts-1-6",
-                    "title": "title",
+                    "title": "Information security technology solutions - alerting",
                     "parts": [
                       {
                         "id": "ic-sts-1-6_gdn",
@@ -2761,7 +2761,7 @@
             "controls": [
               {
                 "id": "ic-edt-1",
-                "title": "",
+                "title": "End-user developed/configured software",
                 "parts": [
                   {
                     "id": "ic-edt-1_gdn-1",
@@ -2819,7 +2819,7 @@
             "controls": [
               {
                 "id": "ic-et-1",
-                "title": "",
+                "title": "Introduction of new technologies",
                 "parts": [
                   {
                     "id": "ic-et-1_gdn-1",
@@ -2849,7 +2849,7 @@
                         "value": "para61"
                       }
                     ],
-                    "prose": " Typically, an APRA-regulated entity would only authorise the use of new technologies in a production environment where the technology: a) has matured to a state where there is a generally agreed set of industry-accepted controls to manage the security of the technology; or b) compensating controls are sufficient to reduce residual risk within the entity’s risk appetite."
+                    "prose": " Typically, an APRA-regulated entity would only authorise the use of new technologies in a production environment where the technology:<ol type='a'><li>a) has matured to a state where there is a generally agreed set of industry-accepted controls to manage the security of the technology; or</li><li>compensating controls are sufficient to reduce residual risk within the entity’s risk appetite.</li></ol>"
                   },
                   {
                     "id": "ic-et-1_gdn-3",
@@ -2877,7 +2877,7 @@
             "controls": [
               {
                 "id": "ic-tp-1",
-                "title": "",
+                "title": "Third parties - Evaluation of information security controls design",
                 "parts": [
                   {
                     "id": "ic-tp-1_smt",
@@ -2905,7 +2905,7 @@
                 "controls": [
                   {
                     "id": "ic-tp-1-1",
-                    "title": "controls in place or planned",
+                    "title": "Third parties - controls in place or planned",
                     "parts": [
                       {
                         "id": "ic-tp-1-1_gdn",
@@ -2926,7 +2926,7 @@
                   },
                   {
                     "id": "ic-tp-1-2",
-                    "title": "sub-contracting/on- sourcing arrangements",
+                    "title": "Third parties - sub-contracting/on- sourcing arrangements",
                     "parts": [
                       {
                         "id": "ic-tp-1-2_gdn",
@@ -2947,7 +2947,7 @@
                   },
                   {
                     "id": "ic-tp-1-3",
-                    "title": "contractual obligations",
+                    "title": "Third parties - contractual obligations",
                     "parts": [
                       {
                         "id": "ic-tp-1-3_gdn",
@@ -2995,7 +2995,7 @@
             "controls": [
               {
                 "id": "im-dsc-1",
-                "title": "detect and respond to information security incidents",
+                "title": "Incident management - detect and respond to information security incidents",
                 "parts": [
                   {
                     "id": "im-dsc-1_smt",
@@ -3031,7 +3031,7 @@
                 "controls": [
                   {
                     "id": "im-dsc-1-1",
-                    "title": "Detection mechanisms",
+                    "title": "Incident management - Detection mechanisms",
                     "parts": [
                       {
                         "id": "im-dsc-1-1_gdn",
@@ -3052,7 +3052,7 @@
                   },
                   {
                     "id": "im-dsc-1-2",
-                    "title": "Monitoring processes and tools",
+                    "title": "Incident management - Monitoring processes and tools",
                     "parts": [
                       {
                         "id": "im-dsc-1-1_gdn",
@@ -3073,7 +3073,7 @@
                   },
                   {
                     "id": "im-dsc-1-3",
-                    "title": "responsibilities for monitoring processes",
+                    "title": "Incident management - responsibilities for monitoring processes",
                     "parts": [
                       {
                         "id": "im-dsc-1-1_gdn",
@@ -3103,7 +3103,7 @@
             "controls": [
               {
                 "id": "im-rsc-1",
-                "title": "",
+                "title": "Information security response plans",
                 "parts": [
                   {
                     "id": "im-rsc-1_smt",
@@ -3124,7 +3124,7 @@
                 "controls": [
                   {
                     "id": "im-rsc-1-1",
-                    "title": "maintain response plans",
+                    "title": "Information security response plans - Maintain plans",
                     "parts": [
                       {
                         "id": "cpg234-para70",
@@ -3150,7 +3150,7 @@
                   },
                   {
                     "id": "im-rsc-1-2",
-                    "title": "clear accountability and communication strategies",
+                    "title": "Information security response plans - accountability and communication",
                     "parts": [
                       {
                         "id": "im-rsc-1-2_gdn",
@@ -3171,7 +3171,7 @@
                   },
                   {
                     "id": "im-rsc-1-3",
-                    "title": "detail of response plans",
+                    "title": "Information security response plans - detail",
                     "parts": [
                       {
                         "id": "im-rsc-1-3_gdn",
@@ -3201,7 +3201,7 @@
             "controls": [
               {
                 "id": "im-sis-1",
-                "title": "",
+                "title": "Information security incident stages",
                 "parts": [
                   {
                     "id": "im-sis-1_smt",
@@ -3222,7 +3222,7 @@
                 "controls": [
                   {
                     "id": "im-sis-1-1",
-                    "title": "title",
+                    "title": "Information security incident stage - detection",
                     "parts": [
                       {
                         "id": "im-sis-1-1_gdn",
@@ -3243,7 +3243,7 @@
                   },
                   {
                     "id": "im-sis-1-2",
-                    "title": "title",
+                    "title": "Information security incident stage - analysis",
                     "parts": [
                       {
                         "id": "im-sis-1-1_gdn",
@@ -3268,7 +3268,7 @@
                   },
                   {
                     "id": "im-sis-1-3",
-                    "title": "title",
+                    "title": "Information security incident stage - escalation",
                     "parts": [
                       {
                         "id": "im-sis-1-3_gdn",
@@ -3293,7 +3293,7 @@
                   },
                   {
                     "id": "im-sis-1-4",
-                    "title": "title",
+                    "title": "Information security incident stage - containment",
                     "parts": [
                       {
                         "id": "im-sis-1-4_gdn",
@@ -3318,7 +3318,7 @@
                   },
                   {
                     "id": "im-sis-1-5",
-                    "title": "title",
+                    "title": "Information security incident stage - eradication",
                     "parts": [
                       {
                         "id": "im-sis-1-5_gdn",
@@ -3343,7 +3343,7 @@
                   },
                   {
                     "id": "im-sis-1-6",
-                    "title": "title",
+                    "title": "Information security incident stage - response and recovery",
                     "parts": [
                       {
                         "id": "im-sis-1-6_gdn",
@@ -3368,7 +3368,7 @@
                   },
                   {
                     "id": "im-sis-1-8",
-                    "title": "title",
+                    "title": "Information security incident stage - post-incident analysis",
                     "parts": [
                       {
                         "id": "im-sis-1-8_gdn",
@@ -3402,7 +3402,7 @@
             "controls": [
               {
                 "id": "im-irt-1",
-                "title": "",
+                "title": "Incident response testing - annual review",
                 "parts": [
                   {
                     "id": "im-irt-1_smt",
@@ -3445,7 +3445,7 @@
             "controls": [
               {
                 "id": "im-tp-1",
-                "title": "",
+                "title": "Third parties and related parties - incident response",
                 "parts": [
                   {
                     "id": "im-tp-1_gdn-1",
@@ -3460,22 +3460,51 @@
                         "value": "para75"
                       }
                     ],
-                    "prose": "In APRA’s view, a regulated entity would benefit from agreeing each party’s roles and responsibilities where incident response requires collaboration and coordination between the regulated entity and third parties or related parties. This could involve formalisation of points of integration between third party and related party incident response plans and involvement of third parties and related parties in incident response testing."
+                    "prose": "In APRA’s view, a regulated entity would benefit from agreeing each party’s roles and responsibilities where incident response requires collaboration and coordination between the regulated entity and third parties or related parties."
+                  }
+                ],
+                "controls": [
+                  {
+                    "id": "im-tp-1-1",
+                    "title": "Third parties and related parties - incident response integration",
+                    "parts": [
+                      {
+                        "id": "im-tp-1-1_smt",
+                        "name": "statement",
+                        "props": [
+                          {
+                            "name": "source",
+                            "value": "CPG234"
+                          },
+                          {
+                            "name": "section",
+                            "value": "para75"
+                          }
+                        ],
+                        "prose": "This could involve formalisation of points of integration between third party and related party incident response plans and involvement of third parties and related parties in incident response testing."
+                      }
+                    ]
                   },
                   {
-                    "id": "im-tp-1_gdn-2",
-                    "name": "guidance",
-                    "props": [
+                    "id": "im-tp-1-2",
+                    "title": "Third parties and related parties - incident response testing",
+                    "parts": [
                       {
-                        "name": "source",
-                        "value": "CPG234"
-                      },
-                      {
-                        "name": "section",
-                        "value": "para76"
+                        "id": "im-tp-1-2_smt",
+                        "name": "statement",
+                        "props": [
+                          {
+                            "name": "source",
+                            "value": "CPG234"
+                          },
+                          {
+                            "name": "section",
+                            "value": "para76"
+                          }
+                        ],
+                        "prose": "APRA-regulated entities that place reliance on the information security capabilities of third parties and related parties as part of a broader service provision arrangement would typically seek evidence of the periodic testing of incident response plans by those parties."
                       }
-                    ],
-                    "prose": "APRA-regulated entities that place reliance on the information security capabilities of third parties and related parties as part of a broader service provision arrangement would typically seek evidence of the periodic testing of incident response plans by those parties."
+                    ]
                   }
                 ]
               }
@@ -3488,7 +3517,7 @@
             "controls": [
               {
                 "id": "im-bcm-1",
-                "title": "",
+                "title": "Integration with business continuity and crisis management",
                 "parts": [
                   {
                     "id": "im-bcm-1_gdn",
@@ -3523,7 +3552,7 @@
             "controls": [
               {
                 "id": "tce-stp-1",
-                "title": "",
+                "title": "Systematic controls testing program",
                 "parts": [
                   {
                     "id": "tce-stp-1_smt",
@@ -3538,7 +3567,7 @@
                         "value": "para27"
                       }
                     ],
-                    "prose": "An APRA-regulated entity must test the effectiveness of its information security controls through a systematic testing program. The nature and frequency of the systematic testing must be commensurate with: (a) the rate at which the vulnerabilities and threats change; (b) the criticality and sensitivity of the information asset; (c) the consequences of an information security incident; (d) the risks associated with exposure to environments where the APRA-regulated entity is unable to enforce its information security policies; and (e) the materiality and frequency of change to information assets.",
+                    "prose": "An APRA-regulated entity must test the effectiveness of its information security controls through a systematic testing program. The nature and frequency of the systematic testing must be commensurate with:<ol type='a'><li>the rate at which the vulnerabilities and threats change;</li><li>the criticality and sensitivity of the information asset;</li><li>the consequences of an information security incident;</li><li>the risks associated with exposure to environments where the APRA-regulated entity is unable to enforce its information security policies; and</li><li>the materiality and frequency of change to information assets.</li></ol>",
                     "parts": [
                       {
                         "id": "tce-stp-1_smt_fnt",
@@ -3551,7 +3580,7 @@
                 "controls": [
                   {
                     "id": "tce-stp-1-1",
-                    "title": "title",
+                    "title": "Systematic controls testing program - escalate deficiencies",
                     "parts": [
                       {
                         "id": "tce-stp-1-1_smt",
@@ -3572,7 +3601,7 @@
                   },
                   {
                     "id": "tce-stp-1-2",
-                    "title": "title",
+                    "title": "Systematic controls testing program - validate effectiveness",
                     "parts": [
                       {
                         "id": "tce-stp-1-2_gdn",
@@ -3593,7 +3622,7 @@
                   },
                   {
                     "id": "tce-stp-1-3",
-                    "title": "title",
+                    "title": "Systematic controls testing program - frequency and scope",
                     "parts": [
                       {
                         "id": "tce-stp-1-3_gdn",
@@ -3608,13 +3637,28 @@
                             "value": "para79"
                           }
                         ],
-                        "prose": "In APRA’s view, the frequency and scope of testing would ensure that a sufficient set of information security controls are tested, at least annually, in order to validate that information security controls remain effective. Furthermore, controls protecting information assets exposed to ‘untrusted’ environments7 would typically be tested throughout the year."
+                        "prose": "In APRA’s view, the frequency and scope of testing would ensure that a sufficient set of information security controls are tested, at least annually, in order to validate that information security controls remain effective. Furthermore, controls protecting information assets exposed to ‘untrusted’ environments would typically be tested throughout the year."
+                      },
+                      {
+                        "id": "tce-stp-1-3_fnt",
+                        "name": "footnote",
+                        "props": [
+                          {
+                            "name": "source",
+                            "value": "CPG234"
+                          },
+                          {
+                            "name": "footnote",
+                            "value": "7"
+                          }
+                        ],
+                        "prose": "Untrusted environments refers to environments where an APRA-regulated entity is unable to enforce its information security policies, including exposures to the internet and connections to service providers and customers."
                       }
                     ]
                   },
                   {
                     "id": "tce-stp-1-4",
-                    "title": "title",
+                    "title": "Systematic controls testing program - nature of testing",
                     "parts": [
                       {
                         "id": "tce-stp-1-4_gdn",
@@ -3641,7 +3685,7 @@
                   },
                   {
                     "id": "tce-stp-1-5",
-                    "title": "title",
+                    "title": "Systematic controls testing program - success criteria",
                     "parts": [
                       {
                         "id": "tce-stp-1-5_gdn",
@@ -3671,7 +3715,7 @@
             "controls": [
               {
                 "id": "ce-iot-1",
-                "title": "",
+                "title": "Skill and independence of testers",
                 "parts": [
                   {
                     "id": "ce-iot-1_smt",
@@ -3714,7 +3758,7 @@
             "controls": [
               {
                 "id": "tce-tpt-1",
-                "title": "",
+                "title": "Third party control testing",
                 "parts": [
                   {
                     "id": "tce-tpt-1_smt",
@@ -3784,7 +3828,7 @@
             "controls": [
               {
                 "id": "ia-atb-1",
-                "title": "",
+                "title": "Internal Audit",
                 "parts": [
                   {
                     "id": "ia-atb-1_smt",
@@ -3857,7 +3901,7 @@
             "controls": [
               {
                 "id": "ia-tp-1",
-                "title": "",
+                "title": "Use of assurance reports from third parties",
                 "parts": [
                   {
                     "id": "ia-tp-1_smt",
@@ -3872,7 +3916,7 @@
                         "value": "para34"
                       }
                     ],
-                    "prose": "An APRA-regulated entity’s internal audit function must assess the information security control assurance provided by a related party or third party where: (a) an information security incident affecting the information assets has the potential to materially affect, financially or non-financially, the entity or the interests of depositors, policyholders, beneficiaries or other customers; and (b) internal audit intends to rely on the information security control assurance provided by the related party or third party.",
+                    "prose": "An APRA-regulated entity’s internal audit function must assess the information security control assurance provided by a related party or third party where: ",
                     "parts": [
                       {
                         "id": "ia-tp-1_smt_fnt",
@@ -3880,21 +3924,79 @@
                         "prose": "For the avoidance of doubt, paragraph 34 of this Prudential Standard applies to all information assets managed by related parties and third parties, not only those captured under agreements with service providers of outsourced material business activities under Prudential Standard CPS 231 Outsourcing or Prudential Standard SPS 231 Outsourcing."
                       }
                     ]
+                  }
+                ],
+                "controls": [
+                  {
+                    "id": "ia-tp-1-1",
+                    "title": "Use of assurance reports from third parties",
+                    "parts": [
+                      {
+                        "id": "ia-tp-1-1_smt",
+                        "name": "statement",
+                        "props": [
+                          {
+                            "name": "source",
+                            "value": "CPS234"
+                          },
+                          {
+                            "name": "section",
+                            "value": "para34"
+                          },
+                          {
+                            "name": "label",
+                            "value": "a)"
+                          }
+                        ],
+                        "prose": "an information security incident affecting the information assets has the potential to materially affect, financially or non-financially, the entity or the interests of depositors, policyholders, beneficiaries or other customers; and "
+                      }
+                    ]
                   },
                   {
-                    "id": "ia-tp-1_gdn",
-                    "name": "guidance",
-                    "props": [
+                    "id": "ia-tp-1-2",
+                    "title": "Use of assurance reports from third parties",
+                    "parts": [
                       {
-                        "name": "source",
-                        "value": "CPG234"
-                      },
-                      {
-                        "name": "section",
-                        "value": "para86"
+                        "id": "ia-tp-1-2_smt",
+                        "name": "statement",
+                        "props": [
+                          {
+                            "name": "source",
+                            "value": "CPS234"
+                          },
+                          {
+                            "name": "section",
+                            "value": "para34"
+                          },
+                          {
+                            "name": "label",
+                            "value": "b)"
+                          }
+                        ],
+                        "prose": "internal audit intends to rely on the information security control assurance provided by the related party or third party."
                       }
-                    ],
-                    "prose": "Under CPS 234, an APRA-regulated entity’s internal audit function must assess the information security control assurance provided by a third party or related party in certain circumstances. Where that assessment identifies material deficiencies in the information security control assurance provided by the third party or related party, or no assurance is available, this would typically be highlighted in reporting to the Board."
+                    ]
+                  },
+                  {
+                    "id": "ia-tp-1-3",
+                    "title": "Use of assurance reports from third parties",
+                    "parts": [
+                      {
+                        "id": "ia-tp-1-3_smt",
+                        "name": "statement",
+                        "props": [
+                          {
+                            "name": "source",
+                            "value": "CPG234"
+                          },
+                          {
+                            "name": "section",
+                            "value": "para86"
+                          }
+                        ],
+                        "prose": "Under CPS 234, an APRA-regulated entity’s internal audit function must assess the information security control assurance provided by a third party or related party in certain circumstances. Where that assessment identifies material deficiencies in the information security control assurance provided by the third party or related party, or no assurance is available, this would typically be highlighted in reporting to the Board."
+                      }
+                    ]
                   }
                 ]
               }
@@ -3902,12 +4004,12 @@
           },
           {
             "id": "ia-asp",
-            "title": "appropriately skilled personnel",
+            "title": "Appropriately skilled personnel",
             "class": "subgroup",
             "controls": [
               {
                 "id": "ia-asp-1",
-                "title": "",
+                "title": "Appropriately skilled personnel",
                 "parts": [
                   {
                     "id": "ia-asp-1_smt",
@@ -3970,7 +4072,7 @@
             "controls": [
               {
                 "id": "an-not-1",
-                "title": "",
+                "title": "CPS 234 notifications",
                 "parts": [
                   {
                     "id": "an-not-1_smt",
@@ -3985,7 +4087,7 @@
                         "value": "para35"
                       }
                     ],
-                    "prose": "An APRA-regulated entity must notify APRA as soon as possible and, in any case, no later than 72 hours, after becoming aware of an information security incident that: (a) materially affected, or had the potential to materially affect, financially or non-financially, the entity or the interests of depositors, policyholders, beneficiaries or other customers; or (b) has been notified to other regulators, either in Australia or other jurisdictions.",
+                    "prose": "An APRA-regulated entity must notify APRA as soon as possible and, in any case, no later than 72 hours, after becoming aware of an information security incident that:<ol type='a'><li>materially affected, or had the potential to materially affect, financially or non-financially, the entity or the interests of depositors, policyholders, beneficiaries or other customers; or </li><li>has been notified to other regulators, either in Australia or other jurisdictions.</li></ol>",
                     "parts": [
                       {
                         "id": "an-not-1_smt_fnt",
