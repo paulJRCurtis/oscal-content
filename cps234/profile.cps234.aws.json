@@ -3,7 +3,7 @@
     "uuid": "2b4030a7-58e1-48e4-abe0-ebe796badaae",
     "metadata": {
       "title": "APRA CPS234 controls that apply to AWS at the vendor level",
-      "last-modified": "2022-12-02T05:47:04+11:00",
+      "last-modified": "2022-12-17T13:52:34+11:00",
       "version": "0.0.1",
       "oscal-version": "1.0.4"
     },
@@ -12,15 +12,49 @@
         "href": "#c1dd2c58-76cc-4846-b013-44e869e2ec72",
         "include-controls": [
           { 
-            "with-child-controls": "yes",
+            "with-child-controls": "no",
             "with-ids": [
-              "ic-pec-1"
+              "isc-ctp-1",
+              "ic-1",
+              "ic-ias-1",
+              "ic-ias-3",
+              "ic-ias-3-1",
+              "ic-ias-3-2",
+              "ic-ias-3-3",
+              "ic-ias-3-4",
+              "ic-ias-3-5",
+              "ic-ias-3-6",
+              "ic-ias-3-7",
+              "ic-ias-3-8",
+              "ic-ias-3-10",
+              "ic-ias-3-11",
+              "ic-ias-3-12",
+              "ic-ias-4",
+              "ic-eol-1",
+              "ic-eol-1-2",
+              "ic-scm-1",
+              "ic-scm-1-1",
+              "ic-scm-1-2",
+              "ic-scm-1-3",
+              "ic-scm-1-4",
+              "ic-scm-1-5",
+              "ic-ss-1",
+              "ic-dl-1",
+              "ic-dl-1-1",
+              "ic-cry-1",
+              "ic-cry-2",
+              "ic-tp-1-2",
+              "ic-tp-1-3"
             ]
           },
           { 
-            "with-child-controls": "no",
+            "with-child-controls": "yes",
             "with-ids": [
-              "ic-pec-1"
+              "ic-vm-1",
+              "ic-pec-1",
+              "im-dsc-1",
+              "im-rsc-1",
+              "im-tp-1"
             ]
           }
         ]
