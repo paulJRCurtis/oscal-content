@@ -354,51 +354,71 @@
                         "prose": "For the avoidance of doubt, paragraph 16 of this Prudential Standard applies to all information assets managed by related parties and third parties, not only those captured under agreements with service providers of outsourced material business activities under Prudential Standard CPS 231 Outsourcing or Prudential Standard SPS 231 Outsourcing."
                       }
                     ]
+                  }
+                ],
+                "controls": [
+                  {
+                    "id": "isc-ctp-1-1",
+                    "title": "Assess third party information security capability - sufficiency",
+                    "parts": [
+                      {
+                        "id": "isc-ctp-1_gdn-1",
+                        "name": "guidance",
+                        "props": [
+                          {
+                            "name": "source",
+                            "value": "CPG234"
+                          },
+                          {
+                            "name": "section",
+                            "value": "para17"
+                          }
+                        ],
+                        "prose": "APRA-regulated entities often place reliance on information security capabilities of third parties and related parties to provide a targeted information security capability, or as part of a wider service-provision arrangement. Accordingly, entities would have a view as to the sufficiency of resources, skills and controls of third parties and related parties. This could be achieved through a combination of interviews, service reporting, control testing, certifications, attestations, referrals and independent assurance assessments. Any capability gaps identified would be addressed in a timely manner."
+                      }
+                    ]
                   },
                   {
-                    "id": "isc-ctp-1_gdn-1",
-                    "name": "guidance",
-                    "props": [
+                    "id": "isc-ctp-1-2",
+                    "title": "Assess third party information security capability - on sourcing",
+                    "parts": [
                       {
-                        "name": "source",
-                        "value": "CPG234"
-                      },
-                      {
-                        "name": "section",
-                        "value": "para17"
+                        "id": "isc-ctp-1_gdn-2",
+                        "name": "guidance",
+                        "props": [
+                          {
+                            "name": "source",
+                            "value": "CPG234"
+                          },
+                          {
+                            "name": "section",
+                            "value": "para18"
+                          }
+                        ],
+                        "prose": "It is increasingly common for third parties to rely on other service providers to deliver an end-to-end service. This introduces additional vulnerabilities and threats. Under such circumstances, APRA’s expectation is that an APRA-regulated entity would take reasonable steps to satisfy itself that the third party has sufficient information security capability to manage the additional threats and vulnerabilities resulting from such arrangements."
                       }
-                    ],
-                    "prose": "APRA-regulated entities often place reliance on information security capabilities of third parties and related parties to provide a targeted information security capability, or as part of a wider service-provision arrangement. Accordingly, entities would have a view as to the sufficiency of resources, skills and controls of third parties and related parties. This could be achieved through a combination of interviews, service reporting, control testing, certifications, attestations, referrals and independent assurance assessments. Any capability gaps identified would be addressed in a timely manner."
+                    ]
                   },
                   {
-                    "id": "isc-ctp-1_gdn-2",
-                    "name": "guidance",
-                    "props": [
+                    "id": "isc-ctp-1-3",
+                    "title": "Assess third party information security capability - certifications",
+                    "parts": [
                       {
-                        "name": "source",
-                        "value": "CPG234"
-                      },
-                      {
-                        "name": "section",
-                        "value": "para18"
+                        "id": "isc-ctp-1_gdn-3",
+                        "name": "guidance",
+                        "props": [
+                          {
+                            "name": "source",
+                            "value": "CPG234"
+                          },
+                          {
+                            "name": "section",
+                            "value": "para19"
+                          }
+                        ],
+                        "prose": "An APRA-regulated entity could also consider the scope, depth and independence of certifications, attestations and assurance provided and take steps to address any limitations identified."
                       }
-                    ],
-                    "prose": "It is increasingly common for third parties to rely on other service providers to deliver an end-to-end service. This introduces additional vulnerabilities and threats. Under such circumstances, APRA’s expectation is that an APRA-regulated entity would take reasonable steps to satisfy itself that the third party has sufficient information security capability to manage the additional threats and vulnerabilities resulting from such arrangements."
-                  },
-                  {
-                    "id": "isc-ctp-1_gdn-3",
-                    "name": "guidance",
-                    "props": [
-                      {
-                        "name": "source",
-                        "value": "CPG234"
-                      },
-                      {
-                        "name": "section",
-                        "value": "para19"
-                      }
-                    ],
-                    "prose": "An APRA-regulated entity could also consider the scope, depth and independence of certifications, attestations and assurance provided and take steps to address any limitations identified."
+                    ]
                   }
                 ]
               }
@@ -1223,7 +1243,7 @@
               },
               {
                 "id": "ic-ias-3",
-                "title": "Life-cycle - acquisition and implementation",
+                "title": "Life-cycle - Acquisition and implementation",
                 "parts": [
                   {
                     "id": "ic-ias-3_gdn",
@@ -1238,16 +1258,37 @@
                         "value": "para36"
                       }
                     ],
-                    "prose": "Acquisition and implementation controls would typically be in place to ensure that information security is not compromised by the introduction of new information assets. Ongoing support and maintenance controls would typically be in place to ensure that information assets continue to meet the information security requirements of the APRA- regulated entity. Typical examples of categories of control include:"
+                    "prose": "Acquisition and implementation controls would typically be in place to ensure that information security is not compromised by the introduction of new information assets."
+                  }
+                ]
+              },
+              {
+                "id": "ic-ias-4",
+                "title": "Life-cycle - support and maintenance",
+                "parts": [
+                  {
+                    "id": "ic-ias-4_gdn",
+                    "name": "guidance",
+                    "props": [
+                      {
+                        "name": "source",
+                        "value": "CPG234"
+                      },
+                      {
+                        "name": "section",
+                        "value": "para36"
+                      }
+                    ],
+                    "prose": "Ongoing support and maintenance controls would typically be in place to ensure that information assets continue to meet the information security requirements of the APRA- regulated entity. Typical examples of categories of control include:"
                   }
                 ],
                 "controls": [
                   {
-                    "id": "ic-ias-3-1",
-                    "title": "Life-cycle - acquisition and implementation - change management",
+                    "id": "ic-ias-4-1",
+                    "title": "Life-cycle - support and maintenance - change management",
                     "parts": [
                       {
-                        "id": "ic-ias-3-1_smt",
+                        "id": "ic-ias-4-1_smt",
                         "name": "statement",
                         "props": [
                           {
@@ -1268,11 +1309,11 @@
                     ]
                   },
                   {
-                    "id": "ic-ias-3-2",
-                    "title": "Life-cycle - acquisition and implementation - configuration management",
+                    "id": "ic-ias-4-2",
+                    "title": "Life-cycle - support and maintenance - configuration management",
                     "parts": [
                       {
-                        "id": "ic-ias-3-2_smt",
+                        "id": "ic-ias-4-2_smt",
                         "name": "statement",
                         "props": [
                           {
@@ -1293,11 +1334,11 @@
                     ]
                   },
                   {
-                    "id": "ic-ias-3-3",
-                    "title": "Life-cycle - acquisition and implementation - deployment and environment management",
+                    "id": "ic-ias-4-3",
+                    "title": "Life-cycle - support and maintenance - deployment and environment management",
                     "parts": [
                       {
-                        "id": "ic-ias-3-3_smt",
+                        "id": "ic-ias-4-3_smt",
                         "name": "statement",
                         "props": [
                           {
@@ -1318,11 +1359,11 @@
                     ]
                   },
                   {
-                    "id": "ic-ias-3-4",
-                    "title": "Life-cycle - acquisition and implementation - access management controls",
+                    "id": "ic-ias-4-4",
+                    "title": "Life-cycle - support and maintenance - access management controls",
                     "parts": [
                       {
-                        "id": "ic-ias-3-4_smt",
+                        "id": "ic-ias-4-4_smt",
                         "name": "statement",
                         "props": [
                           {
@@ -1349,11 +1390,11 @@
                     ]
                   },
                   {
-                    "id": "ic-ias-3-5",
-                    "title": "Life-cycle - acquisition and implementation - hardware and software asset controls",
+                    "id": "ic-ias-4-5",
+                    "title": "Life-cycle - support and maintenance - hardware and software asset controls",
                     "parts": [
                       {
-                        "id": "ic-ias-3-5_smt",
+                        "id": "ic-ias-4-5_smt",
                         "name": "statement",
                         "props": [
                           {
@@ -1374,11 +1415,11 @@
                     ]
                   },
                   {
-                    "id": "ic-ias-3-6",
-                    "title": "Life-cycle - acquisition and implementation - network design",
+                    "id": "ic-ias-4-6",
+                    "title": "Life-cycle - support and maintenance - network design",
                     "parts": [
                       {
-                        "id": "ic-ias-3-6_smt",
+                        "id": "ic-ias-4-6_smt",
                         "name": "statement",
                         "props": [
                           {
@@ -1399,11 +1440,11 @@
                     ]
                   },
                   {
-                    "id": "ic-ias-3-7",
-                    "title": "Life-cycle - acquisition and implementation - vulnerability management controls",
+                    "id": "ic-ias-4-7",
+                    "title": "Life-cycle - support and maintenance - vulnerability management controls",
                     "parts": [
                       {
-                        "id": "ic-ias-3-7_smt",
+                        "id": "ic-ias-4-7_smt",
                         "name": "statement",
                         "props": [
                           {
@@ -1424,11 +1465,11 @@
                     ]
                   },
                   {
-                    "id": "ic-ias-3-8",
-                    "title": "Life-cycle - acquisition and implementation - patch management controls",
+                    "id": "ic-ias-4-8",
+                    "title": "Life-cycle - support and maintenance - patch management controls",
                     "parts": [
                       {
-                        "id": "ic-ias-3-8_smt",
+                        "id": "ic-ias-4-8_smt",
                         "name": "statement",
                         "props": [
                           {
@@ -1449,11 +1490,11 @@
                     ]
                   },
                   {
-                    "id": "ic-ias-3-9",
-                    "title": "Life-cycle - acquisition and implementation - service level management mechanisms",
+                    "id": "ic-ias-4-9",
+                    "title": "Life-cycle - support and maintenance - service level management mechanisms",
                     "parts": [
                       {
-                        "id": "ic-ias-3-9_smt",
+                        "id": "ic-ias-4-9_smt",
                         "name": "statement",
                         "props": [
                           {
@@ -1474,11 +1515,11 @@
                     ]
                   },
                   {
-                    "id": "ic-ias-3-10",
-                    "title": "Life-cycle - acquisition and implementation - monitoring controls",
+                    "id": "ic-ias-4-10",
+                    "title": "Life-cycle - support and maintenance - monitoring controls",
                     "parts": [
                       {
-                        "id": "ic-ias-3-10_smt",
+                        "id": "ic-ias-4-10_smt",
                         "name": "statement",
                         "props": [
                           {
@@ -1499,11 +1540,11 @@
                     ]
                   },
                   {
-                    "id": "ic-ias-3-11",
-                    "title": "Life-cycle - acquisition and implementation - response controls",
+                    "id": "ic-ias-4-11",
+                    "title": "Life-cycle - support and maintenance - response controls",
                     "parts": [
                       {
-                        "id": "ic-ias-3-11_smt",
+                        "id": "ic-ias-4-11_smt",
                         "name": "statement",
                         "props": [
                           {
@@ -1524,11 +1565,11 @@
                     ]
                   },
                   {
-                    "id": "ic-ias-3-12",
-                    "title": "Life-cycle - acquisition and implementation - capacity and performance management controls",
+                    "id": "ic-ias-4-12",
+                    "title": "Life-cycle - support and maintenance - capacity and performance management controls",
                     "parts": [
                       {
-                        "id": "ic-ias-3-12_smt",
+                        "id": "ic-ias-4-12_smt",
                         "name": "statement",
                         "props": [
                           {
@@ -1549,11 +1590,11 @@
                     ]
                   },
                   {
-                    "id": "ic-ias-3-13",
-                    "title": "Life-cycle - acquisition and implementation - service provider management controls",
+                    "id": "ic-ias-4-13",
+                    "title": "Life-cycle - support and maintenance - service provider management controls",
                     "parts": [
                       {
-                        "id": "ic-ias-3-13_smt",
+                        "id": "ic-ias-4-13_smt",
                         "name": "statement",
                         "props": [
                           {
@@ -1576,11 +1617,11 @@
                 ]
               },
               {
-                "id": "ic-ias-4",
+                "id": "ic-ias-5",
                 "title": "Life-cycle - Decommissioning and destruction",
                 "parts": [
                   {
-                    "id": "ic-ias-4_gdn",
+                    "id": "ic-ias-5_gdn",
                     "name": "guidance",
                     "props": [
                       {
@@ -1597,11 +1638,11 @@
                 ]
               },
               {
-                "id": "ic-ias-5",
+                "id": "ic-ias-6",
                 "title": "life-cycle - completeness",
                 "parts": [
                   {
-                    "id": "ic-ias-5_gdn",
+                    "id": "ic-ias-6_gdn",
                     "name": "guidance",
                     "props": [
                       {
@@ -3505,6 +3546,27 @@
                         "prose": "APRA-regulated entities that place reliance on the information security capabilities of third parties and related parties as part of a broader service provision arrangement would typically seek evidence of the periodic testing of incident response plans by those parties."
                       }
                     ]
+                  }
+                ]
+              },
+              {
+                "id": "im-tp-2",
+                "title": "Third parties and related parties - incident response testing",
+                "parts": [
+                  {
+                    "id": "im-tp-2_smt",
+                    "name": "statement",
+                    "props": [
+                      {
+                        "name": "source",
+                        "value": "CPG234"
+                      },
+                      {
+                        "name": "section",
+                        "value": "para76"
+                      }
+                    ],
+                    "prose": "APRA-regulated entities that place reliance on the information security capabilities of third parties and related parties as part of a broader service provision arrangement would typically seek evidence of the periodic testing of incident response plans by those parties."
                   }
                 ]
               }

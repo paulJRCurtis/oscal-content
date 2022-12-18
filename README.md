@@ -39,3 +39,7 @@ under "Internal audit" the sub-group "Appropriately skilled personnel" has been 
 "title": "Implementation of controls",
 cps234-para21
 
+# Mapping approach
+There are multiple approaches; 
+1. a minimalist approach, where only those requirements relating to third-parties in included. One of the drawbacks of this approach is that a large number of controls operated by the third party will be associated with a few requirements, in particular CPS234 para 22 and CPG234 para 63-65.
+2. a broader approach, where all requirements are assessed for how the third party can contribute to the management and delivery of controls. 
