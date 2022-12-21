@@ -1,0 +1,1539 @@
+{
+  "system-security-plan": {
+    "uuid": "3e3aa12d-63a0-4986-b7ea-260ab5cd7af9",
+    "metadata": {
+      "title": "",
+      "last-modified": "2022-12-19T18:54:58.843Z",
+      "version": "0.0.1",
+      "oscal-version": "1.0.4"
+    },
+    "import-profile": {
+      "href": "#79a76ab3-bd51-4e50-8f76-b1b977606639"
+    },
+    "system-characteristics": {
+    },
+    "system-implementation": {
+      "users": [],
+      "components": [
+        {
+          "uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+          "type": "standard",
+          "title": "APRA CPS234 - AWS OF the cloud",
+          "description": "Component describing AWS supplier level controls and how they assist in meeting APRA CPS234 and CPG234 Guidance. The controls specified are those that have been identified as belonging to \"OF the cloud\" in the shared responsibility model.",
+          "links": [
+            {
+              "href": "6b878571-530a-497d-a32a-9d4fe3200332",
+              "rel": "validation"
+            }
+          ]
+        },
+        {
+          "uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+          "type": "validation",
+          "title": "SOC2 controls validation",
+          "description": "Component describing independent testing results for AWS supplier level controls.",
+          "links": [
+            {
+              "href": "6b878571-530a-497d-a32a-9d4fe3200332",
+              "rel": "validation"
+            }
+          ]
+        }
+      ]
+    },
+    "control-implementation": {
+      "description": "",
+      "implemented-requirements": [
+        {
+          "uuid": "1209643f-f85e-41c1-980d-3e7314d5684e",
+          "control-id": "ic-ctp-1-1",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "20d33f07-c007-4f8c-97bd-b20a923fa48e",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "ed6126ba-ad5b-4680-b8fa-5a6389be2fe2",
+          "control-id": "ic-ctp-1-1",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "608f83e7-270a-4e2c-b886-e79a3ac60cf4",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "7949bb6b-af47-423a-9a18-e8a016ebca51",
+          "control-id": "ic-ctp-1-1",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "d709a618-2ff8-4cf0-bda7-0528aa3ffc43",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "c1ee8014-240f-42ff-ad13-bff340118c28",
+          "control-id": "ic-ctp-1-1",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "fc508e76-c3f8-4b4d-a35f-8c97a029016e",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "f55bf624-b231-452e-bead-a197eb8741e7",
+          "control-id": "ic-ctp-1-1",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "53a25be9-ee02-4071-86a9-77648f85142c",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "ec5428a8-286f-400b-8c71-a96dc0b860b8",
+          "control-id": "ic-ctp-1-1",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "863d4fdd-89a2-4ba3-9d3b-9f4e79e3e5e6",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "3f871744-23b4-43e8-ae2a-0ff5f52ae38e",
+          "control-id": "ic-ctp-1-1",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "6df8f408-f57e-4d21-8f39-29f7588fe807",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "84442ea9-0922-4af8-9934-c8769741d01d",
+          "control-id": "ic-ctp-1-2",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "6ac4c066-ff7b-4552-8e38-bc235d2dfddb",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "73588926-040a-4e68-82fe-8a4d3550f469",
+          "control-id": "ic-ctp-1-2",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "b404332e-3f63-4350-aa8e-f58f4addfff0",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "821e2b10-043d-48eb-a82b-2e82e3200296",
+          "control-id": "ic-ctp-1-2",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "05d0676f-b9e2-46f8-ab90-0b0dd3d968d9",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "bc886f32-6018-410f-a7e3-31981d959da4",
+          "control-id": "ic-ctp-1-3",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "04261ca9-b907-4b00-8548-0ce7fc423284",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "e3b4f933-948c-4c19-9052-fdfb64a2fbf1",
+          "control-id": "ic-ias-4-4",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "eda5ec59-c07d-4b79-9cf4-8de952466fe7",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "7607b40a-49bc-4ffe-ba17-d403d63a12da",
+          "control-id": "ic-ias-4-4",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "64ea0bb7-6151-4175-a6bb-631f11fa0bef",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "a9bf52ad-d4cb-4fd6-b260-e0c583f7416e",
+          "control-id": "ic-ias-4-4",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "e3732161-ca0c-480a-8899-f832f919169f",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "cea11aae-ff57-4c60-b91b-af01d206b08d",
+          "control-id": "ic-ias-4-4",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "ec82d100-69d3-4f5e-ad72-aa1e6409006a",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "086bd453-b8fd-4b87-950e-a7ab2a03c680",
+          "control-id": "ic-ias-4-4",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "aadfbd91-5e59-4206-be57-587448c05cc7",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "2e87dcb1-f793-49bc-a4c0-dee167998d87",
+          "control-id": "ic-ias-4-4",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "80d2fec1-5812-4d10-b6c1-e63e25bae853",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "8fd72b63-ec4f-479b-9312-fd1d6dd2abc9",
+          "control-id": "ic-ias-4-4",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "d53a65a2-595f-4ce9-a900-8e9b17a732c0",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "6903226c-ce3d-418a-811f-a775ee043389",
+          "control-id": "ic-ias-5",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "be3fb238-7555-46ce-acd6-79a019cf2e7c",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "b7223843-08d8-4f23-bbef-b7871ef811d6",
+          "control-id": "ic-ias-5",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "e6841a99-4bac-4f25-9a64-90a68caedac9",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "754472b0-07c8-4b71-966e-e94ac5f9ce78",
+          "control-id": "ic-vm-1",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "3c79b977-2281-4b94-a0c7-caf02222c954",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "48251ec2-f07b-45aa-8baa-88f77f7a67a2",
+          "control-id": "ic-vm-1-4",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "5a2edafe-95b4-4239-88f6-f28111851054",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "b52b396c-610f-475e-841a-a63c0ec2f29c",
+          "control-id": "ic-pec-1",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "5308b1b2-f39b-407e-80b0-78326e5d032d",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "0e239d4e-fe29-48b3-bc14-952be058489d",
+          "control-id": "ic-pec-1-1",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "f1d3100d-cf4a-42e5-a3c7-c8db5c9e17bf",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "9ea41611-f19f-4711-a939-44e5538abaab",
+          "control-id": "ic-pec-1-1",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "6d1e290d-0706-4def-853b-be4967f79df5",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "a932d8cc-5f4b-402f-a35c-9b8dc5b1975b",
+          "control-id": "ic-pec-1-1",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "cfcda858-908d-4945-a106-23256ee9a7db",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "90f59a59-c4a3-4f8f-8f73-e4e0b42a5d07",
+          "control-id": "ic-pec-1-2",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "5623c2e4-c2ef-4f78-8d60-f677253ddbb6",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "accdc44a-ebe6-4e55-bed4-4c60aeb83cd2",
+          "control-id": "ic-pec-1-2",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "dfb988be-8f9b-46a5-81f3-be8835f28a88",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "63a0d3e8-1e34-4033-b1e3-d26070d338e1",
+          "control-id": "ic-pec-1-2",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "f14646e0-862b-4be3-ae5a-5ec9d274d8f9",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "5cb79607-eae0-4e3a-b054-6b212f35ed7c",
+          "control-id": "ic-pec-1-2",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "8d4d815d-cdbd-472b-b00c-615f1edbb8bc",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "e444febb-b951-4e79-bafc-6b4431fc3ca4",
+          "control-id": "ic-pec-1-2",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "1bc692f6-f775-4e97-bf32-8f360b2b604b",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "9812fe4f-43ce-4000-93ff-a85daa61f772",
+          "control-id": "ic-pec-1-3",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "f3bd2dce-665d-452a-baf3-5e7d5bf4eb62",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "932385b5-601a-4f74-825c-8530d168f276",
+          "control-id": "ic-pec-1-3",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "a01d6606-f2dd-4385-82c5-b1f843f5e5a0",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "5889add7-2f08-4d38-aa9d-17ad3f7fd2c2",
+          "control-id": "ic-pec-1-3",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "caeda482-10af-4bd0-a454-3761a40bbcff",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "ab81b2b0-2ef4-4cc4-a64c-4110441071e1",
+          "control-id": "ic-pec-1-4",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "6da66601-73ee-457d-b838-99f79021b27a",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "c74c14a5-fbdf-4fa9-9aba-bd5b07dabc86",
+          "control-id": "ic-pec-1-4",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "35472a50-7ba6-4a54-8087-d912f7cd29f3",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "bdcccddd-82e7-436f-a69a-d63307a20b41",
+          "control-id": "ic-pec-1-4",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "636f348e-9017-4ce6-9be8-a623df87d903",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "896e41b3-4dbd-4c77-b52b-adb3403d30c7",
+          "control-id": "ic-scm-1",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "e441f57f-8e53-479e-a8f6-6ac0873615c6",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "17701220-771d-484d-a0c1-a9bdbe435c21",
+          "control-id": "ic-scm-1-1",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "672b33f4-62d5-4c48-9dcd-8faec5fbd924",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "65d5d160-b4d0-46e0-928e-ea143a85015d",
+          "control-id": "ic-scm-1-1",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "95213992-7217-4b2b-afa8-2c487c1d07ee",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "87aab7d8-2d95-40cb-a85d-7851c38f7328",
+          "control-id": "ic-scm-1-1",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "1f91daaf-6783-4db6-ba0c-0e6013afcef6",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "a7d3bee7-2226-416a-b6a1-40ab6f932020",
+          "control-id": "ic-scm-1-2",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "3e248d55-9b14-49fb-8bbf-6e6f2ebe69d4",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "4b81eb92-3f40-40fc-96c3-c2ab52a19535",
+          "control-id": "ic-scm-1-3",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "7545778a-601d-432a-a2de-a472cfcedd4b",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "ff507f83-c36a-4251-bccd-81b8f2e7ff55",
+          "control-id": "ic-scm-1-4",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "732d366a-83d2-4010-b008-1d7b6b6f3e83",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "2727ed32-d525-4a05-b4dd-7c50a7c2e626",
+          "control-id": "ic-scm-1-5",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "2559a53f-09e4-48e3-9c46-f15f09acbf55",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "2adf4534-cf75-4532-8490-77e92cb1be3e",
+          "control-id": "ic-scm-1-6",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "1b1fe19d-5436-47d6-a591-a010d6e56f02",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "27c55ed1-3a7b-4294-b7b1-7741e531f188",
+          "control-id": "ic-dl-1-1",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "8b43816f-3e63-47e5-a619-9f4007a5d1ae",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "8fbf2c2f-3350-4913-b8a7-4f3e6cef777e",
+          "control-id": "ic-sts-1",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "61c76eb5-f9e9-4374-bf6c-1c0c47d7c3c8",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "ab2b797f-9649-4434-b99e-39475c4adba5",
+          "control-id": "ic-sts-1",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "27cfa9dc-e8fc-4de1-950a-f5e2606227b2",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "a03e66a2-fbac-4d1b-9818-f683dd11c3e5",
+          "control-id": "ic-sts-1",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "833ad4ad-08d0-4ed5-9779-a64facf880d5",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "fe49588e-400c-4de0-9e23-e9783abbbda3",
+          "control-id": "ic-sts-1",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "71d19836-e759-4db0-8df6-12dd72a98885",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "5644c24c-3c7a-497a-ac5c-70618aebbec4",
+          "control-id": "ic-sts-1-4",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "16b0e2ee-804e-4cbc-8577-f4b76052c659",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "f830aa45-53a9-4c8e-9e77-89b0787bdd88",
+          "control-id": "ic-tp-1-1",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "73d7f0dc-2be3-4604-93a9-3c70bd8bf2d8",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "723a84c2-22f0-4605-a78a-ab42ac662f0e",
+          "control-id": "ic-tp-1-1",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "88f95e37-adc2-407a-aa86-e4ed29a46251",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "55d1aced-dd0a-457e-8c38-4cf67eff2545",
+          "control-id": "ic-tp-1-1",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "f30f2cdb-9496-4d06-ab6a-33c1e56f4bf6",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "f43c05f3-7b2c-4ad5-a249-6d303378f0b8",
+          "control-id": "ic-tp-1-1",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "68dc7a09-c5d3-4735-9de9-ae8b71428a51",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "b7a0d884-0401-4de3-b50a-ba1262463b79",
+          "control-id": "ic-tp-1-1",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "f66e1c7e-fa88-4cd9-830c-dcac218b9da3",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "77e3a10c-c25e-4a9d-a287-df5526ac605b",
+          "control-id": "ic-tp-1-1",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "d302d59d-1db5-4e4b-b725-adc928d0fea8",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "f71b6906-04b1-4b1b-b88a-c49d1879bcab",
+          "control-id": "ic-tp-1-1",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "6e915227-a337-4407-b59b-47972f0c60c9",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "269ede83-49a8-4d14-87eb-1fe01db911a3",
+          "control-id": "ic-tp-1-2",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "3bd97a7f-7e2e-4099-b469-37fc92b544f6",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "ff573dec-02c2-4858-85a3-02ad46cf620f",
+          "control-id": "ic-tp-1-2",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "37747c6c-b422-4dc3-9346-005e5ead7fbc",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "019c9a74-db67-4cf3-b7a9-19aa53d5f8f4",
+          "control-id": "ic-tp-1-2",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "7efe0277-ca52-4e30-a502-109528a32353",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "79bcff75-7b24-41d7-89ad-1a120c6c7dd6",
+          "control-id": "ic-tp-1-4",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "bdacdee0-7f42-4fef-8c0c-532d5e407f35",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "8fc7c6e8-97a5-4f3e-8152-16d640a5cc7c",
+          "control-id": "im-tp-1-1",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "22b41c26-bc2d-4f3a-b258-316ad64db9ba",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "481a72fb-f3d3-4bdc-95b4-ed73b8cb01b8",
+          "control-id": "im-tp-2",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "4df01c7c-b6ae-4f46-8312-82082022771c",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "072e0bee-0e45-440c-88be-682eb5e3bee2",
+          "control-id": "im-tp-2",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "ad999812-c30b-4710-b974-03fdb2be8694",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "af83d7e4-bb67-4efb-bcee-8f64d9c5b825",
+          "control-id": "im-tp-2",
+          "by-components": [
+            {
+              "component-uuid": "a1893a99-febb-4100-be4f-9003f2d5c9de",
+              "uuid": "3acffc94-7d43-4c6f-aa39-c4f90eb24ba4",
+              "description": "AWSCA controls as listed in the SOC2 Report."
+            }
+          ]
+        },
+        {
+          "uuid": "11d82ba8-05eb-4be1-8a40-5f7a1c84bff3",
+          "control-id": "ic-ctp-1-1",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "8e7a583b-77fc-477a-8295-651e8ddaf7fa",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "d515678f-5b66-432e-b25b-9ffc3b44b9e7",
+          "control-id": "ic-ctp-1-1",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "2e3d91a5-94a4-4101-af1a-3474bd21e39f",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "9ad7f01f-d1d5-44f5-b958-d5705a8e2671",
+          "control-id": "ic-ctp-1-1",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "5a5be500-ea35-434a-a60c-da110baaca82",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "ac7f8be8-9e72-4ffd-864a-a2ba4fc5b224",
+          "control-id": "ic-ctp-1-1",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "8b0c472d-af0d-4aea-814b-26ac95b03195",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "ebf6a66c-71ad-4576-bdfb-f09c344ec6f5",
+          "control-id": "ic-ctp-1-1",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "e29647a1-7eb7-49d0-bcbf-8d0dfb234cb4",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "c1a6b235-9b38-4532-97b0-377a7586b37f",
+          "control-id": "ic-ctp-1-1",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "958661ba-1845-4bb0-bcd0-aa5fd10c7b7e",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "71446698-2383-4d1a-8bfd-4feb06ad37c6",
+          "control-id": "ic-ctp-1-1",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "766b01a9-a4ea-4f14-a464-9b076507f581",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "4bb1171c-6fb4-46c7-8c81-f5754fa19977",
+          "control-id": "ic-ctp-1-2",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "4b975c86-1fdd-4a96-bbd6-c008c17ee343",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "46089a47-cac9-4692-af56-cdc50864a472",
+          "control-id": "ic-ctp-1-2",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "1939f0d4-36ca-4dc8-a5ce-77277be4deeb",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "eda17ee4-8bf9-4f05-a687-54f6c53ae404",
+          "control-id": "ic-ctp-1-2",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "01754f46-1e33-4bab-8bfd-2338e402f981",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "0659c797-11d4-4671-a005-7d0eac40840a",
+          "control-id": "ic-ctp-1-3",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "e766835c-99eb-41af-8aa5-174536908cc7",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "b2856310-dcb2-4dbf-a381-c4b959cc3978",
+          "control-id": "ic-ias-4-4",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "dbf44c7f-c1e1-4f2b-b625-6deabea6c0b4",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "c9568b89-029f-42b0-a9ab-1b8c8537a99f",
+          "control-id": "ic-ias-4-4",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "7a58e38b-3b50-41d2-952d-616710b812da",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "70ec0ebf-dcbb-4319-8fe2-34fd39b39f88",
+          "control-id": "ic-ias-4-4",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "f55370e1-74e9-477e-be91-93f4208b5921",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "4684eab2-cbd7-4d73-875a-5bfb0b319982",
+          "control-id": "ic-ias-4-4",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "a5a75eb9-9792-4458-9800-2e76a33b43fd",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "5f5efbbf-5778-40e7-918a-1608b40baf57",
+          "control-id": "ic-ias-4-4",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "708b511f-a2bc-4998-a99a-429f21e2a1a4",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "c59a8d2d-375c-49f0-8e1b-8a951ca9e82b",
+          "control-id": "ic-ias-4-4",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "1fb4ff6f-f2cc-4cf3-944b-687423a26a5d",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "deade0b6-817f-4aa2-bb4d-9d6bfaebd080",
+          "control-id": "ic-ias-4-4",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "b0e042db-d272-4d71-846e-a03c48c670cc",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "73441b7c-d4b2-4b32-ba62-f5e263d279ad",
+          "control-id": "ic-ias-5",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "84a8628a-5be9-4e1c-98a6-43f081dff75c",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "0286f71c-400d-4cdc-aabb-7ecab8ed8945",
+          "control-id": "ic-ias-5",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "4534cb11-412a-4522-8d8b-e8a0bfa39a92",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "c28350f2-ef00-41e4-a1f2-29967810c013",
+          "control-id": "ic-vm-1",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "820b383c-ffd0-4a5a-a9c8-fdbe774c1424",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "b56716a2-51eb-4325-876c-877018f7a508",
+          "control-id": "ic-vm-1-4",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "97128e12-d745-433f-aeaf-921560204c13",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "29ee8f6b-d6fa-4f65-886a-ba8b742d6aa7",
+          "control-id": "ic-pec-1",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "b1deeef0-e589-4129-a80c-eba0106e36d1",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "289ec817-5abd-4239-9098-0ba6fb1cc302",
+          "control-id": "ic-pec-1-1",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "fde54ec1-6f48-43a5-8af8-2032e2c0f807",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "c57ea1d3-70d5-4e8d-89ba-aaad33bab55d",
+          "control-id": "ic-pec-1-1",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "afadce28-6a4b-4685-93ac-bd8cc873edf8",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "39fbeaec-b6b8-4646-beaa-af547a915545",
+          "control-id": "ic-pec-1-1",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "6fdea219-2be2-45c9-8b57-36036e382199",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "61e10d26-f648-4ee9-98a4-0fa437ac11e5",
+          "control-id": "ic-pec-1-2",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "e41ac731-a3ad-49ed-8ef3-5fed057fe27d",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "78e097d7-7ba2-46cb-bef2-9afe775208a3",
+          "control-id": "ic-pec-1-2",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "149c94cf-9a43-41eb-a60f-a2e4bdecae69",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "4785c1ad-2167-49d0-973e-4be59671d920",
+          "control-id": "ic-pec-1-2",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "f7a7a7e4-53e8-480a-b1a1-de6e945dd473",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "bd795a80-06f3-463d-bda4-0790fc73b0df",
+          "control-id": "ic-pec-1-2",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "da91ffec-4327-4fae-b0de-9d8df71380e5",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "a465a82d-755e-464e-ae30-9eec1a10cec9",
+          "control-id": "ic-pec-1-2",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "f80355dd-ae49-43a1-a445-97eeb147aa4b",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "75576e94-f120-4520-8740-bba6225c3199",
+          "control-id": "ic-pec-1-3",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "12ad6a8b-4c86-4902-893f-98035a52bb9c",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "2b3c7218-7059-4b73-8119-e1ff0ad4df7c",
+          "control-id": "ic-pec-1-3",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "5c1108e3-0d9d-43a0-9e5d-29f1017e06eb",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "8417cefc-202c-4063-b63b-15a66fbed2e3",
+          "control-id": "ic-pec-1-3",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "ea6d56ab-b45c-4ca5-be4a-ee7afa0538c3",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "9102d6dc-cab0-4388-ae4a-8684a479ef90",
+          "control-id": "ic-pec-1-4",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "84f3f859-e353-414e-b8db-cc481a378e5d",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "e7785df3-916a-4951-b9a8-ba3bb3b5abaa",
+          "control-id": "ic-pec-1-4",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "320fe3b2-617b-4247-93da-75ecef2bef6c",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "d4365648-441c-4498-bd45-76c51fdbdc05",
+          "control-id": "ic-pec-1-4",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "debf539c-195d-445d-acf5-322f7aee9027",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "149939f5-605f-4d3f-ba97-2dec408456f5",
+          "control-id": "ic-scm-1",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "7d1cc778-e9dc-4bd3-b137-42b7ab48ed07",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "93cfe25c-07bb-4400-a9a2-0edf25751c32",
+          "control-id": "ic-scm-1-1",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "84793496-0b50-4b2d-9586-3fd605837c90",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "a8d5f951-2bc5-45d5-ba91-a5e30b8e4dac",
+          "control-id": "ic-scm-1-1",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "f1086e10-2646-4697-a9de-7d5da3bebbca",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "5b6db97f-450e-4fca-8112-819030f3e4da",
+          "control-id": "ic-scm-1-1",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "62784378-1248-48d8-937b-bd170eefb6a6",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "8e7ea440-e32b-4d75-bf7b-cdd3d92b2a3e",
+          "control-id": "ic-scm-1-2",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "7dfc10eb-cda1-4ea1-a744-3863e35f5d63",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "187a1ea9-34bd-4413-8424-aa22272efbce",
+          "control-id": "ic-scm-1-3",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "f92622ce-9787-4e2e-a94f-0390451fc16e",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "b3ed244c-b813-4346-b3e9-97a6b6eb1b8f",
+          "control-id": "ic-scm-1-4",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "62c7ffc9-9ffa-4581-997c-2e4e53b21233",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "e8b536be-1a85-4ca3-bdbe-372b8813e258",
+          "control-id": "ic-scm-1-5",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "2eae4942-c9a0-4fe8-80a8-c41241089ceb",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "9dcd53af-d719-4cf9-97fd-8d85db176cc4",
+          "control-id": "ic-scm-1-6",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "41249b2e-e1ae-4402-aab8-a0694c4ff944",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "785a8749-d059-41f2-bd87-3cec8ae88432",
+          "control-id": "ic-dl-1-1",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "7b3806a6-0c53-44b5-bfd5-86125558c447",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "861a5b78-a947-4a36-9443-292d6d71116b",
+          "control-id": "ic-sts-1",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "c18cefb1-3581-43c5-be97-6f32549197f3",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "8e7a93df-e595-46e4-8f37-60baa98a6f69",
+          "control-id": "ic-sts-1",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "1e5eafc3-f3ac-4ac1-8608-63169c6c9834",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "17800c79-99d9-4354-b700-2891579684ba",
+          "control-id": "ic-sts-1",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "59e438e6-b9b7-415b-b579-1f9705990ed2",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "e8545a2b-7942-424e-8be8-ffb58c0b3d44",
+          "control-id": "ic-sts-1",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "a42396d9-c8b8-4ad8-9dcc-ac856f740482",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "ee3c5f64-36ec-4458-b59d-088e7aba7b55",
+          "control-id": "ic-sts-1-4",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "a17ce663-5f86-490d-84bd-0ad65aea1ac8",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "b12d08f6-089d-40c7-86da-8b969f965f9e",
+          "control-id": "ic-tp-1-1",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "1e7cedbf-7e93-4024-b1ff-c75077b57732",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "5904e23e-afda-4242-9746-1cf75de76232",
+          "control-id": "ic-tp-1-1",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "0f8e2dad-b267-4acf-862b-e008f8715264",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "846b9b0e-0c79-4502-896e-1f428def65ef",
+          "control-id": "ic-tp-1-1",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "8a9f09dd-2b31-462e-965a-5633bc2a48d0",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "ad0f1e63-7170-4a42-8d30-73c83fba4af6",
+          "control-id": "ic-tp-1-1",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "9754d6d6-da07-44fb-a4db-007d3959bd79",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "3457e134-d42b-4e04-b62c-197c918918fc",
+          "control-id": "ic-tp-1-1",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "d7504bea-09d3-47e5-a650-997be26ef644",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "e42e69ca-36e0-4430-8713-f60e93106f74",
+          "control-id": "ic-tp-1-1",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "913676a8-9563-4cc8-aad3-695e52c2f9cd",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "1ba45b31-ee6e-45c5-83b6-b6cceff09b37",
+          "control-id": "ic-tp-1-1",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "4e345378-e5dd-45a2-848c-9d8b9c62edae",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "520d437a-1b78-4a67-b9b5-766fe54c8afe",
+          "control-id": "ic-tp-1-2",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "5efb1e1f-c872-4d33-a4f5-5609e2269b58",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "01c74567-0870-4e46-8a6d-0e4ca20bb622",
+          "control-id": "ic-tp-1-2",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "c7c55c85-42f5-44eb-8985-b0b223d90961",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "36bb678c-256e-4157-9cd7-53085fc9f446",
+          "control-id": "ic-tp-1-2",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "7be65650-51c4-4ed8-a8ab-e797423b1dbb",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "2bef7853-d39a-4d64-8046-73b89950427f",
+          "control-id": "ic-tp-1-4",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "162404e3-2438-4fdf-8573-0f7e5d9dba7d",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "2c0e8c8c-bcac-4f25-a211-622e3e6cb8e0",
+          "control-id": "im-tp-1-1",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "71112120-efc9-4657-a7f4-2855a7fde43f",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "ada1c078-1975-4526-8719-f10351a54db8",
+          "control-id": "im-tp-2",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "6b995b76-f35e-4c27-ba62-cd5d77b08360",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "57bf6147-8504-4aeb-ae97-55cc69fbf013",
+          "control-id": "im-tp-2",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "07a6d7e3-dabf-41e6-874d-7108b6d49816",
+              "description": "Test results"
+            }
+          ]
+        },
+        {
+          "uuid": "dd11167b-b17c-4693-add2-b3aff636a008",
+          "control-id": "im-tp-2",
+          "by-components": [
+            {
+              "component-uuid": "1403d594-57bd-4f4d-8a20-1ad2a4cb23eb",
+              "uuid": "b94f2f72-2ca2-4ce2-bc11-716a8d190c31",
+              "description": "Test results"
+            }
+          ]
+        }
+      ]
+    },
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "79a76ab3-bd51-4e50-8f76-b1b977606639",
+          "description": "APRA CPS234 Profile - Third party hosted system",
+          "rlinks": [
+            {
+              "href": "/Users/paucurt/projects/oscal-content/cps234/profile.cps234.aws.json",
+              "media-type": "application/oscal.profile+json"
+            }
+          ]
+        }
+      ]
+    }
+
+  }
+}

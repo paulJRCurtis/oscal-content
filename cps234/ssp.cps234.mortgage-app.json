@@ -239,15 +239,6 @@
           ]
         },
         {
-          "uuid": "6c458520-dbe7-4b74-a1c2-7411acf52981",
-          "type": "service",
-          "title": "APRA CPS234 Compliance",
-          "description": "Compliance requirements as per CPS234 and the related guidance CPG234",
-          "status": {
-            "state": "operational"
-          }
-        },
-        {
           "uuid": "677642fc-b6d5-4c7d-bfef-6179610bb7db",
           "type": "service",
           "title": "S3 - Application Storage",
@@ -274,40 +265,7 @@
     },
     "control-implementation": {
       "description": "",
-      "implemented-requirements": [
-        {
-          "uuid": "22715bb3-f37c-471c-8e3d-50893f365768",
-          "control-id": "ic-pec-1",
-          "statements": [
-            {
-              "statement-id": "cpg234-para46-a",
-              "uuid": "f3d11ee8-9ce7-41ea-81e3-183827987e88"
-            },
-            {
-              "statement-id": "cpg234-para46-b",
-              "uuid": "b39f055e-e1f3-41f7-bab2-8a9790fd37ff"
-            },
-            {
-              "statement-id": "cpg234-para46-c",
-              "uuid": "c99c3697-827d-4812-811e-7759c14d441d"
-            },
-            {
-              "statement-id": "cpg234-para46-d",
-              "uuid": "c5f6cc34-7b10-4f54-9d98-e5defdd412b0"
-            }
-          ],
-          "by-components": [
-            {
-              "component-uuid": "6c458520-dbe7-4b74-a1c2-7411acf52981",
-              "uuid": "77600289-9316-46bb-820e-b055cf5ce587",
-              "description": "Data centre physical and environmental controls",
-              "implementation-status": {
-                "state": "implemented"
-              }
-            }
-          ]
-        }
-      ]
+      "implemented-requirements": []
     },
     "back-matter": {
       "resources": [
