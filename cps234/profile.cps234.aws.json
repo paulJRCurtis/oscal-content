@@ -5,7 +5,55 @@
       "title": "APRA CPS234 controls that apply to AWS at the vendor level",
       "last-modified": "2022-12-18T13:46:23+11:00",
       "version": "0.0.2",
-      "oscal-version": "1.0.4"
+      "oscal-version": "1.0.4",
+      "links": [
+        {
+          "href": "#373725f0-a8ac-48ec-b617-eada353569de",
+          "rel": "reference",
+          "text": "APRA Prudential Standard CPS234 - Information Security - July 2019"
+        },
+        {
+          "href": "#7767ba71-dc3a-4409-90a5-886e6bf7a06d",
+          "rel": "reference",
+          "text": "APRA CPG234 - Prudential Practice Guide: Information Security - July 2019"
+        }
+      ],
+      "roles": [
+        {
+          "id": "author",
+          "title": "OSCAL Document Author"
+        },
+        {
+          "id": "regulator",
+          "title": "Regulator"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "2ab73f41-55dc-40ef-b3cc-dad153b6284d",
+          "type": "person",
+          "name": "Paul Curtis",
+          "email-addresses": [
+            "p_curtis@me.com", "test@test.com"
+          ]
+        },
+        {
+          "uuid": "6f052e88-3ac8-4395-bf23-3b63c6cdb9de",
+          "type": "organization",
+          "name": "APRA",
+          "email-addresses": ["info@apra.com"]
+        }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "author",
+          "party-uuids": ["2ab73f41-55dc-40ef-b3cc-dad153b6284d"]
+        },
+        {
+          "role-id": "regulator",
+          "party-uuids": ["6f052e88-3ac8-4395-bf23-3b63c6cdb9de"]
+        }
+      ]
     },
     "imports": [
       {
@@ -52,6 +100,32 @@
             {
               "href": "/Users/paucurt/projects/oscal-content/cps234/catalog.cps234.json",
               "media-type": "application/oscal.catalog+json"
+            }
+          ]
+        },
+        {
+          "uuid": "373725f0-a8ac-48ec-b617-eada353569de",
+          "title": "APRA CPS234 - Information Security",
+          "citation": {
+            "text": "APRA (2019) Prudential Standard CPS 234 Information Security, Sydney"
+          },
+          "rlinks": [
+            {
+              "href": "https://www.apra.gov.au/sites/default/files/cps_234_july_2019_for_public_release.pdf",
+              "media-type": "application/pdf"
+            }
+          ]
+        },
+        {
+          "uuid": "7767ba71-dc3a-4409-90a5-886e6bf7a06d",
+          "title": "APRA CPG234 - Information Security",
+          "citation": {
+            "text": "APRA (2019) Prudential Practice Guide: CPG 234 Information Security Sydney"
+          },
+          "rlinks": [
+            {
+              "href": "https://www.apra.gov.au/sites/default/files/cpg_234_information_security_june_2019_0.pdf",
+              "media-type": "application/pdf"
             }
           ]
         }
