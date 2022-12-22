@@ -39,11 +39,9 @@
         },
         {
           "uuid": "0f2c487f-ebd4-4b45-937c-b21f1b73ba3f",
-          "type": "person",
-          "name": "Paul Curtis",
-          "email-addresses": [
-            "p_curtis@me.com", "test@test.com"
-          ]
+          "type": "organization",
+          "name": "APRA",
+          "email-addresses": ["info@apra.com"]
         }
       ],
       "responsible-parties": [
