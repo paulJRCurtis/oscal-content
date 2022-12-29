@@ -43,7 +43,7 @@
         "uuid": "4139d82d-b1a2-405f-8d8a-dcabfdbcc9e4",
         "type": "standard",
         "title": "APRA CPS234 - AWS OF the cloud",
-        "description": "Component describing AWS supplier level controls and how they assist in meeting APRA CPS234 and CPG234 Guidance. The controls specified are those that have been identified as belonging to \"OF the cloud\" in the shared responsibility model.",
+        "description": "Component describing AWS supplier level controls. The controls specified are those that have been identified as belonging to \"OF the Cloud\" in the shared responsibility model.",
         "purpose": "This component provides assurance of the non-service specific \"OF the Cloud\" controls operated by AWS and inherited by customers.",
         "links": [
           {
@@ -55,7 +55,7 @@
           {
             "uuid": "59959ff2-5c43-492f-8dfa-4651241bc2fe",
             "source": "#dc5e78f9-de3e-411a-8966-a9d555efe6f9",
-            "description": "AWSCA controls as listed in the SOC2 Report.",
+            "description": "AWS \"OF the Cloud\" control implementations of APRA CPS234 and CPG234 requirements. AWSCA controls as listed in the SOC2 Report.",
             "implemented-requirements": [
               {
                 "uuid": "96a49b80-40f4-4c57-a371-90f17c972db5",
