@@ -26,6 +26,10 @@
         {
           "id": "regulator",
           "title": "Regulator"
+        },
+        {
+          "id": "csp",
+          "title": "Cloud Services Provider"
         }
       ],
       "parties": [
@@ -36,6 +40,12 @@
           "email-addresses": [
             "p_curtis@me.com", "test@test.com"
           ]
+        },
+        {
+          "uuid": "b3d3954a-3128-4a22-ade4-4a6368a22705",
+          "type": "organization",
+          "name": "AWS",
+          "email-addresses": ["info@aws.com"]
         },
         {
           "uuid": "6f052e88-3ac8-4395-bf23-3b63c6cdb9de",
@@ -52,6 +62,10 @@
         {
           "role-id": "regulator",
           "party-uuids": ["6f052e88-3ac8-4395-bf23-3b63c6cdb9de"]
+        },
+        {
+          "role-id": "csp",
+          "party-uuids": ["b3d3954a-3128-4a22-ade4-4a6368a22705"]
         }
       ]
     },
