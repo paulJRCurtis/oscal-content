@@ -180,7 +180,7 @@
                         "value": "para11"
                       }
                     ],
-                    "prose": "Definition of information security-related roles and responsibilities is typically achieved through a combination of role statements, policy statements, reporting lines and charters of governing bodies. Common governing bodies and individuals with decision-making, approval, oversight, operations and other information security roles and responsibilities typically include: <ol type='a'><li>information security steering/oversight committee;</li><li>risk management committee (Board and management levels);</li><li>Board audit committee;</li><li>executive management/executive management committee;</li><li>chief information officer (CIO)/IT manager;</li><li>chief information security officer (CISO)/IT security manager;</li><li>information security operations/administration; and</li><li>management (business and IT).</li></oi>"
+                    "prose": "Definition of information security-related roles and responsibilities is typically achieved through a combination of role statements, policy statements, reporting lines and charters of governing bodies. Common governing bodies and individuals with decision-making, approval, oversight, operations and other information security roles and responsibilities typically include: \n - information security steering/oversight committee;\n - risk management committee (Board and management levels);\n - Board audit committee; \n - executive management/executive management committee;\n - chief information officer (CIO)/IT manager;\n - chief information security officer (CISO)/IT security manager;-n - information security operations/administration; and\n - management (business and IT)."
                   },
                   {
                     "id": "rr-drr-1_gdn-2",
@@ -200,23 +200,25 @@
                   {
                     "id": "ac-1_asm-examine",
                     "name": "assessment-objective",
-                    "class": "Examine",
                     "props": [
                       {
-                        "name": "method",
-                        "ns": "http://csrc.nist.gov/ns/rmf",
-                        "value": "EXAMINE"
-                      },
-                      {
                         "name": "label",
-                        "value": "AC-01-Examine",
+                        "value": "AC-01",
                         "class": "sp800-53a"
                       }
                     ],
                     "parts": [
                       {
-                        "name": "assessment-objects",
-                        "prose": "Access control policy and procedures\n\nsystem security plan\n\nprivacy plan\n\nother relevant documents or records"
+                        "id": "ac-1_obj.b",
+                        "name": "assessment-objective",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "AC-01b.",
+                            "class": "sp800-53a"
+                          }
+                        ],
+                        "prose": "the {{ insert: param, ac-01_odp.04 }} is designated to manage the development, documentation, and dissemination of the access control policy and procedures;"
                       }
                     ]
                   },
