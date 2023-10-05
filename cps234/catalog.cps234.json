@@ -145,8 +145,8 @@
           },
           {
             "id": "rr-drr",
-            "title": "Clearly defined roles and responsibilities",
-            "class": "subgroup",
+            "title": "Roles and responsibilities",
+            "class": "CPS234",
             "controls": [
               {
                 "id": "rr-drr-1",
@@ -165,14 +165,7 @@
                         "value": "para14"
                       }
                     ],
-                    "prose": "An APRA-regulated entity must clearly define the information security-related roles and responsibilities of the Board, senior management, governing bodies and individuals with responsibility for decision-making, approval, oversight, operations and other information security functions.",
-                    "parts": [
-                      {
-                        "id": "rr-drr-1_smt_fnt",
-                        "name": "footnote",
-                        "prose": "For the purposes of this Prudential Standard, governing bodies and individuals includes committees, working groups and forums."
-                      }
-                    ]
+                    "prose": "An APRA-regulated entity must clearly define the information security-related roles and responsibilities of the Board, senior management, governing bodies and individuals with responsibility for decision-making, approval, oversight, operations and other information security functions.\n\nFor the purposes of this Prudential Standard, governing bodies and individuals includes committees, working groups and forums."
                   },
                   {
                     "id": "rr-drr-1_gdn-1",
@@ -203,6 +196,28 @@
                       }
                     ],
                     "prose": "Information security roles and responsibilities are typically located in separate business areas, as well as within the IT function itself and in third parties and related parties. This can result in issues such as a lack of ownership, unclear accountabilities, ineffective oversight and fragmentation of practices with respect to information security. APRA- regulated entities could address these issues by maintaining clear delineation between the responsibilities of each area and implementing compensating measures. Compensating measures could include establishing a virtual security group comprised of individuals with information security roles and responsibilities."
+                  },
+                  {
+                    "id": "ac-1_asm-examine",
+                    "name": "assessment-method",
+                    "props": [
+                      {
+                        "name": "method",
+                        "ns": "http://csrc.nist.gov/ns/rmf",
+                        "value": "EXAMINE"
+                      },
+                      {
+                        "name": "label",
+                        "value": "AC-01-Examine",
+                        "class": "sp800-53a"
+                      }
+                    ],
+                    "parts": [
+                      {
+                        "name": "assessment-objects",
+                        "prose": "Access control policy and procedures\n\nsystem security plan\n\nprivacy plan\n\nother relevant documents or records"
+                      }
+                    ]
                   }
                 ]
               }
