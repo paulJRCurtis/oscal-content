@@ -153,7 +153,7 @@
                 "class": "CPS234",
                 "params": [
                   {
-                    "id": "ac-01_odp.04",
+                    "id": "rr-drr-1-param.1",
                     "props": [
                       {
                         "name": "alt-identifier",
@@ -165,10 +165,10 @@
                         "class": "sp800-53a"
                       }
                     ],
-                    "label": "official",
+                    "label": "governing body",
                     "guidelines": [
                       {
-                        "prose": "an official to manage the access control policy and procedures is defined;"
+                        "prose": "The governing body prose;"
                       }
                     ]
                   }
@@ -232,27 +232,30 @@
                     "prose": "Information security roles and responsibilities are typically located in separate business areas, as well as within the IT function itself and in third parties and related parties. This can result in issues such as a lack of ownership, unclear accountabilities, ineffective oversight and fragmentation of practices with respect to information security. APRA- regulated entities could address these issues by maintaining clear delineation between the responsibilities of each area and implementing compensating measures. Compensating measures could include establishing a virtual security group comprised of individuals with information security roles and responsibilities."
                   },
                   {
-                    "id": "ac-1_asm-examine",
+                    "id": "rr-drr-1_asm-examine",
                     "name": "assessment-objective",
-                    "props": [
-                      {
-                        "name": "label",
-                        "value": "AC-01",
-                        "class": "sp800-53a"
-                      }
-                    ],
                     "parts": [
                       {
-                        "id": "ac-1_obj.b",
+                        "id": "rr-drr-1_asm-obj.1",
                         "name": "assessment-objective",
                         "props": [
                           {
                             "name": "label",
-                            "value": "AC-01b.",
-                            "class": "sp800-53a"
+                            "value": "rr-drr-1.1"
                           }
                         ],
-                        "prose": "the {{ insert: param, ac-01_odp.04 }} is designated to manage the development, documentation, and dissemination of the access control policy and procedures;"
+                        "prose": "The {{ insert: param, rr-drr-1-param.1 }} charter is reviewed for completeness and is designated to manage the development, documentation, and dissemination of the access control policy and procedures;"
+                      },
+                      {
+                        "id": "rr-drr-1_asm-obj.2",
+                        "name": "assessment-objective",
+                        "props": [
+                          {
+                            "name": "label",
+                            "value": "rr-drr-1.2"
+                          }
+                        ],
+                        "prose": "The {{ insert: param, rr-drr-param.1 }} charter is distributed to all members and explicitly accepted {{ insert: param, rr-drr-param.2 }};"
                       }
                     ]
                   },
