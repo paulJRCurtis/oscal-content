@@ -199,6 +199,29 @@
                   },
                   {
                     "id": "ac-1_asm-examine",
+                    "name": "assessment-objective",
+                    "class": "Examine",
+                    "props": [
+                      {
+                        "name": "method",
+                        "ns": "http://csrc.nist.gov/ns/rmf",
+                        "value": "EXAMINE"
+                      },
+                      {
+                        "name": "label",
+                        "value": "AC-01-Examine",
+                        "class": "sp800-53a"
+                      }
+                    ],
+                    "parts": [
+                      {
+                        "name": "assessment-objects",
+                        "prose": "Access control policy and procedures\n\nsystem security plan\n\nprivacy plan\n\nother relevant documents or records"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "ac-1_asm-examine",
                     "name": "assessment-method",
                     "class": "Examine",
                     "props": [
