@@ -6,6 +6,16 @@
       "last-modified": "2023-10-05T13:57:28.355446-04:00",
       "version": "20231005",
       "oscal-version": "1.0.0",
+      "roles": [
+        {
+          "id": "service-provider",
+          "title": "Service Provider"
+        },
+        {
+          "id": "auditor",
+          "title": "Auditor"
+        }
+      ],
       "parties": [
         {
           "uuid": "ee47836c-877c-4007-bbf3-c9d9bd805a9a",
