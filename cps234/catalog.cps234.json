@@ -154,21 +154,19 @@
                 "params": [
                   {
                     "id": "rr-drr-1-param.1",
-                    "props": [
-                      {
-                        "name": "alt-identifier",
-                        "value": "ac-1_prm_3"
-                      },
-                      {
-                        "name": "label",
-                        "value": "AC-01_ODP[04]",
-                        "class": "sp800-53a"
-                      }
-                    ],
                     "label": "governing body",
                     "guidelines": [
                       {
-                        "prose": "The governing body prose;"
+                        "prose": "The governing body responsibility for decision-making, approval, oversight, operations and other information security functions."
+                      }
+                    ]
+                  },
+                  {
+                    "id": "rr-drr-1-param.2",
+                    "label": "frequency",
+                    "guidelines": [
+                      {
+                        "prose": "The frequency the charter is explicitly accepted by members."
                       }
                     ]
                   }
@@ -255,30 +253,17 @@
                             "value": "rr-drr-1.2"
                           }
                         ],
-                        "prose": "The {{ insert: param, rr-drr-param.1 }} charter is distributed to all members and explicitly accepted {{ insert: param, rr-drr-param.2 }};"
+                        "prose": "The {{ insert: param, rr-drr-1-param.1 }} charter is distributed to all members and explicitly accepted {{ insert: param, rr-drr-1-param.2 }};"
                       }
                     ]
                   },
                   {
                     "id": "ac-1_asm-examine",
                     "name": "assessment-method",
-                    "class": "Examine",
-                    "props": [
-                      {
-                        "name": "method",
-                        "ns": "http://csrc.nist.gov/ns/rmf",
-                        "value": "EXAMINE"
-                      },
-                      {
-                        "name": "label",
-                        "value": "AC-01-Examine",
-                        "class": "sp800-53a"
-                      }
-                    ],
                     "parts": [
                       {
                         "name": "assessment-objects",
-                        "prose": "Access control policy and procedures\n\nsystem security plan\n\nprivacy plan\n\nother relevant documents or records"
+                        "prose": "Method: Examine\n\n - Governing Body Charters\n - Governing body charter and acceptances\n - Governing body performance to charter"
                       }
                     ]
                   }
