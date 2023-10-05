@@ -200,6 +200,7 @@
                   {
                     "id": "ac-1_asm-examine",
                     "name": "assessment-method",
+                    "class": "Examine",
                     "props": [
                       {
                         "name": "method",
