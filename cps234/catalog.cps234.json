@@ -171,6 +171,28 @@
                         "id": "rr-drr-1_smt_fnt",
                         "name": "footnote",
                         "prose": "For the purposes of this Prudential Standard, governing bodies and individuals includes committees, working groups and forums."
+                      },
+                      {
+                        "id": "ac-1_asm-examine",
+                        "name": "assessment-method",
+                        "props": [
+                          {
+                            "name": "method",
+                            "ns": "http://csrc.nist.gov/ns/rmf",
+                            "value": "EXAMINE"
+                          },
+                          {
+                            "name": "label",
+                            "value": "AC-01-Examine",
+                            "class": "sp800-53a"
+                          }
+                        ],
+                        "parts": [
+                          {
+                            "name": "assessment-objects",
+                            "prose": "Access control policy and procedures\n\nsystem security plan\n\nprivacy plan\n\nother relevant documents or records"
+                          }
+                        ]
                       }
                     ],
                     "controls": {
@@ -187,28 +209,6 @@
                             }
                           ],
                           "prose": "prose"
-                        },
-                        {
-                          "id": "ac-1_asm-examine",
-                          "name": "assessment-method",
-                          "props": [
-                            {
-                              "name": "method",
-                              "ns": "http://csrc.nist.gov/ns/rmf",
-                              "value": "EXAMINE"
-                            },
-                            {
-                              "name": "label",
-                              "value": "AC-01-Examine",
-                              "class": "sp800-53a"
-                            }
-                          ],
-                          "parts": [
-                            {
-                              "name": "assessment-objects",
-                              "prose": "Access control policy and procedures\n\nsystem security plan\n\nprivacy plan\n\nother relevant documents or records"
-                            }
-                          ]
                         }
                       ]
                     }
