@@ -173,6 +173,16 @@
                     ]
                   }
                 ],
+                "props": [
+                  {
+                    "name": "source",
+                    "value": "CPG234"
+                  },
+                  {
+                    "name": "section",
+                    "value": "para"
+                  }
+                ],
                 "parts": [
                   {
                     "id": "rr-drr-1_smt",
