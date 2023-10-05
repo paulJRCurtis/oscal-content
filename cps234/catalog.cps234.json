@@ -146,11 +146,11 @@
           {
             "id": "rr-drr",
             "title": "Roles and responsibilities",
-            "class": "CPS234",
             "controls": [
               {
                 "id": "rr-drr-1",
                 "title": "Clearly defined roles and responsibilities",
+                "class": "CPS234",
                 "params": [
                   {
                     "id": "ac-01_odp.04",
@@ -175,12 +175,14 @@
                 ],
                 "props": [
                   {
-                    "name": "source",
+                    "name": "Source",
+                    "class": "Regulation",
                     "value": "CPG234"
                   },
                   {
-                    "name": "section",
-                    "value": "para"
+                    "name": "Section",
+                    "class": "Document",
+                    "value": "para14"
                   }
                 ],
                 "parts": [
