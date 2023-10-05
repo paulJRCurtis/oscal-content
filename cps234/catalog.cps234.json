@@ -262,7 +262,15 @@
                     "name": "assessment-method",
                     "parts": [
                       {
-                        "name": "assessment-objects",
+                        "prose": "Method: Examine\n\n - Governing Body Charters\n - Governing body charter and acceptances\n - Governing body performance to charter"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "ac-1_asm-interview",
+                    "name": "assessment-method",
+                    "parts": [
+                      {
                         "prose": "Method: Examine\n\n - Governing Body Charters\n - Governing body charter and acceptances\n - Governing body performance to charter"
                       }
                     ]
