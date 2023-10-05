@@ -151,6 +151,28 @@
               {
                 "id": "rr-drr-1",
                 "title": "Clearly defined roles and responsibilities",
+                "params": [
+                  {
+                    "id": "ac-01_odp.04",
+                    "props": [
+                      {
+                        "name": "alt-identifier",
+                        "value": "ac-1_prm_3"
+                      },
+                      {
+                        "name": "label",
+                        "value": "AC-01_ODP[04]",
+                        "class": "sp800-53a"
+                      }
+                    ],
+                    "label": "official",
+                    "guidelines": [
+                      {
+                        "prose": "an official to manage the access control policy and procedures is defined;"
+                      }
+                    ]
+                  }
+                ],
                 "parts": [
                   {
                     "id": "rr-drr-1_smt",
