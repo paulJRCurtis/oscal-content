@@ -10,6 +10,23 @@
     "import-ssp": {
       "href": "#61715e27-a7ec-42d2-80b0-6c9e29f7f0c7"
     },
+    "local-definitions": {
+      "activities": [
+        {
+          "uuid": "406be53a-7afd-4120-98ea-4530327f76e0",
+          "title": "",
+          "description": "",
+          "related-controls": {
+            "control-selections": [
+              {
+                "description": "",
+                "include-all": {}
+              }
+            ]
+          }
+        }
+      ]
+    },
     "reviewed-controls": {
       "control-selections": [
         {
@@ -19,15 +36,17 @@
     },
     "assessment-subjects": [
       {
-        "type": "component"
+        "type": "component",
+        "description": ""
+
         
       }
     ],
     "tasks": [
       {
         "uuid": "b115d405-7265-4a70-b0f5-823435ea9778",
-        "type": "",
-        "title": "",
+        "type": "action",
+        "title": "Confirm in-scope requirements",
         "description": "",
         "associated-activities": [
           {

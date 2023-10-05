@@ -121,7 +121,7 @@
           "id": "5093bad3-24f9-47ad-9b56-ecbe17a4e6e7"
         }
       ],
-      "system-name": "AWS Platform",
+      "system-name": "AWS Landing Zone",
       "description": "A landing zone is a well-architected, multi-account AWS environment that is scalable and secure. This is a starting point from which your organization can quickly launch and deploy workloads and applications with confidence in your security and infrastructure environment.",
       "props": [
         {
