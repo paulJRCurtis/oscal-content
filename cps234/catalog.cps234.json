@@ -6,6 +6,12 @@
       "last-modified": "2022-12-17T13:50:55+11:00",
       "version": "0.0.3",
       "oscal-version": "1.0.4",
+      "props": [
+        {
+          "name": "keywords",
+          "value": "Assessment, control assessment, information security, security controls, security requirements"
+        }
+      ],
       "links": [
         {
           "href": "#373725f0-a8ac-48ec-b617-eada353569de",
@@ -34,7 +40,18 @@
           "type": "person",
           "name": "Paul Curtis",
           "email-addresses": [
-            "p_curtis@me.com", "test@test.com"
+            "paucurt@amazon.com", "test@test.com"
+          ],
+          "addresses": [
+            {
+              "addr-lines": [
+                "Amazon Web Services",
+                "2 Park St."
+              ],
+              "city": "Sydney",
+              "state": "NSW",
+              "postal-code": "5555-5555"
+            }
           ]
         },
         {
