@@ -71,7 +71,7 @@
     },
     "imports": [
       {
-        "href": "#c1dd2c58-76cc-4846-b013-44e869e2ec72",
+        "href": "catalog.cps234.json",
         "include-controls": [
           { 
             "with-child-controls": "no",
