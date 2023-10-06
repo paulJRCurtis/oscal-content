@@ -6,20 +6,6 @@
       "last-modified": "2022-12-17T13:50:55+11:00",
       "version": "0.0.3",
       "oscal-version": "1.0.4",
-      "props": [
-        {
-          "name": "Source",
-          "ns": "CPS234",
-          "value": "CPG234",
-          "class": "Regulation",
-          "remark": "July 2019 version"
-        },
-        {
-          "name": "Section",
-          "class": "Document",
-          "value": "para14"
-        }
-      ],
       "links": [
         {
           "href": "#373725f0-a8ac-48ec-b617-eada353569de",
