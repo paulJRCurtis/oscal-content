@@ -31,7 +31,10 @@
       "locations": [
         {
           "uuid": "cca23388-117e-4471-9bb8-45aa53601fe1",
-          "title": "test"
+          "title": "test",
+          "email-addresses": [
+            "p_curtis@me.com", "test@test.com"
+          ]
         }
       ],
       "parties": [
@@ -41,6 +44,20 @@
           "name": "Paul Curtis",
           "email-addresses": [
             "p_curtis@me.com", "test@test.com"
+          ],
+          "addresses": [
+            {
+              "addr-lines": ["725 South Figueroa St."],
+              "city": "Los Angeles",
+              "state": "CA",
+              "country": "USA",
+              "postal-code": "90017-5418"
+            }
+          ],
+          "telephone-numbers": [
+            {
+              "number": "+1 213 9773200"
+            }
           ]
         },
         {
