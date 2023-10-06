@@ -51,7 +51,7 @@
         "control-implementations": [
           {
             "uuid": "2d470447-5971-4a12-b8dc-dbdbca37907a",
-            "source": "https://raw.githubusercontent.com/usnistgov/oscal-content/main/nist.gov/SP800-53/rev4/json/NIST_SP-800-53_rev4_catalog.json",
+            "source": "https://raw.githubusercontent.com/paulJRCurtis/oscal-content/main/cps234/catalog.cps234.json",
             "description": "This is a partial implementation of the SP 800-53 rev4 catalog, focusing on the control enhancement AC-2 (3).",
             "implemented-requirements": [
               {
