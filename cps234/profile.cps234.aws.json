@@ -74,7 +74,6 @@
         "href": "catalog.cps234.json",
         "include-controls": [
           { 
-            "with-child-controls": "no",
             "with-ids": [
               "ic-ias-4-4",
               "ic-ias-5",
@@ -90,15 +89,6 @@
               "ic-dl-1-1",
               "ic-sts-1",
               "ic-sts-1-4"
-            ]
-          },
-          { 
-            "with-child-controls": "yes",
-            "with-ids": [
-              "isc-ctp-1",
-              "ic-vm-1",
-              "ic-pec-1",
-              "im-tp-1"
             ]
           }
         ]
