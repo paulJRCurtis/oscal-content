@@ -6,6 +6,20 @@
       "last-modified": "2022-12-17T13:50:55+11:00",
       "version": "0.0.3",
       "oscal-version": "1.0.4",
+      "props": [
+        {
+          "name": "Source",
+          "ns": "CPS234",
+          "value": "CPG234",
+          "class": "Regulation",
+          "remark": "July 2019 version"
+        },
+        {
+          "name": "Section",
+          "class": "Document",
+          "value": "para14"
+        }
+      ],
       "links": [
         {
           "href": "#373725f0-a8ac-48ec-b617-eada353569de",
@@ -21,7 +35,9 @@
       "roles": [
         {
           "id": "author",
-          "title": "OSCAL Document Author"
+          "title": "OSCAL Document Author",
+          "description": "Primary author of the OSCAL document",
+          "remarks": "Responsible for authoring and maintenance of the document"
         },
         {
           "id": "regulator",
@@ -34,27 +50,28 @@
           "type": "person",
           "name": "Paul Curtis",
           "email-addresses": [
-            "p_curtis@me.com", "test@test.com"
+            "paucurt@amazon.com", "test@test.com"
           ],
           "addresses": [
             {
-              "addr-lines": ["725 South Figueroa St."],
-              "city": "Los Angeles",
-              "state": "CA",
-              "country": "USA",
-              "postal-code": "90017-5418"
+              "addr-lines": ["123 South St."],
+              "city": "Sydney",
+              "state": "NSW",
+              "country": "Australia",
+              "postal-code": "2000"
             }
           ],
           "telephone-numbers": [
             {
-              "number": "+1 213 9773200"
+              "number": "+61 5555-5555"
             }
           ]
         },
         {
           "uuid": "0f2c487f-ebd4-4b45-937c-b21f1b73ba3f",
           "type": "organization",
-          "name": "APRA",
+          "name": "Australian Prudential Regulatory Authority",
+          "short-name": "APRA",
           "email-addresses": ["info@apra.com"]
         }
       ],
