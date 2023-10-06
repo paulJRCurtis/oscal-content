@@ -28,15 +28,6 @@
           "title": "Regulator"
         }
       ],
-      "locations": [
-        {
-          "uuid": "cca23388-117e-4471-9bb8-45aa53601fe1",
-          "title": "test",
-          "email-addresses": [
-            "p_curtis@me.com", "test@test.com"
-          ]
-        }
-      ],
       "parties": [
         {
           "uuid": "d274304e-8c6f-4ddf-899e-4a537d36eb0c",
