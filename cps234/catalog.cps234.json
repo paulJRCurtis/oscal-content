@@ -163,7 +163,7 @@
                   },
                   {
                     "id": "rr-drr-1-param.2",
-                    "label": "frequency",
+                    "label": "charter acceptance frequency",
                     "guidelines": [
                       {
                         "prose": "The frequency the charter is explicitly accepted by members."
