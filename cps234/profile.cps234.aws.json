@@ -112,7 +112,7 @@
           "title": "APRA CPS234 Catalog",
           "rlinks": [
             {
-              "href": "/Users/paucurt/projects/oscal-content/cps234/catalog.cps234.json",
+              "href": "https://raw.githubusercontent.com/paulJRCurtis/oscal-content/main/cps234/catalog.cps234.json?token=GHSAT0AAAAAACIPEEURP5U7XP5YPQVMPTMMZI7NG7Q",
               "media-type": "application/oscal.catalog+json"
             }
           ]
