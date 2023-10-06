@@ -81,7 +81,7 @@
           {
             "id": "rr-bur",
             "title": "Board ultimate responsibility",
-            "class": "subgroup",
+            "class": "CPS234",
             "controls": [
               {
                 "id": "rr-bur-1",
@@ -139,7 +139,7 @@
           {
             "id": "rr-bd",
             "title": "Board delegations",
-            "class": "CPS234",
+            "class": "CPG234",
             "controls": [
               {
                 "id": "rr-bd-1",
@@ -163,6 +163,7 @@
           {
             "id": "rr-drr",
             "title": "Roles and responsibilities",
+            "class": "CPS234",
             "controls": [
               {
                 "id": "rr-drr-1",
@@ -301,7 +302,7 @@
           {
             "id": "rr-sti",
             "title": "Sufficient and timely information",
-            "class": "subgroup",
+            "class": "CPG234",
             "controls": [
               {
                 "id": "rr-sti-1",
